@@ -1,0 +1,694 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Alpha	./misc.cpp	/^    unsigned char Alpha;$/;"	m	struct:__anon1::__anon2	file:
+BagSubscriber	./openni_listener.h	/^class BagSubscriber : public message_filters::SimpleFilter<M>$/;"	c
+Blue	./misc.cpp	/^    unsigned char Blue;$/;"	m	struct:__anon1::__anon2	file:
+COLOR_OCTOMAP_SERVER_RGBDSLAM	./ColorOctomapServer.h	2;"	d
+ColorOctomapServer	./ColorOctomapServer.cpp	/^ColorOctomapServer::ColorOctomapServer() :  octomap_server::OctomapServer(), m_octoMap(0.05)$/;"	f	class:ColorOctomapServer
+ColorOctomapServer	./ColorOctomapServer.h	/^  class ColorOctomapServer: public octomap_server::OctomapServer {$/;"	c
+EdgeSet	./graph_manager.cpp	/^typedef std::set<g2o::HyperGraph::Edge*> EdgeSet;$/;"	t	file:
+EdgeSet	./graph_mgr_io.cpp	/^typedef std::set<g2o::HyperGraph::Edge*> EdgeSet;$/;"	t	file:
+EdgeSet_it	./graph_manager.h	/^typedef g2o::HyperGraph::EdgeSet::iterator EdgeSet_it;$/;"	t
+Eigen2GICP	./node.cpp	/^void Node::Eigen2GICP(const Eigen::Matrix4f& m, dgc_transform_t g_m){$/;"	f	class:Node
+GICP2Eigen	./node.cpp	/^void Node::GICP2Eigen(const dgc_transform_t g_m, Eigen::Matrix4f& m){$/;"	f	class:Node
+GICP_FALLBACK_H_	./gicp-fallback.h	26;"	d
+GLVIEWER_H	./glviewer.h	19;"	d
+GLViewer	./glviewer.cpp	/^GLViewer::GLViewer(QWidget *parent)$/;"	f	class:GLViewer
+GLViewer	./glviewer.h	/^class GLViewer : public QGLWidget {$/;"	c
+GL_MULTISAMPLE	./glviewer.cpp	37;"	d	file:
+GRAPH_MANAGER_H_	./graph_manager.h	26;"	d
+GraphManager	./graph_manager.cpp	/^GraphManager::GraphManager() :$/;"	f	class:GraphManager
+GraphManager	./graph_manager.h	/^class GraphManager : public QObject {$/;"	c
+GraphNodeType	./graph_manager.h	/^    typedef std::pair<int, Node*> GraphNodeType;$/;"	t	class:GraphManager
+Graphical_UI	./qt_gui.cpp	/^Graphical_UI::Graphical_UI() : filename("quicksave.pcd"), glviewer(NULL)$/;"	f	class:Graphical_UI
+Graphical_UI	./qt_gui.h	/^class Graphical_UI: public QMainWindow$/;"	c
+Green	./misc.cpp	/^    unsigned char Green;$/;"	m	struct:__anon1::__anon2	file:
+KinectSyncPolicy	./openni_listener.h	/^                                                        sensor_msgs::PointCloud2> KinectSyncPolicy;$/;"	t
+LANDMARK_H_	./landmark.h	9;"	d
+LM_vertex_type	./landmark.h	/^typedef g2o::VertexPointXYZ  LM_vertex_type;$/;"	t
+LOG_SQRT_2_PI	./misc.cpp	807;"	d	file:
+Landmark	./landmark.h	/^ Landmark(){$/;"	f	struct:Landmark
+Landmark	./landmark.h	/^struct Landmark {$/;"	s
+LoadedEdge3D	./edge.h	/^struct LoadedEdge3D$/;"	s
+LoadedEdgeComparator3D	./edge.h	/^struct LoadedEdgeComparator3D$/;"	s
+LoadedEdgeSet3D	./edge.h	/^typedef std::set<LoadedEdge3D, LoadedEdgeComparator3D> LoadedEdgeSet3D;$/;"	t
+MATCHING_RESULT_H	./matching_result.h	19;"	d
+MatchingResult	./matching_result.h	/^        MatchingResult() : $/;"	f	class:MatchingResult
+MatchingResult	./matching_result.h	/^class MatchingResult {$/;"	c
+NoCloudSyncPolicy	./openni_listener.h	/^                                                        sensor_msgs::CameraInfo> NoCloudSyncPolicy;$/;"	t
+Node	./node.cpp	/^Node::Node(const cv::Mat visual,$/;"	f	class:Node
+Node	./node.cpp	/^Node::Node(const cv::Mat& visual, $/;"	f	class:Node
+Node	./node.h	/^	Node(){}$/;"	f	class:Node
+Node	./node.h	/^class Node {$/;"	c
+OPENNI_LISTENER_H	./openni_listener.h	19;"	d
+OpenNIListener	./openni_listener.cpp	/^OpenNIListener::OpenNIListener(GraphManager* graph_mgr)$/;"	f	class:OpenNIListener
+OpenNIListener	./openni_listener.h	/^class OpenNIListener : public QObject {$/;"	c
+PARAMETER_SERVER_H_	./parameter_server.h	17;"	d
+PCL_ICP_H	./icp.h	2;"	d
+PI	./glviewer.cpp	/^const double PI= 3.14159265358979323846;$/;"	v
+ParameterServer	./parameter_server.cpp	/^ParameterServer::ParameterServer() {$/;"	f	class:ParameterServer
+ParameterServer	./parameter_server.h	/^class ParameterServer {$/;"	c
+Proj_edge_type	./landmark.h	/^typedef g2o::EdgeSE3PointXYZDepth Proj_edge_type;$/;"	t
+QTCV_H	./qt_gui.h	27;"	d
+QT_ROS_H	./qtros.h	26;"	d
+QtROS	./qtros.cpp	/^QtROS::QtROS(int argc, char *argv[], const char* node_name) {$/;"	f	class:QtROS
+QtROS	./qtros.h	/^class QtROS : public QThread {$/;"	c
+RGBDSLAMEDGES_3D_H	./edge.h	18;"	d
+RGBD_SLAM_MISC2_H_	./misc2.h	2;"	d
+RGBD_SLAM_MISC_H_	./misc.h	2;"	d
+RGBD_SLAM_NODE_H_	./node.h	19;"	d
+RGBD_SLAM_TRAFO_EST_H_	./transformation_estimation.h	2;"	d
+RGBValue	./misc.cpp	/^} RGBValue;$/;"	t	typeref:union:__anon1	file:
+ROSCONSOLE_SEVERITY_INFO	./parameter_server.h	35;"	d
+ROS_UI_H	./ros_service_ui.h	17;"	d
+Red	./misc.cpp	/^    unsigned char Red;$/;"	m	struct:__anon1::__anon2	file:
+RosUi	./ros_service_ui.cpp	/^RosUi::RosUi(const char* service_namespace) : filename("quicksave.pcd"), record_on(false)$/;"	f	class:RosUi
+RosUi	./ros_service_ui.h	/^class RosUi: public QObject{$/;"	c
+SIFT_GPU_FEATURE_DETECTOR_H	./sift_gpu_wrapper.h	19;"	d
+SQRT_2	./misc.cpp	806;"	d	file:
+SQRT_2_PI	./misc.cpp	805;"	d	file:
+ScopedTimer	./scoped_timer.cpp	/^ScopedTimer::ScopedTimer(const char* thename, bool unconditional_logging){$/;"	f	class:ScopedTimer
+ScopedTimer	./scoped_timer.h	/^class ScopedTimer {$/;"	c
+SiftGPUWrapper	./sift_gpu_wrapper.cpp	/^SiftGPUWrapper::SiftGPUWrapper() {$/;"	f	class:SiftGPUWrapper
+SiftGPUWrapper	./sift_gpu_wrapper.h	/^class SiftGPUWrapper {$/;"	c
+SlamBlockSolver	./graph_manager.cpp	/^typedef g2o::BlockSolver< g2o::BlockSolverTraits<6, 3> >  SlamBlockSolver;$/;"	t	file:
+SlamLinearCSparseSolver	./graph_manager.cpp	/^typedef g2o::LinearSolverCSparse<SlamBlockSolver::PoseMatrixType> SlamLinearCSparseSolver;$/;"	t	file:
+SlamLinearCholmodSolver	./graph_manager.cpp	/^typedef g2o::LinearSolverCholmod<SlamBlockSolver::PoseMatrixType> SlamLinearCholmodSolver;$/;"	t	file:
+SlamLinearDenseSolver	./graph_manager.cpp	/^typedef g2o::LinearSolverDense<SlamBlockSolver::PoseMatrixType> SlamLinearDenseSolver;$/;"	t	file:
+SlamLinearPCGSolver	./graph_manager.cpp	/^typedef g2o::LinearSolverPCG<SlamBlockSolver::PoseMatrixType> SlamLinearPCGSolver;$/;"	t	file:
+StereoSyncPolicy	./openni_listener.h	/^                                                        sensor_msgs::PointCloud2> StereoSyncPolicy;$/;"	t
+VertexIDMap	./graph_manager.cpp	/^typedef std::tr1::unordered_map<int, g2o::HyperGraph::Vertex*>     VertexIDMap;$/;"	t	file:
+VertexIDPair	./graph_manager.cpp	/^typedef std::pair<int, g2o::HyperGraph::Vertex*> VertexIDPair;$/;"	t	file:
+__init__	./rgbdslam/srv/_rgbdslam_ros_ui.py	/^  def __init__(self, *args, **kwds):$/;"	f
+__init__	./rgbdslam/srv/_rgbdslam_ros_ui_b.py	/^  def __init__(self, *args, **kwds):$/;"	f
+__init__	./rgbdslam/srv/_rgbdslam_ros_ui_f.py	/^  def __init__(self, *args, **kwds):$/;"	f
+__init__	./rgbdslam/srv/_rgbdslam_ros_ui_s.py	/^  def __init__(self, *args, **kwds):$/;"	f
+__slots__	./rgbdslam/srv/_rgbdslam_ros_ui.py	/^  __slots__ = ['command']$/;"	v
+__slots__	./rgbdslam/srv/_rgbdslam_ros_ui.py	/^  __slots__ = []$/;"	v
+__slots__	./rgbdslam/srv/_rgbdslam_ros_ui_b.py	/^  __slots__ = ['command','value']$/;"	v
+__slots__	./rgbdslam/srv/_rgbdslam_ros_ui_b.py	/^  __slots__ = []$/;"	v
+__slots__	./rgbdslam/srv/_rgbdslam_ros_ui_f.py	/^  __slots__ = ['command','value']$/;"	v
+__slots__	./rgbdslam/srv/_rgbdslam_ros_ui_f.py	/^  __slots__ = []$/;"	v
+__slots__	./rgbdslam/srv/_rgbdslam_ros_ui_s.py	/^  __slots__ = ['command','value']$/;"	v
+__slots__	./rgbdslam/srv/_rgbdslam_ros_ui_s.py	/^  __slots__ = []$/;"	v
+_get_types	./rgbdslam/srv/_rgbdslam_ros_ui.py	/^  def _get_types(self):$/;"	f
+_get_types	./rgbdslam/srv/_rgbdslam_ros_ui_b.py	/^  def _get_types(self):$/;"	f
+_get_types	./rgbdslam/srv/_rgbdslam_ros_ui_f.py	/^  def _get_types(self):$/;"	f
+_get_types	./rgbdslam/srv/_rgbdslam_ros_ui_s.py	/^  def _get_types(self):$/;"	f
+_has_header	./rgbdslam/srv/_rgbdslam_ros_ui.py	/^  _has_header = False #flag to mark the presence of a Header object$/;"	v	class:rgbdslam_ros_uiRequest
+_has_header	./rgbdslam/srv/_rgbdslam_ros_ui.py	/^  _has_header = False #flag to mark the presence of a Header object$/;"	v	class:rgbdslam_ros_uiResponse
+_has_header	./rgbdslam/srv/_rgbdslam_ros_ui_b.py	/^  _has_header = False #flag to mark the presence of a Header object$/;"	v	class:rgbdslam_ros_ui_bRequest
+_has_header	./rgbdslam/srv/_rgbdslam_ros_ui_b.py	/^  _has_header = False #flag to mark the presence of a Header object$/;"	v	class:rgbdslam_ros_ui_bResponse
+_has_header	./rgbdslam/srv/_rgbdslam_ros_ui_f.py	/^  _has_header = False #flag to mark the presence of a Header object$/;"	v	class:rgbdslam_ros_ui_fRequest
+_has_header	./rgbdslam/srv/_rgbdslam_ros_ui_f.py	/^  _has_header = False #flag to mark the presence of a Header object$/;"	v	class:rgbdslam_ros_ui_fResponse
+_has_header	./rgbdslam/srv/_rgbdslam_ros_ui_s.py	/^  _has_header = False #flag to mark the presence of a Header object$/;"	v	class:rgbdslam_ros_ui_sRequest
+_has_header	./rgbdslam/srv/_rgbdslam_ros_ui_s.py	/^  _has_header = False #flag to mark the presence of a Header object$/;"	v	class:rgbdslam_ros_ui_sResponse
+_instance	./parameter_server.cpp	/^ParameterServer* ParameterServer::_instance = NULL;$/;"	m	class:ParameterServer	file:
+_instance	./parameter_server.h	/^    static ParameterServer* _instance;$/;"	m	class:ParameterServer
+_md5sum	./rgbdslam/srv/_rgbdslam_ros_ui.py	/^  _md5sum = "cba5e21e920a3a2b7b375cb65b64cdea"$/;"	v	class:rgbdslam_ros_uiRequest
+_md5sum	./rgbdslam/srv/_rgbdslam_ros_ui.py	/^  _md5sum = "d41d8cd98f00b204e9800998ecf8427e"$/;"	v	class:rgbdslam_ros_uiResponse
+_md5sum	./rgbdslam/srv/_rgbdslam_ros_ui.py	/^  _md5sum = 'cba5e21e920a3a2b7b375cb65b64cdea'$/;"	v	class:rgbdslam_ros_ui
+_md5sum	./rgbdslam/srv/_rgbdslam_ros_ui_b.py	/^  _md5sum = "95aa0151a35e3de365041ffa089ce8c7"$/;"	v	class:rgbdslam_ros_ui_bRequest
+_md5sum	./rgbdslam/srv/_rgbdslam_ros_ui_b.py	/^  _md5sum = "d41d8cd98f00b204e9800998ecf8427e"$/;"	v	class:rgbdslam_ros_ui_bResponse
+_md5sum	./rgbdslam/srv/_rgbdslam_ros_ui_b.py	/^  _md5sum = '95aa0151a35e3de365041ffa089ce8c7'$/;"	v	class:rgbdslam_ros_ui_b
+_md5sum	./rgbdslam/srv/_rgbdslam_ros_ui_f.py	/^  _md5sum = "d41d8cd98f00b204e9800998ecf8427e"$/;"	v	class:rgbdslam_ros_ui_fResponse
+_md5sum	./rgbdslam/srv/_rgbdslam_ros_ui_f.py	/^  _md5sum = "d8f674e014809463d0a122a49c328a89"$/;"	v	class:rgbdslam_ros_ui_fRequest
+_md5sum	./rgbdslam/srv/_rgbdslam_ros_ui_f.py	/^  _md5sum = 'd8f674e014809463d0a122a49c328a89'$/;"	v	class:rgbdslam_ros_ui_f
+_md5sum	./rgbdslam/srv/_rgbdslam_ros_ui_s.py	/^  _md5sum = "406bad1a44daaa500258274f332bb924"$/;"	v	class:rgbdslam_ros_ui_sRequest
+_md5sum	./rgbdslam/srv/_rgbdslam_ros_ui_s.py	/^  _md5sum = "d41d8cd98f00b204e9800998ecf8427e"$/;"	v	class:rgbdslam_ros_ui_sResponse
+_md5sum	./rgbdslam/srv/_rgbdslam_ros_ui_s.py	/^  _md5sum = '406bad1a44daaa500258274f332bb924'$/;"	v	class:rgbdslam_ros_ui_s
+_request_class	./rgbdslam/srv/_rgbdslam_ros_ui.py	/^  _request_class  = rgbdslam_ros_uiRequest$/;"	v	class:rgbdslam_ros_ui
+_request_class	./rgbdslam/srv/_rgbdslam_ros_ui_b.py	/^  _request_class  = rgbdslam_ros_ui_bRequest$/;"	v	class:rgbdslam_ros_ui_b
+_request_class	./rgbdslam/srv/_rgbdslam_ros_ui_f.py	/^  _request_class  = rgbdslam_ros_ui_fRequest$/;"	v	class:rgbdslam_ros_ui_f
+_request_class	./rgbdslam/srv/_rgbdslam_ros_ui_s.py	/^  _request_class  = rgbdslam_ros_ui_sRequest$/;"	v	class:rgbdslam_ros_ui_s
+_response_class	./rgbdslam/srv/_rgbdslam_ros_ui.py	/^  _response_class = rgbdslam_ros_uiResponse$/;"	v	class:rgbdslam_ros_ui
+_response_class	./rgbdslam/srv/_rgbdslam_ros_ui_b.py	/^  _response_class = rgbdslam_ros_ui_bResponse$/;"	v	class:rgbdslam_ros_ui_b
+_response_class	./rgbdslam/srv/_rgbdslam_ros_ui_f.py	/^  _response_class = rgbdslam_ros_ui_fResponse$/;"	v	class:rgbdslam_ros_ui_f
+_response_class	./rgbdslam/srv/_rgbdslam_ros_ui_s.py	/^  _response_class = rgbdslam_ros_ui_sResponse$/;"	v	class:rgbdslam_ros_ui_s
+_slot_types	./rgbdslam/srv/_rgbdslam_ros_ui.py	/^  _slot_types = ['string']$/;"	v
+_slot_types	./rgbdslam/srv/_rgbdslam_ros_ui.py	/^  _slot_types = []$/;"	v
+_slot_types	./rgbdslam/srv/_rgbdslam_ros_ui_b.py	/^  _slot_types = ['string','bool']$/;"	v
+_slot_types	./rgbdslam/srv/_rgbdslam_ros_ui_b.py	/^  _slot_types = []$/;"	v
+_slot_types	./rgbdslam/srv/_rgbdslam_ros_ui_f.py	/^  _slot_types = ['string','float32']$/;"	v
+_slot_types	./rgbdslam/srv/_rgbdslam_ros_ui_f.py	/^  _slot_types = []$/;"	v
+_slot_types	./rgbdslam/srv/_rgbdslam_ros_ui_s.py	/^  _slot_types = ['string','string']$/;"	v
+_slot_types	./rgbdslam/srv/_rgbdslam_ros_ui_s.py	/^  _slot_types = []$/;"	v
+_struct_B	./rgbdslam/srv/_rgbdslam_ros_ui_b.py	/^_struct_B = struct.Struct("<B")$/;"	v
+_struct_I	./rgbdslam/srv/_rgbdslam_ros_ui.py	/^_struct_I = genpy.struct_I$/;"	v
+_struct_I	./rgbdslam/srv/_rgbdslam_ros_ui_b.py	/^_struct_I = genpy.struct_I$/;"	v
+_struct_I	./rgbdslam/srv/_rgbdslam_ros_ui_f.py	/^_struct_I = genpy.struct_I$/;"	v
+_struct_I	./rgbdslam/srv/_rgbdslam_ros_ui_s.py	/^_struct_I = genpy.struct_I$/;"	v
+_struct_f	./rgbdslam/srv/_rgbdslam_ros_ui_f.py	/^_struct_f = struct.Struct("<f")$/;"	v
+_type	./rgbdslam/srv/_rgbdslam_ros_ui.py	/^  _type          = 'rgbdslam\/rgbdslam_ros_ui'$/;"	v	class:rgbdslam_ros_ui
+_type	./rgbdslam/srv/_rgbdslam_ros_ui.py	/^  _type = "rgbdslam\/rgbdslam_ros_uiRequest"$/;"	v	class:rgbdslam_ros_uiRequest
+_type	./rgbdslam/srv/_rgbdslam_ros_ui.py	/^  _type = "rgbdslam\/rgbdslam_ros_uiResponse"$/;"	v	class:rgbdslam_ros_uiResponse
+_type	./rgbdslam/srv/_rgbdslam_ros_ui_b.py	/^  _type          = 'rgbdslam\/rgbdslam_ros_ui_b'$/;"	v	class:rgbdslam_ros_ui_b
+_type	./rgbdslam/srv/_rgbdslam_ros_ui_b.py	/^  _type = "rgbdslam\/rgbdslam_ros_ui_bRequest"$/;"	v	class:rgbdslam_ros_ui_bRequest
+_type	./rgbdslam/srv/_rgbdslam_ros_ui_b.py	/^  _type = "rgbdslam\/rgbdslam_ros_ui_bResponse"$/;"	v	class:rgbdslam_ros_ui_bResponse
+_type	./rgbdslam/srv/_rgbdslam_ros_ui_f.py	/^  _type          = 'rgbdslam\/rgbdslam_ros_ui_f'$/;"	v	class:rgbdslam_ros_ui_f
+_type	./rgbdslam/srv/_rgbdslam_ros_ui_f.py	/^  _type = "rgbdslam\/rgbdslam_ros_ui_fRequest"$/;"	v	class:rgbdslam_ros_ui_fRequest
+_type	./rgbdslam/srv/_rgbdslam_ros_ui_f.py	/^  _type = "rgbdslam\/rgbdslam_ros_ui_fResponse"$/;"	v	class:rgbdslam_ros_ui_fResponse
+_type	./rgbdslam/srv/_rgbdslam_ros_ui_s.py	/^  _type          = 'rgbdslam\/rgbdslam_ros_ui_s'$/;"	v	class:rgbdslam_ros_ui_s
+_type	./rgbdslam/srv/_rgbdslam_ros_ui_s.py	/^  _type = "rgbdslam\/rgbdslam_ros_ui_sRequest"$/;"	v	class:rgbdslam_ros_ui_sRequest
+_type	./rgbdslam/srv/_rgbdslam_ros_ui_s.py	/^  _type = "rgbdslam\/rgbdslam_ros_ui_sResponse"$/;"	v	class:rgbdslam_ros_ui_sResponse
+about	./qt_gui.cpp	/^void Graphical_UI::about() {$/;"	f	class:Graphical_UI
+addEdgeToG2O	./graph_manager.cpp	/^bool GraphManager::addEdgeToG2O(const LoadedEdge3D& edge,Node* n1, Node* n2,  bool largeEdge, bool set_estimate, QMatrix4x4& motion_estimate) {$/;"	f	class:GraphManager
+addFeatures	./glviewer.cpp	/^void GLViewer::addFeatures(const std::vector<Eigen::Vector4f, Eigen::aligned_allocator<Eigen::Vector4f> >* feature_locations_3d)$/;"	f	class:GLViewer
+addKeyframe	./graph_manager.cpp	/^void GraphManager::addKeyframe(int id)$/;"	f	class:GraphManager
+addNode	./graph_manager.cpp	/^bool GraphManager::addNode(Node* new_node) $/;"	f	class:GraphManager
+addOption	./parameter_server.cpp	/^void ParameterServer::addOption(std::string name, boost::any value, std::string description){$/;"	f	class:ParameterServer
+addPointCloud	./glviewer.cpp	/^void GLViewer::addPointCloud(pointcloud_type * pc, QMatrix4x4 transform){$/;"	f	class:GLViewer
+addPointCloud	./node.cpp	/^void Node::addPointCloud(pointcloud_type::Ptr new_pc){$/;"	f	class:Node
+all_descriptors	./graph_manager.h	/^    cv::Mat all_descriptors;$/;"	m	class:GraphManager
+all_matches	./matching_result.h	/^        std::vector<cv::DMatch> all_matches;$/;"	m	class:MatchingResult
+all_points	./matching_result.h	/^        unsigned int inlier_points, outlier_points, occluded_points, all_points;$/;"	m	class:MatchingResult
+asyncFrameDrop	./misc.cpp	/^bool asyncFrameDrop(ros::Time depth, ros::Time rgb)$/;"	f
+bag	./openni_listener.h	/^    rosbag::Bag bag;$/;"	m	class:OpenNIListener
+bagRecording	./qt_gui.cpp	/^void Graphical_UI::bagRecording(bool pause_on) {$/;"	f	class:Graphical_UI
+bagRecording	./ros_service_ui.cpp	/^void RosUi::bagRecording(bool _record_on) {$/;"	f	class:RosUi
+bagfile_mutex	./openni_listener.h	/^    QMutex bagfile_mutex;$/;"	m	class:OpenNIListener
+base2points_	./node.h	/^  tf::StampedTransform base2points_; \/\/!<contains the transformation from the base (defined on param server) to the point_cloud$/;"	m	class:Node
+batch_cloud_pub_	./graph_manager.h	/^    ros::Publisher batch_cloud_pub_;$/;"	m	class:GraphManager
+batch_processing_runs_	./graph_manager.h	/^    bool batch_processing_runs_;$/;"	m	class:GraphManager
+bg_col_	./glviewer.h	/^    float bg_col_[4];$/;"	m	class:GLViewer
+black_background_	./glviewer.h	/^    bool black_background_;$/;"	m	class:GLViewer
+br_	./graph_manager.h	/^    mutable tf::TransformBroadcaster br_;$/;"	m	class:GraphManager
+broadcastLatestTransform	./graph_mgr_io.cpp	/^void GraphManager::broadcastLatestTransform(const ros::TimerEvent& event) const$/;"	f	class:GraphManager
+broadcastTransform	./graph_mgr_io.cpp	/^void GraphManager::broadcastTransform(const tf::StampedTransform& stamped_transform) const $/;"	f	class:GraphManager
+button_pressed_	./glviewer.h	/^    bool button_pressed_;$/;"	m	class:GLViewer
+callProcessing	./openni_listener.cpp	/^void OpenNIListener::callProcessing(cv::Mat visual_img, Node* node_ptr)$/;"	f	class:OpenNIListener
+cam_cam_edges	./graph_manager.h	/^    g2o::HyperGraph::EdgeSet cam_cam_edges;$/;"	m	class:GraphManager
+cam_info_sub_	./openni_listener.h	/^    BagSubscriber<sensor_msgs::CameraInfo>* cam_info_sub_;$/;"	m	class:OpenNIListener
+cam_lm_edges	./graph_manager.h	/^    g2o::HyperGraph::EdgeSet cam_lm_edges;$/;"	m	class:GraphManager
+cameraCallback	./openni_listener.cpp	/^void OpenNIListener::cameraCallback(cv::Mat visual_img, $/;"	f	class:OpenNIListener
+camera_vertices	./graph_manager.h	/^    g2o::HyperGraph::VertexSet camera_vertices;$/;"	m	class:GraphManager
+cdf	./misc.cpp	/^double cdf(double x, double mu, double sigma)$/;"	f
+checkValues	./parameter_server.cpp	/^void ParameterServer::checkValues() {$/;"	f	class:ParameterServer
+cinfo_sub_	./openni_listener.h	/^    message_filters::Subscriber<sensor_msgs::CameraInfo> *cinfo_sub_;      $/;"	m	class:OpenNIListener
+cinfo_sub_type	./openni_listener.cpp	/^typedef message_filters::Subscriber<sensor_msgs::CameraInfo> cinfo_sub_type;      $/;"	t	file:
+clearAndUpdate	./glviewer.cpp	/^inline void GLViewer::clearAndUpdate(){$/;"	f	class:GLViewer
+clearFeatureInformation	./node.cpp	/^void Node::clearFeatureInformation(){$/;"	f	class:Node
+clearGICPStructure	./node.cpp	/^void Node::clearGICPStructure() const$/;"	f	class:Node
+clearPointCloud	./graph_manager2.cpp	/^void GraphManager::clearPointCloud(pointcloud_type const * pc) {$/;"	f	class:GraphManager
+clearPointCloud	./node.cpp	/^void Node::clearPointCloud(){$/;"	f	class:Node
+clearPointClouds	./graph_manager2.cpp	/^void GraphManager::clearPointClouds() {$/;"	f	class:GraphManager
+cloud_list_indices	./glviewer.h	/^    QList<GLuint> cloud_list_indices;$/;"	m	class:GLViewer
+cloud_matrices	./glviewer.h	/^    QList<QMatrix4x4>* cloud_matrices;$/;"	m	class:GLViewer
+cloud_sub_	./openni_listener.h	/^    message_filters::Subscriber<sensor_msgs::PointCloud2> *cloud_sub_;$/;"	m	class:OpenNIListener
+co_server_	./graph_manager.h	/^    ColorOctomapServer co_server_;$/;"	m	class:GraphManager
+computeFixedToBaseTransform	./graph_mgr_io.cpp	/^tf::StampedTransform GraphManager::computeFixedToBaseTransform(Node* node, bool invert)$/;"	f	class:GraphManager
+computeInliersAndError	./node.cpp	/^void Node::computeInliersAndError(const std::vector<cv::DMatch> & all_matches,$/;"	f	class:Node
+computed_motion_	./graph_manager.h	/^    tf::Transform computed_motion_; \/\/\/<transformation of the last frame to the first frame (assuming the first one is fixed)$/;"	m	class:GraphManager
+config	./parameter_server.h	/^    std::map<std::string, boost::any> config;$/;"	m	class:ParameterServer
+containsNaN	./node.cpp	/^bool containsNaN(const Eigen::Matrix4f& mat){$/;"	f
+containsVertex	./graph_manager.cpp	/^bool containsVertex(g2o::HyperGraph::Edge* myedge, g2o::HyperGraph::Vertex* v_to_del)$/;"	f
+createDescriptorExtractor	./misc.cpp	/^DescriptorExtractor* createDescriptorExtractor( const string& descriptorType ) $/;"	f
+createDetector	./misc.cpp	/^FeatureDetector* createDetector( const string& detectorType ) $/;"	f
+createMenus	./qt_gui.cpp	/^void Graphical_UI::createMenus() {$/;"	f	class:Graphical_UI
+createOptimizer	./graph_manager.cpp	/^void GraphManager::createOptimizer(std::string backend, g2o::SparseOptimizer* optimizer)$/;"	f	class:GraphManager
+createSearchTree	./loop_closing.cpp	/^void GraphManager::createSearchTree(){$/;"	f	class:GraphManager
+createSearchTree	./loop_closing.cpp	/^void GraphManager::createSearchTree(const std::vector<int>& node_ids){$/;"	f	class:GraphManager
+createXYZRGBPointCloud	./misc.cpp	/^pointcloud_type* createXYZRGBPointCloud (const cv::Mat& depth_img, $/;"	f
+createXYZRGBPointCloud	./misc.cpp	/^pointcloud_type* createXYZRGBPointCloud (const sensor_msgs::ImageConstPtr& depth_msg, $/;"	f
+curr_best_result_	./graph_manager.h	/^    MatchingResult curr_best_result_; $/;"	m	class:GraphManager
+current_backend_	./graph_manager.h	/^    std::string current_backend_;$/;"	m	class:GraphManager
+current_edges_	./graph_manager.h	/^    QList<QPair<int, int> > current_edges_;$/;"	m	class:GraphManager
+current_match_edges_	./graph_manager.h	/^    g2o::HyperGraph::EdgeSet current_match_edges_;$/;"	m	class:GraphManager
+current_poses_	./graph_manager.h	/^    QList<QMatrix4x4> current_poses_;$/;"	m	class:GraphManager
+cvMat2QImage	./openni_listener.cpp	/^QImage OpenNIListener::cvMat2QImage(const cv::Mat& channel1, const cv::Mat& channel2, const cv::Mat& channel3, unsigned int idx){$/;"	f	class:OpenNIListener
+cvMat2QImage	./openni_listener.cpp	/^QImage OpenNIListener::cvMat2QImage(const cv::Mat& image, unsigned int idx){$/;"	f	class:OpenNIListener
+cvMatToSiftGPU	./sift_gpu_wrapper.cpp	/^void SiftGPUWrapper::cvMatToSiftGPU(const Mat& image, unsigned char* siftImage) const {$/;"	f	class:SiftGPUWrapper
+data	./sift_gpu_wrapper.h	/^	mutable unsigned char* data;     \/\/\/<image as texture$/;"	m	class:SiftGPUWrapper
+data_id_	./openni_listener.h	/^    int data_id_;$/;"	m	class:OpenNIListener
+defaultConfig	./parameter_server.cpp	/^void ParameterServer::defaultConfig() {$/;"	f	class:ParameterServer
+deleteCameraFrame	./graph_manager.cpp	/^void GraphManager::deleteCameraFrame(int id)$/;"	f	class:GraphManager
+deleteFeatureInformation	./graph_manager2.cpp	/^void GraphManager::deleteFeatureInformation() {$/;"	f	class:GraphManager
+deleteLastFrame	./graph_manager2.cpp	/^void GraphManager::deleteLastFrame(){$/;"	f	class:GraphManager
+deleteLastFrameCmd	./qt_gui.cpp	/^void Graphical_UI::deleteLastFrameCmd() {$/;"	f	class:Graphical_UI
+deleteLastNode	./glviewer.cpp	/^void GLViewer::deleteLastNode(){$/;"	f	class:GLViewer
+depthToCV8UC1	./misc.cpp	/^void depthToCV8UC1(cv::Mat& depth_img, cv::Mat& mono8_img){$/;"	f
+depth_covariance	./misc2.h	/^inline double depth_covariance(double depth)$/;"	f
+depth_image_label	./qt_gui.h	/^    QLabel *depth_image_label;$/;"	m	class:Graphical_UI
+depth_img_sub_	./openni_listener.h	/^    BagSubscriber<sensor_msgs::Image>* depth_img_sub_;$/;"	m	class:OpenNIListener
+depth_mono8_img_	./openni_listener.h	/^    cv::Mat depth_mono8_img_;$/;"	m	class:OpenNIListener
+depth_std_dev	./misc2.h	/^inline double depth_std_dev(double depth)$/;"	f
+depth_sub_	./openni_listener.h	/^    message_filters::Subscriber<sensor_msgs::Image> *depth_sub_;      $/;"	m	class:OpenNIListener
+descriptions	./parameter_server.h	/^    std::map<std::string, std::string> descriptions;$/;"	m	class:ParameterServer
+descriptor_length	./graph_manager.h	/^    uint descriptor_length;$/;"	m	class:GraphManager
+descriptor_to_node	./graph_manager.h	/^    int *descriptor_to_node;$/;"	m	class:GraphManager
+deserialize	./rgbdslam/srv/_rgbdslam_ros_ui.py	/^  def deserialize(self, str):$/;"	f
+deserialize	./rgbdslam/srv/_rgbdslam_ros_ui_b.py	/^  def deserialize(self, str):$/;"	f
+deserialize	./rgbdslam/srv/_rgbdslam_ros_ui_f.py	/^  def deserialize(self, str):$/;"	f
+deserialize	./rgbdslam/srv/_rgbdslam_ros_ui_s.py	/^  def deserialize(self, str):$/;"	f
+deserialize_numpy	./rgbdslam/srv/_rgbdslam_ros_ui.py	/^  def deserialize_numpy(self, str, numpy):$/;"	f
+deserialize_numpy	./rgbdslam/srv/_rgbdslam_ros_ui_b.py	/^  def deserialize_numpy(self, str, numpy):$/;"	f
+deserialize_numpy	./rgbdslam/srv/_rgbdslam_ros_ui_f.py	/^  def deserialize_numpy(self, str, numpy):$/;"	f
+deserialize_numpy	./rgbdslam/srv/_rgbdslam_ros_ui_s.py	/^  def deserialize_numpy(self, str, numpy):$/;"	f
+destroyInstance	./sift_gpu_wrapper.cpp	/^void SiftGPUWrapper::destroyInstance() {$/;"	f	class:SiftGPUWrapper
+detect	./sift_gpu_wrapper.cpp	/^void SiftGPUWrapper::detect(const cv::Mat& image, cv::vector<cv::KeyPoint>& keypoints, std::vector<float>& descriptors, const Mat& mask) const {$/;"	f	class:SiftGPUWrapper
+detector_	./openni_listener.h	/^    cv::Ptr<cv::FeatureDetector> detector_;$/;"	m	class:OpenNIListener
+downSample	./gicp-fallback.cpp	/^void downSample(const pointcloud_type& src, pointcloud_type& to){$/;"	f
+drawAxis	./glviewer.cpp	/^void GLViewer::drawAxis(float scale){$/;"	f	class:GLViewer
+drawClouds	./glviewer.cpp	/^void GLViewer::drawClouds(float xshift) {$/;"	f	class:GLViewer
+drawEdges	./glviewer.cpp	/^void GLViewer::drawEdges(){$/;"	f	class:GLViewer
+drawFeatureFlow	./graph_mgr_io.cpp	/^void GraphManager::drawFeatureFlow(cv::Mat& canvas, cv::Scalar line_color,$/;"	f	class:GraphManager
+drawGrid	./glviewer.cpp	/^void GLViewer::drawGrid(){$/;"	f	class:GLViewer
+drawToPS	./glviewer.cpp	/^void GLViewer::drawToPS(QString filename){$/;"	f	class:GLViewer
+drawTriangle	./glviewer.cpp	/^void GLViewer::drawTriangle(const point_type& p1, const point_type& p2, const point_type& p3){$/;"	f	class:GLViewer
+earliest_loop_closure_node_	./graph_manager.h	/^    int earliest_loop_closure_node_;$/;"	m	class:GraphManager
+edge	./matching_result.h	/^        LoadedEdge3D edge;$/;"	m	class:MatchingResult
+edgeFromMatchingResult	./node.cpp	/^void edgeFromMatchingResult(const Node* newer_node, const Node* older_node, const Eigen::Matrix4f& final_trafo, MatchingResult& mr){$/;"	f
+edgeToFeature	./transformation_estimation.cpp	/^Proj_edge_type* edgeToFeature(const Node* node, $/;"	f
+edge_from_icp_alignment	./node.cpp	/^bool edge_from_icp_alignment(bool found_transformation, Node* newer_node, const Node* older_node, MatchingResult& mr, double ransac_quality)$/;"	f
+edge_list_	./glviewer.h	/^    QList<QPair<int, int> > edge_list_;$/;"	m	class:GLViewer
+eigen2G2O	./misc.cpp	/^g2o::SE3Quat eigen2G2O(const Eigen::Matrix4d& eigen_mat) $/;"	f
+eigenTF2QMatrix	./misc.h	/^QMatrix4x4 eigenTF2QMatrix(const T& transf) $/;"	f
+eigenTransf2TF	./misc.h	/^tf::Transform eigenTransf2TF(const T& transf) $/;"	f
+elapsed	./scoped_timer.cpp	/^double ScopedTimer::elapsed(){$/;"	f	class:ScopedTimer
+error	./sift_gpu_wrapper.h	/^	bool error;                                 \/\/\/<error happened?$/;"	m	class:SiftGPUWrapper
+errorFunction	./misc.cpp	/^double errorFunction(const Eigen::Vector4f& x1, const double x1_depth_cov, $/;"	f
+errorFunction2	./misc.cpp	/^double errorFunction2(const Eigen::Vector4f& x1,$/;"	f
+extractor_	./openni_listener.h	/^    cv::Ptr<cv::DescriptorExtractor> extractor_;$/;"	m	class:OpenNIListener
+fast_rendering_step_	./glviewer.h	/^    unsigned int fast_rendering_step_;$/;"	m	class:GLViewer
+featureMatching	./node.cpp	/^unsigned int Node::featureMatching(const Node* other, std::vector<cv::DMatch>* matches) const $/;"	f	class:Node
+feature_depth_stats_	./node.h	/^  std::vector<std::pair<float, float> > feature_depth_stats_;$/;"	m	class:Node
+feature_descriptors_	./node.h	/^	cv::Mat feature_descriptors_;         $/;"	m	class:Node
+feature_flow_image_label	./qt_gui.h	/^    QLabel *feature_flow_image_label;$/;"	m	class:Graphical_UI
+feature_list_indices	./glviewer.h	/^    QList<GLuint> feature_list_indices;$/;"	m	class:GLViewer
+feature_locations_2d_	./node.h	/^	std::vector<cv::KeyPoint> feature_locations_2d_; $/;"	m	class:Node
+feature_locations_3d_	./node.h	/^	std_vector_of_eigen_vector4f feature_locations_3d_;  $/;"	m	class:Node
+feature_matching_stats_	./node.h	/^  std::vector<unsigned char> feature_matching_stats_;$/;"	m	class:Node
+filename	./qt_gui.h	/^    QString filename;$/;"	m	class:Graphical_UI
+filename	./ros_service_ui.h	/^    QString filename;$/;"	m	class:RosUi
+filterCloud	./icp.cpp	/^void filterCloud(const pointcloud_type& cloud_in, pointcloud_type& cloud_out, int desired_size){$/;"	f
+filtered_pc_col	./node.h	/^  pointcloud_type::Ptr filtered_pc_col; \/\/<Used for icp. May not contain NaN$/;"	m	class:Node
+final_trafo	./matching_result.h	/^        Eigen::Matrix4f final_trafo;$/;"	m	class:MatchingResult
+findClosestNeighbour	./loop_closing.cpp	/^int findClosestNeighbour(cv::Mat all, cv::Mat row){$/;"	f
+firstNode	./graph_manager.cpp	/^void GraphManager::firstNode(Node* new_node) $/;"	f	class:GraphManager
+first_frame_	./openni_listener.h	/^    bool first_frame_;$/;"	m	class:OpenNIListener
+fixationOfVertices	./graph_manager.cpp	/^void fixationOfVertices(std::string strategy, $/;"	f
+flannIndex	./node.h	/^	mutable cv::flann::Index* flannIndex;$/;"	m	class:Node
+float_value	./misc.cpp	/^  float float_value;$/;"	m	union:__anon1	file:
+follow_mode_	./glviewer.h	/^    bool follow_mode_;$/;"	m	class:GLViewer
+fov_	./glviewer.h	/^    double stereo_shift_, fov_; \/\/field of view$/;"	m	class:GLViewer
+future_	./openni_listener.h	/^    QFuture<void> future_;$/;"	m	class:OpenNIListener
+g2o2QMatrix	./misc.cpp	/^QMatrix4x4 g2o2QMatrix(const g2o::SE3Quat se3) {$/;"	f
+g2o2TF	./misc.cpp	/^tf::Transform g2o2TF(const g2o::SE3Quat se3) {$/;"	f
+g2o_vertex	./landmark.h	/^ LM_vertex_type* g2o_vertex;$/;"	m	struct:Landmark
+geodesicDiscount	./graph_manager.cpp	/^double GraphManager::geodesicDiscount(g2o::HyperDijkstra& hypdij, const MatchingResult& mr){$/;"	f	class:GraphManager
+get	./parameter_server.h	/^    T get(const std::string param) {$/;"	f	class:ParameterServer
+getAllPosesAsMatrixList	./graph_manager.cpp	/^QList<QMatrix4x4>* GraphManager::getAllPosesAsMatrixList(){$/;"	f	class:GraphManager
+getBase2PointsTransform	./node.cpp	/^tf::StampedTransform Node::getBase2PointsTransform() const {$/;"	f	class:Node
+getConfigData	./parameter_server.h	/^    std::map<std::string, boost::any>& getConfigData(){$/;"	f	class:ParameterServer
+getDescription	./parameter_server.cpp	/^std::string ParameterServer::getDescription(std::string param_name) {$/;"	f	class:ParameterServer
+getFlannIndex	./node.cpp	/^const cv::flann::Index* Node::getFlannIndex() const {$/;"	f	class:Node
+getFromParameterServer	./parameter_server.h	/^    T getFromParameterServer(const std::string param, T def) {$/;"	f	class:ParameterServer
+getGICPStructure	./node.cpp	/^dgc::gicp::GICPPointSet* Node::getGICPStructure(unsigned int max_count) const$/;"	f	class:Node
+getGLViewer	./qt_gui.cpp	/^GLViewer* Graphical_UI::getGLViewer() { $/;"	f	class:Graphical_UI
+getGraphEdges	./graph_manager.cpp	/^QList<QPair<int, int> >* GraphManager::getGraphEdges()$/;"	f	class:GraphManager
+getGroundTruthTransform	./node.cpp	/^tf::StampedTransform Node::getGroundTruthTransform() const {$/;"	f	class:Node
+getInstance	./sift_gpu_wrapper.cpp	/^SiftGPUWrapper* SiftGPUWrapper::getInstance() {$/;"	f	class:SiftGPUWrapper
+getMemoryFootprint	./node.cpp	/^long Node::getMemoryFootprint(bool write_to_log)$/;"	f	class:Node
+getMinDepthInNeighborhood	./misc.cpp	/^float getMinDepthInNeighborhood(const cv::Mat& depth, cv::Point2f center, float diameter){$/;"	f
+getNeighbours	./loop_closing.cpp	/^void GraphManager::getNeighbours(int node_id, uint neighbour_cnt, std::vector<std::pair<int,float> >& neighbours){$/;"	f	class:GraphManager
+getNodeHandle	./qtros.h	/^    ros::NodeHandle getNodeHandle(){ return *n; }$/;"	f	class:QtROS
+getOdomTransform	./node.cpp	/^tf::StampedTransform Node::getOdomTransform() const {$/;"	f	class:Node
+getOneFrame	./openni_listener.cpp	/^void OpenNIListener::getOneFrame(){$/;"	f	class:OpenNIListener
+getOneFrameCmd	./qt_gui.cpp	/^void Graphical_UI::getOneFrameCmd() {$/;"	f	class:Graphical_UI
+getOneFrame_	./openni_listener.h	/^    bool getOneFrame_;$/;"	m	class:OpenNIListener
+getPotentialEdgeTargetsWithDijkstra	./graph_manager.cpp	/^QList<int> GraphManager::getPotentialEdgeTargetsWithDijkstra(const Node* new_node, int sequential_targets, int geodesic_targets, int sampled_targets, int predecessor_id, bool include_predecessor)$/;"	f	class:GraphManager
+getRelativeTransformationTo	./node.cpp	/^bool Node::getRelativeTransformationTo(const Node* earlier_node,$/;"	f	class:Node
+getRelativeTransformationTo_ICP_code	./node.cpp	/^bool Node::getRelativeTransformationTo_ICP_code(const Node* target_node,$/;"	f	class:Node
+getTransformFromMatches	./node.cpp	/^Eigen::Matrix4f getTransformFromMatches(const Node* newer_node,$/;"	f
+getTransformFromMatchesG2O	./transformation_estimation.cpp	/^void getTransformFromMatchesG2O(const Node* earlier_node,$/;"	f
+getTransformFromMatchesUmeyama	./node.cpp	/^Eigen::Matrix4f getTransformFromMatchesUmeyama(const Node* newer_node,$/;"	f
+getValues	./parameter_server.cpp	/^void ParameterServer::getValues() {$/;"	f	class:ParameterServer
+gicpSetIdentity	./node.cpp	/^void Node::gicpSetIdentity(dgc_transform_t m){$/;"	f	class:Node
+gicp_d_max_	./node.h	/^	static const double gicp_d_max_ = 5.0; \/\/ 10cm$/;"	m	class:Node
+gicp_epsilon	./node.h	/^	static const double gicp_epsilon = 1e-3;$/;"	m	class:Node
+gicp_initialized	./node.h	/^	bool gicp_initialized;$/;"	m	class:Node
+gicp_max_iterations	./node.h	/^	static const int gicp_max_iterations = 10;$/;"	m	class:Node
+gicp_min_point_cnt	./node.h	/^	static const int gicp_min_point_cnt = 100;$/;"	m	class:Node
+gicp_mutex	./node.cpp	/^QMutex Node::gicp_mutex;$/;"	m	class:Node	file:
+gicp_mutex	./node.h	/^  static QMutex gicp_mutex;$/;"	m	class:Node
+gicp_point_set_	./node.h	/^    mutable dgc::gicp::GICPPointSet* gicp_point_set_;$/;"	m	class:Node
+gicpfallback	./gicp-fallback.cpp	/^bool gicpfallback(const pointcloud_type& from, const pointcloud_type& to, Eigen::Matrix4f& transform){$/;"	f
+glviewer	./qt_gui.h	/^    GLViewer* glviewer;$/;"	m	class:Graphical_UI
+gpu_mutex	./sift_gpu_wrapper.h	/^  mutable QMutex gpu_mutex;$/;"	m	class:SiftGPUWrapper
+graph_	./graph_manager.h	/^    std::map<int, Node* > graph_;$/;"	m	class:GraphManager
+graph_it	./graph_manager.h	/^typedef std::map<int, Node* >::iterator graph_it;$/;"	t
+graph_mgr_	./openni_listener.h	/^    GraphManager* graph_mgr_;$/;"	m	class:OpenNIListener
+gridlayout	./qt_gui.h	/^    QGridLayout* gridlayout;$/;"	m	class:Graphical_UI
+ground_truth_transform_	./node.h	/^  tf::StampedTransform ground_truth_transform_;\/\/!<contains the transformation from the mocap system$/;"	m	class:Node
+gui_connections	./main.cpp	/^void gui_connections(Graphical_UI* gui, GraphManager* graph_mgr, OpenNIListener* listener)$/;"	f
+handle	./parameter_server.h	/^    ros::NodeHandle handle;$/;"	m	class:ParameterServer
+height_	./glviewer.h	/^    int width_, height_;$/;"	m	class:GLViewer
+help	./qt_gui.cpp	/^void Graphical_UI::help() {$/;"	f	class:Graphical_UI
+higherScore	./loop_closing.cpp	/^bool higherScore(const pair<int,float>& A,const pair<int,float>& B){$/;"	f
+icpAlignment	./icp.cpp	/^Eigen::Matrix4f icpAlignment(pointcloud_type::Ptr cloud_1, pointcloud_type::Ptr cloud_2, Eigen::Matrix4f initial_guess){$/;"	f
+icp_trafo	./matching_result.h	/^        Eigen::Matrix4f icp_trafo;$/;"	m	class:MatchingResult
+id	./landmark.h	/^ int id;$/;"	m	struct:Landmark
+id1	./edge.h	/^  int id1, id2;$/;"	m	struct:LoadedEdge3D
+id2	./edge.h	/^  int id1, id2;$/;"	m	struct:LoadedEdge3D
+id_	./node.h	/^  int id_;         \/\/<number of camera nodes in the graph when the node was added$/;"	m	class:Node
+imageHeight	./sift_gpu_wrapper.h	/^	mutable int imageHeight;         \/\/\/<height of the image constant for Kinect$/;"	m	class:SiftGPUWrapper
+imageWidth	./sift_gpu_wrapper.h	/^	mutable int imageWidth;          \/\/\/<width of the image constant for Kinect$/;"	m	class:SiftGPUWrapper
+image_encoding_	./openni_listener.h	/^    std::string image_encoding_;$/;"	m	class:OpenNIListener
+image_sub_type	./openni_listener.cpp	/^typedef message_filters::Subscriber<sensor_msgs::Image> image_sub_type;      $/;"	t	file:
+infoLabel	./qt_gui.h	/^    QLabel *infoLabel;$/;"	m	class:Graphical_UI
+infoLabel2	./qt_gui.h	/^    QLabel *infoLabel2;$/;"	m	class:Graphical_UI
+infoText	./qt_gui.h	/^    QString *infoText;$/;"	m	class:Graphical_UI
+informationMatrix	./edge.h	/^  Eigen::Matrix<double, 6,6> informationMatrix;$/;"	m	struct:LoadedEdge3D
+init_base_pose_	./graph_manager.h	/^    tf::Transform init_base_pose_;$/;"	m	class:GraphManager
+initial_node_matches_	./node.h	/^  int initial_node_matches_;$/;"	m	class:Node
+initializeGL	./glviewer.cpp	/^void GLViewer::initializeGL() {$/;"	f	class:GLViewer
+initializeMatcher	./sift_gpu_wrapper.cpp	/^void SiftGPUWrapper::initializeMatcher() {$/;"	f	class:SiftGPUWrapper
+inlier_matches	./matching_result.h	/^        std::vector<cv::DMatch> inlier_matches;$/;"	m	class:MatchingResult
+inlier_points	./matching_result.h	/^        unsigned int inlier_points, outlier_points, occluded_points, all_points;$/;"	m	class:MatchingResult
+insertCloudCallback	./ColorOctomapServer.cpp	/^void ColorOctomapServer::insertCloudCallback(const pointcloud_type::ConstPtr cloud, double max_range) {$/;"	f	class:ColorOctomapServer
+insertCloudCallbackCommon	./ColorOctomapServer.cpp	/^void ColorOctomapServer::insertCloudCallbackCommon(const pointcloud_type::ConstPtr  pcl_cloud,$/;"	f	class:ColorOctomapServer
+instance	./parameter_server.cpp	/^ParameterServer* ParameterServer::instance() {$/;"	f	class:ParameterServer
+instance	./sift_gpu_wrapper.h	/^	static SiftGPUWrapper* instance;    \/\/\/<singleton instance$/;"	m	class:SiftGPUWrapper
+isBigTrafo	./misc.cpp	/^bool isBigTrafo(const Eigen::Matrix4f& t){$/;"	f
+isBigTrafo	./misc.cpp	/^bool isBigTrafo(const g2o::SE3Quat& t){$/;"	f
+isBusy	./graph_manager2.cpp	/^bool GraphManager::isBusy(){$/;"	f	class:GraphManager
+isMatcherInitialized	./sift_gpu_wrapper.h	/^	bool isMatcherInitialized;                  \/\/\/<true, if matcher was initialized$/;"	m	class:SiftGPUWrapper
+isSmallTrafo	./misc.cpp	/^bool isSmallTrafo(const g2o::SE3Quat& t, double seconds){$/;"	f
+keyframe_ids_	./graph_manager.h	/^    QList<int> keyframe_ids_;\/\/Keyframes are added, if no previous keyframe was matched$/;"	m	class:GraphManager
+kinectCallback	./openni_listener.cpp	/^void OpenNIListener::kinectCallback (const sensor_msgs::ImageConstPtr& visual_img_msg,\/\/got to be mono?$/;"	f	class:OpenNIListener
+kinect_sync_	./openni_listener.h	/^    message_filters::Synchronizer<KinectSyncPolicy>* kinect_sync_;$/;"	m	class:OpenNIListener
+knnSearch	./node.h	/^  void knnSearch(cv::Mat& query,$/;"	f	class:Node
+kpt_to_landmark	./node.h	/^  std::map<int, int> kpt_to_landmark;$/;"	m	class:Node
+landmark_vertices	./graph_manager.h	/^    g2o::HyperGraph::VertexSet landmark_vertices;$/;"	m	class:GraphManager
+landmarks	./graph_manager.h	/^    std::vector<Landmark> landmarks;$/;"	m	class:GraphManager
+lastPos	./glviewer.h	/^    QPoint lastPos;$/;"	m	class:GLViewer
+last_added_cam_vertex_id	./graph_manager.h	/^    int last_added_cam_vertex_id(){$/;"	f	class:GraphManager
+latest_transform_cache_	./graph_manager.h	/^    tf::StampedTransform latest_transform_cache_;\/\/base_frame -> optical_frame $/;"	m	class:GraphManager
+licenseText	./qt_gui.h	/^    QString *licenseText;$/;"	m	class:Graphical_UI
+loadBag	./openni_listener.cpp	/^void OpenNIListener::loadBag(const std::string &filename)$/;"	f	class:OpenNIListener
+localizationUpdate	./graph_manager.cpp	/^void GraphManager::localizationUpdate(Node* new_node, QMatrix4x4 motion_estimate)$/;"	f	class:GraphManager
+localization_only_	./graph_manager.h	/^    bool localization_only_;$/;"	m	class:GraphManager
+logTransform	./misc.cpp	/^void logTransform(QTextStream& out, const tf::Transform& t, double timestamp, const char* label) {$/;"	f
+long_value	./misc.cpp	/^  long long_value;$/;"	m	union:__anon1	file:
+loopClosingTest	./loop_closing.cpp	/^void GraphManager::loopClosingTest(){$/;"	f	class:GraphManager
+loop_closures_edges	./graph_manager.h	/^    unsigned int loop_closures_edges, sequential_edges;$/;"	m	class:GraphManager
+m_octoMap	./ColorOctomapServer.h	/^    octomap::OctomapROS<octomap::ColorOcTree> m_octoMap;$/;"	m	class:ColorOctomapServer
+main	./main.cpp	/^int main(int argc, char** argv)$/;"	f
+marker_id_	./graph_manager.h	/^    unsigned int marker_id_;$/;"	m	class:GraphManager
+marker_pub_	./graph_manager.h	/^    ros::Publisher marker_pub_; $/;"	m	class:GraphManager
+mat2RPY	./misc.cpp	/^void mat2RPY(const Eigen::Matrix4f& t, double& roll, double& pitch, double& yaw) {$/;"	f
+mat2components	./misc.cpp	/^void mat2components(const Eigen::Matrix4f& t, double& roll, double& pitch, double& yaw, double& dist){$/;"	f
+mat2dist	./misc.cpp	/^void mat2dist(const Eigen::Matrix4f& t, double &dist){$/;"	f
+match	./sift_gpu_wrapper.cpp	/^int SiftGPUWrapper::match($/;"	f	class:SiftGPUWrapper
+matchNodePair	./node.cpp	/^MatchingResult Node::matchNodePair(const Node* older_node)$/;"	f	class:Node
+matchable_	./node.h	/^  bool matchable_;        \/\/< Flags whether the data for matching is (still) available$/;"	m	class:Node
+matched_pairs	./graph_manager.h	/^    std::set<std::pair<int,int> > matched_pairs;$/;"	m	class:GraphManager
+matcher	./sift_gpu_wrapper.h	/^	SiftMatchGPU *matcher;                      \/\/\/<siftgpu matcher$/;"	m	class:SiftGPUWrapper
+mean	./edge.h	/^  g2o::SE3Quat mean;$/;"	m	struct:LoadedEdge3D
+mergeLandmarks	./landmark.cpp	/^void GraphManager::mergeLandmarks( Landmark *lm_1, Landmark *lm_del){$/;"	f	class:GraphManager
+minimumSizeHint	./glviewer.cpp	/^QSize GLViewer::minimumSizeHint() const {$/;"	f	class:GLViewer
+mouseDoubleClickEvent	./glviewer.cpp	/^void GLViewer::mouseDoubleClickEvent(QMouseEvent *event) {$/;"	f	class:GLViewer
+mouseHelpText	./qt_gui.h	/^    QString *mouseHelpText;$/;"	m	class:Graphical_UI
+mouseMoveEvent	./glviewer.cpp	/^void GLViewer::mouseMoveEvent(QMouseEvent *event) {\/\/TODO: consolidate setRotation methods$/;"	f	class:GLViewer
+mousePressEvent	./glviewer.cpp	/^void GLViewer::mousePressEvent(QMouseEvent *event) {$/;"	f	class:GLViewer
+mouseReleaseEvent	./glviewer.cpp	/^void GLViewer::mouseReleaseEvent(QMouseEvent *event) {$/;"	f	class:GLViewer
+myparent	./glviewer.h	/^    QWidget* myparent;$/;"	m	class:GLViewer
+n	./qtros.h	/^    ros::NodeHandle* n;$/;"	m	class:QtROS
+name	./scoped_timer.h	/^    const char* name;$/;"	m	class:ScopedTimer
+newMessage	./openni_listener.h	/^  void newMessage(const boost::shared_ptr<M const> &msg) { $/;"	f	class:BagSubscriber
+next_landmark_id	./graph_manager.h	/^    int next_landmark_id;$/;"	m	class:GraphManager
+next_seq_id	./graph_manager.h	/^    unsigned int next_seq_id;$/;"	m	class:GraphManager
+next_vertex_id	./graph_manager.h	/^    unsigned int next_vertex_id;$/;"	m	class:GraphManager
+noCloudCallback	./openni_listener.cpp	/^void OpenNIListener::noCloudCallback (const sensor_msgs::ImageConstPtr& visual_img_msg,$/;"	f	class:OpenNIListener
+noCloudCameraCallback	./openni_listener.cpp	/^void OpenNIListener::noCloudCameraCallback(cv::Mat visual_img, $/;"	f	class:OpenNIListener
+no_cloud_sync_	./openni_listener.h	/^    message_filters::Synchronizer<NoCloudSyncPolicy>* no_cloud_sync_;$/;"	m	class:OpenNIListener
+nodeComparisons	./graph_manager.cpp	/^bool GraphManager::nodeComparisons(Node* new_node, $/;"	f	class:GraphManager
+nodeId2VertexId	./graph_manager.h	/^    int nodeId2VertexId(int node_id){$/;"	f	class:GraphManager
+observationLikelihood	./misc.cpp	/^void observationLikelihood(const Eigen::Matrix4f& proposed_transformation,\/\/new to old$/;"	f
+observation_criterion_met	./misc.cpp	/^bool observation_criterion_met(unsigned int inliers, unsigned int outliers, unsigned int all, double& quality)$/;"	f
+observations	./landmark.h	/^ std::map<int,int> observations; \/\/ maps node_id to keypt_id (if landmark was seen in this image)$/;"	m	struct:Landmark
+occluded_points	./matching_result.h	/^        unsigned int inlier_points, outlier_points, occluded_points, all_points;$/;"	m	class:MatchingResult
+odom_transform_	./node.h	/^  tf::StampedTransform odom_transform_;        \/\/!<contains the transformation from the wheel encoders\/joint states$/;"	m	class:Node
+openCVCode2String	./misc.cpp	/^std::string openCVCode2String(unsigned int code){$/;"	f
+operator ()	./edge.h	/^  inline bool operator()(const LoadedEdge3D& e1, const LoadedEdge3D& e2){$/;"	f	struct:LoadedEdgeComparator3D
+optimization_mutex_	./graph_manager.h	/^    QMutex optimization_mutex_;$/;"	m	class:GraphManager
+optimizeGraph	./graph_manager.cpp	/^double GraphManager::optimizeGraph(double break_criterion, bool nonthreaded, QString filebasename){$/;"	f	class:GraphManager
+optimizeGraphImpl	./graph_manager.cpp	/^double GraphManager::optimizeGraphImpl(double break_criterion)$/;"	f	class:GraphManager
+optimizeGraphTrig	./qt_gui.cpp	/^void Graphical_UI::optimizeGraphTrig() {$/;"	f	class:Graphical_UI
+optimizerSetup	./transformation_estimation.cpp	/^void optimizerSetup(g2o::SparseOptimizer& optimizer){$/;"	f
+optimizer_	./graph_manager.h	/^    g2o::SparseOptimizer* optimizer_;$/;"	m	class:GraphManager
+optimizer_mutex_	./graph_manager.h	/^    QMutex optimizer_mutex_;$/;"	m	class:GraphManager
+outlier_points	./matching_result.h	/^        unsigned int inlier_points, outlier_points, occluded_points, all_points;$/;"	m	class:MatchingResult
+paintGL	./glviewer.cpp	/^void GLViewer::paintGL() {$/;"	f	class:GLViewer
+pairwiseObservationLikelihood	./node.cpp	/^void pairwiseObservationLikelihood(const Node* newer_node, const Node* older_node, MatchingResult& mr)$/;"	f
+pause	./qt_gui.cpp	/^void Graphical_UI::pause(bool pause_on) {$/;"	f	class:Graphical_UI
+pause	./ros_service_ui.cpp	/^void RosUi::pause(bool _pause_on) {$/;"	f	class:RosUi
+pause_	./openni_listener.h	/^    bool pause_;$/;"	m	class:OpenNIListener
+pause_on	./qt_gui.h	/^    bool pause_on;$/;"	m	class:Graphical_UI
+pause_on	./ros_service_ui.h	/^    bool pause_on;$/;"	m	class:RosUi
+pc_col	./node.h	/^  pointcloud_type::Ptr pc_col;$/;"	m	class:Node
+pc_sub_type	./openni_listener.cpp	/^typedef message_filters::Subscriber<sensor_msgs::PointCloud2> pc_sub_type;      $/;"	t	file:
+pointCloud2GLList	./glviewer.cpp	/^void GLViewer::pointCloud2GLList(pointcloud_type const * pc){$/;"	f	class:GLViewer
+pointCloud2GLPoints	./glviewer.cpp	/^void GLViewer::pointCloud2GLPoints(pointcloud_type * pc){$/;"	f	class:GLViewer
+pointCloud2GLStrip	./glviewer.cpp	/^void GLViewer::pointCloud2GLStrip(pointcloud_type * pc){$/;"	f	class:GLViewer
+pointCloud2MeshFile	./graph_mgr_io.cpp	/^void GraphManager::pointCloud2MeshFile(QString filename, pointcloud_type full_cloud)$/;"	f	class:GraphManager
+pointInWorldFrame	./misc.cpp	/^geometry_msgs::Point pointInWorldFrame(const Eigen::Vector4f& point3d, const g2o::VertexSE3::EstimateType& transf)$/;"	f
+point_information_matrix	./landmark.cpp	/^Eigen::Matrix3d point_information_matrix(double distance)$/;"	f
+point_type	./parameter_server.h	/^typedef pcl::PointXYZ point_type;$/;"	t
+point_type	./parameter_server.h	/^typedef pcl::PointXYZRGB point_type;$/;"	t
+pointcloud_type	./parameter_server.h	/^typedef pcl::PointCloud<point_type> pointcloud_type;$/;"	t
+polygon_mode	./glviewer.h	/^    GLenum polygon_mode;$/;"	m	class:GLViewer
+pre	./parameter_server.h	/^    std::string pre;$/;"	m	class:ParameterServer
+printEdgeErrors	./graph_manager.cpp	/^void GraphManager::printEdgeErrors(QString filename){$/;"	f	class:GraphManager
+printLandmarkStatistic	./landmark.cpp	/^void GraphManager::printLandmarkStatistic(){$/;"	f	class:GraphManager
+printMatrixInfo	./misc.cpp	/^void printMatrixInfo(cv::Mat& image, std::string name){$/;"	f
+printNNRatioInfo	./node.cpp	/^void printNNRatioInfo(const char* validity, const std::vector<cv::DMatch>& matches)$/;"	f
+printQMatrix4x4	./misc.cpp	/^void printQMatrix4x4(const char* name, const QMatrix4x4& m){$/;"	f
+printTransform	./misc.cpp	/^void printTransform(const char* name, const tf::Transform t) {$/;"	f
+processNode	./openni_listener.cpp	/^void OpenNIListener::processNode(Node* new_node)$/;"	f	class:OpenNIListener
+process_node_runs_	./graph_manager.h	/^    bool process_node_runs_;$/;"	m	class:GraphManager
+progressbars	./qt_gui.h	/^    QMap<int, QProgressBar*> progressbars;$/;"	m	class:Graphical_UI
+projectTo3D	./node.cpp	/^void Node::projectTo3D(std::vector<cv::KeyPoint>& feature_locations_2d,$/;"	f	class:Node
+projectTo3DSiftGPU	./node.cpp	/^void Node::projectTo3DSiftGPU(std::vector<cv::KeyPoint>& feature_locations_2d,$/;"	f	class:Node
+pruneEdgesWithErrorAbove	./graph_manager.cpp	/^unsigned int GraphManager::pruneEdgesWithErrorAbove(float thresh){$/;"	f	class:GraphManager
+pruneEdgesWithHighError	./qt_gui.cpp	/^void Graphical_UI::pruneEdgesWithHighError(){$/;"	f	class:Graphical_UI
+publishCloud	./graph_mgr_io.cpp	/^void publishCloud(Node* node, ros::Time timestamp, ros::Publisher pub){$/;"	f
+python3	./rgbdslam/srv/_rgbdslam_ros_ui.py	/^python3 = True if sys.hexversion > 0x03000000 else False$/;"	v
+python3	./rgbdslam/srv/_rgbdslam_ros_ui_b.py	/^python3 = True if sys.hexversion > 0x03000000 else False$/;"	v
+python3	./rgbdslam/srv/_rgbdslam_ros_ui_f.py	/^python3 = True if sys.hexversion > 0x03000000 else False$/;"	v
+python3	./rgbdslam/srv/_rgbdslam_ros_ui_s.py	/^python3 = True if sys.hexversion > 0x03000000 else False$/;"	v
+qNormalizeAngle	./glviewer.cpp	/^static void qNormalizeAngle(int &angle) {$/;"	f	file:
+quickSaveAll	./qt_gui.cpp	/^void Graphical_UI::quickSaveAll() {$/;"	f	class:Graphical_UI
+quitNow	./qtros.cpp	/^void QtROS::quitNow(){ $/;"	f	class:QtROS
+quitfromgui	./qtros.h	/^    bool quitfromgui;$/;"	m	class:QtROS
+ransac_marker_pub_	./graph_manager.h	/^    ros::Publisher ransac_marker_pub_;$/;"	m	class:GraphManager
+ransac_trafo	./matching_result.h	/^        Eigen::Matrix4f ransac_trafo;$/;"	m	class:MatchingResult
+record_on	./ros_service_ui.h	/^    bool record_on;$/;"	m	class:RosUi
+reducePointCloud	./graph_manager.cpp	/^void GraphManager::reducePointCloud(pointcloud_type const * pc) {$/;"	f	class:GraphManager
+reducePointCloud	./node.cpp	/^void Node::reducePointCloud(double vfs){$/;"	f	class:Node
+rejectionSignificance	./misc.cpp	/^double rejectionSignificance(const Eigen::Matrix4f& proposed_transformation,\/\/new to old$/;"	f
+reloadConfig	./qt_gui.cpp	/^void Graphical_UI::reloadConfig() {$/;"	f	class:Graphical_UI
+removeFeaturesFromGraph	./landmark.cpp	/^void GraphManager::removeFeaturesFromGraph(){$/;"	f	class:GraphManager
+removeStrangeMatches	./landmark.cpp	/^MatchingResult removeStrangeMatches(const MatchingResult& match_result){$/;"	f
+renderList	./glviewer.cpp	/^QImage GLViewer::renderList(QMatrix4x4 transform, int list_id){$/;"	f	class:GLViewer
+renderToOctomap	./graph_mgr_io.cpp	/^void GraphManager::renderToOctomap(Node* node)$/;"	f	class:GraphManager
+rendering	./ColorOctomapServer.h	/^    mutable QFuture<void> rendering;  \/\/Mutable is a hack, otherwise waitforfinished cannot be called in const function$/;"	m	class:ColorOctomapServer
+reset	./ColorOctomapServer.cpp	/^void ColorOctomapServer::reset()$/;"	f	class:ColorOctomapServer
+reset	./glviewer.cpp	/^void GLViewer::reset(){$/;"	f	class:GLViewer
+reset	./graph_manager2.cpp	/^void GraphManager::reset(){$/;"	f	class:GraphManager
+resetCmd	./qt_gui.cpp	/^void Graphical_UI::resetCmd() {$/;"	f	class:Graphical_UI
+resetGraph	./graph_manager.cpp	/^void GraphManager::resetGraph(){$/;"	f	class:GraphManager
+reset_request_	./graph_manager.h	/^    bool reset_request_;$/;"	m	class:GraphManager
+resizeGL	./glviewer.cpp	/^void GLViewer::resizeGL(int width, int height)$/;"	f	class:GLViewer
+retrieveTransformations	./openni_listener.cpp	/^void OpenNIListener::retrieveTransformations(std_msgs::Header depth_header, Node* node_ptr)$/;"	f	class:OpenNIListener
+rgb_img_sub_	./openni_listener.h	/^    BagSubscriber<sensor_msgs::Image>* rgb_img_sub_;$/;"	m	class:OpenNIListener
+rgba_buffers_	./openni_listener.h	/^    std::vector<cv::Mat> rgba_buffers_;$/;"	m	class:OpenNIListener
+rgbdslam_ros_ui	./rgbdslam/srv/_rgbdslam_ros_ui.py	/^class rgbdslam_ros_ui(object):$/;"	c
+rgbdslam_ros_uiRequest	./rgbdslam/srv/_rgbdslam_ros_ui.py	/^class rgbdslam_ros_uiRequest(genpy.Message):$/;"	c
+rgbdslam_ros_uiResponse	./rgbdslam/srv/_rgbdslam_ros_ui.py	/^class rgbdslam_ros_uiResponse(genpy.Message):$/;"	c
+rgbdslam_ros_ui_b	./rgbdslam/srv/_rgbdslam_ros_ui_b.py	/^class rgbdslam_ros_ui_b(object):$/;"	c
+rgbdslam_ros_ui_bRequest	./rgbdslam/srv/_rgbdslam_ros_ui_b.py	/^class rgbdslam_ros_ui_bRequest(genpy.Message):$/;"	c
+rgbdslam_ros_ui_bResponse	./rgbdslam/srv/_rgbdslam_ros_ui_b.py	/^class rgbdslam_ros_ui_bResponse(genpy.Message):$/;"	c
+rgbdslam_ros_ui_f	./rgbdslam/srv/_rgbdslam_ros_ui_f.py	/^class rgbdslam_ros_ui_f(object):$/;"	c
+rgbdslam_ros_ui_fRequest	./rgbdslam/srv/_rgbdslam_ros_ui_f.py	/^class rgbdslam_ros_ui_fRequest(genpy.Message):$/;"	c
+rgbdslam_ros_ui_fResponse	./rgbdslam/srv/_rgbdslam_ros_ui_f.py	/^class rgbdslam_ros_ui_fResponse(genpy.Message):$/;"	c
+rgbdslam_ros_ui_s	./rgbdslam/srv/_rgbdslam_ros_ui_s.py	/^class rgbdslam_ros_ui_s(object):$/;"	c
+rgbdslam_ros_ui_sRequest	./rgbdslam/srv/_rgbdslam_ros_ui_s.py	/^class rgbdslam_ros_ui_sRequest(genpy.Message):$/;"	c
+rgbdslam_ros_ui_sResponse	./rgbdslam/srv/_rgbdslam_ros_ui_s.py	/^class rgbdslam_ros_ui_sResponse(genpy.Message):$/;"	c
+rmse	./matching_result.h	/^        float rmse;$/;"	m	class:MatchingResult
+robust_kernel_	./graph_manager.h	/^    g2o::RobustKernelHuber robust_kernel_;$/;"	m	class:GraphManager
+rotation_stepping_	./glviewer.h	/^    double rotation_stepping_;$/;"	m	class:GLViewer
+round	./misc.cpp	/^inline int round(float d)$/;"	f
+run	./qtros.cpp	/^void QtROS::run(){ $/;"	f	class:QtROS
+sample_matches	./node.cpp	/^std::vector<cv::DMatch> sample_matches(unsigned int sample_size, std::vector<cv::DMatch>& matches_with_depth)$/;"	f
+sample_matches_prefer_by_distance	./node.cpp	/^std::vector<cv::DMatch> sample_matches_prefer_by_distance(unsigned int sample_size, std::vector<cv::DMatch>& matches_with_depth)$/;"	f
+sanityCheck	./graph_manager.cpp	/^void GraphManager::sanityCheck(float thresh){ $/;"	f	class:GraphManager
+save	./ColorOctomapServer.cpp	/^bool ColorOctomapServer::save(const char* filename) const$/;"	f	class:ColorOctomapServer
+saveAll	./qt_gui.cpp	/^void Graphical_UI::saveAll() {$/;"	f	class:Graphical_UI
+saveAllClouds	./graph_mgr_io.cpp	/^void GraphManager::saveAllClouds(QString filename, bool threaded){$/;"	f	class:GraphManager
+saveAllCloudsToFile	./graph_mgr_io.cpp	/^void GraphManager::saveAllCloudsToFile(QString filename){$/;"	f	class:GraphManager
+saveAllFeatures	./graph_mgr_io.cpp	/^void GraphManager::saveAllFeatures(QString filename, bool threaded)$/;"	f	class:GraphManager
+saveAllFeaturesToFile	./graph_mgr_io.cpp	/^void GraphManager::saveAllFeaturesToFile(QString filename)$/;"	f	class:GraphManager
+saveCloud	./gicp-fallback.cpp	/^void saveCloud(const char* filename, const pointcloud_type& pc, const int max_cnt, const bool color){$/;"	f
+saveFeatures	./qt_gui.cpp	/^void Graphical_UI::saveFeatures() {$/;"	f	class:Graphical_UI
+saveG2OGraph	./graph_mgr_io.cpp	/^void GraphManager::saveG2OGraph(QString filename)$/;"	f	class:GraphManager
+saveG2OGraphDialog	./qt_gui.cpp	/^void Graphical_UI::saveG2OGraphDialog() {$/;"	f	class:Graphical_UI
+saveIndividual	./qt_gui.cpp	/^void Graphical_UI::saveIndividual() {$/;"	f	class:Graphical_UI
+saveIndividualClouds	./graph_mgr_io.cpp	/^void GraphManager::saveIndividualClouds(QString filename, bool threaded){$/;"	f	class:GraphManager
+saveIndividualCloudsToFile	./graph_mgr_io.cpp	/^void GraphManager::saveIndividualCloudsToFile(QString file_basename)$/;"	f	class:GraphManager
+saveOctomap	./graph_mgr_io.cpp	/^void GraphManager::saveOctomap(QString filename, bool threaded){$/;"	f	class:GraphManager
+saveOctomap	./qt_gui.cpp	/^void Graphical_UI::saveOctomap() {$/;"	f	class:Graphical_UI
+saveOctomapImpl	./graph_mgr_io.cpp	/^void GraphManager::saveOctomapImpl(QString filename)$/;"	f	class:GraphManager
+saveTrajectory	./graph_mgr_io.cpp	/^void GraphManager::saveTrajectory(QString filebasename, bool with_ground_truth)$/;"	f	class:GraphManager
+saveTrajectoryDialog	./qt_gui.cpp	/^void Graphical_UI::saveTrajectoryDialog() {$/;"	f	class:Graphical_UI
+saveVectorGraphic	./qt_gui.cpp	/^void Graphical_UI::saveVectorGraphic() {$/;"	f	class:Graphical_UI
+save_bag_file	./openni_listener.h	/^    bool save_bag_file;$/;"	m	class:OpenNIListener
+sendAll	./qt_gui.cpp	/^void Graphical_UI::sendAll() {$/;"	f	class:Graphical_UI
+sendAllClouds	./graph_mgr_io.cpp	/^void GraphManager::sendAllClouds(bool threaded){$/;"	f	class:GraphManager
+sendAllCloudsImpl	./graph_mgr_io.cpp	/^void GraphManager::sendAllCloudsImpl()$/;"	f	class:GraphManager
+sendFinished	./qt_gui.cpp	/^void Graphical_UI::sendFinished() {$/;"	f	class:Graphical_UI
+sendFinished	./ros_service_ui.cpp	/^void RosUi::sendFinished() {$/;"	f	class:RosUi
+sensorVerticesSetup	./transformation_estimation.cpp	/^std::pair<g2o::VertexSE3*, g2o::VertexSE3*>  sensorVerticesSetup(g2o::SparseOptimizer& optimizer, Eigen::Matrix4f& tf_estimate){$/;"	f
+seq_id_	./node.h	/^	int seq_id_;      \/\/<number of images that have been processed (even if they were not added)$/;"	m	class:Node
+sequential_edges	./graph_manager.h	/^    unsigned int loop_closures_edges, sequential_edges;$/;"	m	class:GraphManager
+serialize	./rgbdslam/srv/_rgbdslam_ros_ui.py	/^  def serialize(self, buff):$/;"	f
+serialize	./rgbdslam/srv/_rgbdslam_ros_ui_b.py	/^  def serialize(self, buff):$/;"	f
+serialize	./rgbdslam/srv/_rgbdslam_ros_ui_f.py	/^  def serialize(self, buff):$/;"	f
+serialize	./rgbdslam/srv/_rgbdslam_ros_ui_s.py	/^  def serialize(self, buff):$/;"	f
+serialize_numpy	./rgbdslam/srv/_rgbdslam_ros_ui.py	/^  def serialize_numpy(self, buff, numpy):$/;"	f
+serialize_numpy	./rgbdslam/srv/_rgbdslam_ros_ui_b.py	/^  def serialize_numpy(self, buff, numpy):$/;"	f
+serialize_numpy	./rgbdslam/srv/_rgbdslam_ros_ui_f.py	/^  def serialize_numpy(self, buff, numpy):$/;"	f
+serialize_numpy	./rgbdslam/srv/_rgbdslam_ros_ui_s.py	/^  def serialize_numpy(self, buff, numpy):$/;"	f
+server	./ros_service_ui.h	/^    ros::ServiceServer server;$/;"	m	class:RosUi
+server_b	./ros_service_ui.h	/^    ros::ServiceServer server_b;$/;"	m	class:RosUi
+server_f	./ros_service_ui.h	/^    ros::ServiceServer server_f;$/;"	m	class:RosUi
+server_s	./ros_service_ui.h	/^    ros::ServiceServer server_s;$/;"	m	class:RosUi
+services	./ros_service_ui.cpp	/^bool RosUi::services(rgbdslam::rgbdslam_ros_ui::Request  &req,$/;"	f	class:RosUi
+services_b	./ros_service_ui.cpp	/^bool RosUi::services_b(rgbdslam::rgbdslam_ros_ui_b::Request  &req,$/;"	f	class:RosUi
+services_f	./ros_service_ui.cpp	/^bool RosUi::services_f(rgbdslam::rgbdslam_ros_ui_f::Request  &req,$/;"	f	class:RosUi
+services_s	./ros_service_ui.cpp	/^bool RosUi::services_s(rgbdslam::rgbdslam_ros_ui_s::Request  &req,$/;"	f	class:RosUi
+set	./parameter_server.h	/^    void set(const std::string param, T value) {$/;"	f	class:ParameterServer
+set2DStream	./qt_gui.cpp	/^void Graphical_UI::set2DStream(bool is_on) {$/;"	f	class:Graphical_UI
+setBase2PointsTransform	./node.cpp	/^void Node::setBase2PointsTransform(tf::StampedTransform& b2p){$/;"	f	class:Node
+setBusy	./qt_gui.cpp	/^void Graphical_UI::setBusy(int id, const char* message, int val){$/;"	f	class:Graphical_UI
+setClickedPosition	./glviewer.cpp	/^bool GLViewer::setClickedPosition(int x, int y) {$/;"	f	class:GLViewer
+setDepthImage	./qt_gui.cpp	/^void Graphical_UI::setDepthImage(QImage qimage){$/;"	f	class:Graphical_UI
+setEdges	./glviewer.cpp	/^void GLViewer::setEdges(const QList<QPair<int, int> >* edge_list){$/;"	f	class:GLViewer
+setFeatureFlowImage	./qt_gui.cpp	/^void Graphical_UI::setFeatureFlowImage(QImage qimage){$/;"	f	class:Graphical_UI
+setGLColor	./glviewer.cpp	/^inline void setGLColor(const PointType& p){$/;"	f
+setGroundTruthTransform	./node.cpp	/^void Node::setGroundTruthTransform(tf::StampedTransform gt){$/;"	f	class:Node
+setInfo	./qt_gui.cpp	/^void Graphical_UI::setInfo(QString message){$/;"	f	class:Graphical_UI
+setInfo2	./qt_gui.cpp	/^void Graphical_UI::setInfo2(QString message){$/;"	f	class:Graphical_UI
+setOctoMapResolution	./qt_gui.cpp	/^void Graphical_UI::setOctoMapResolution() {$/;"	f	class:Graphical_UI
+setOdomTransform	./node.cpp	/^void Node::setOdomTransform(tf::StampedTransform gt){$/;"	f	class:Node
+setOnParameterServer	./parameter_server.h	/^    void setOnParameterServer(const std::string param, T new_val) {$/;"	f	class:ParameterServer
+setParam	./qt_gui.cpp	/^void Graphical_UI::setParam() {$/;"	f	class:Graphical_UI
+setParam	./qt_gui.cpp	/^void Graphical_UI::setParam(QString text){$/;"	f	class:Graphical_UI
+setRotationGrid	./glviewer.cpp	/^void GLViewer::setRotationGrid(double rot_step_in_degree) {$/;"	f	class:GLViewer
+setRotationGrid	./qt_gui.cpp	/^void Graphical_UI::setRotationGrid() {$/;"	f	class:Graphical_UI
+setStatus	./qt_gui.cpp	/^void Graphical_UI::setStatus(QString message){$/;"	f	class:Graphical_UI
+setStereoShift	./glviewer.cpp	/^void GLViewer::setStereoShift(double shift) {$/;"	f	class:GLViewer
+setStereoShift	./qt_gui.cpp	/^void Graphical_UI::setStereoShift() {$/;"	f	class:Graphical_UI
+setViewPoint	./glviewer.cpp	/^void GLViewer::setViewPoint(QMatrix4x4 new_vp){$/;"	f	class:GLViewer
+setVisualImage	./qt_gui.cpp	/^void Graphical_UI::setVisualImage(QImage qimage){$/;"	f	class:Graphical_UI
+setXRotation	./glviewer.cpp	/^void GLViewer::setXRotation(int angle) { $/;"	f	class:GLViewer
+setYRotation	./glviewer.cpp	/^void GLViewer::setYRotation(int angle) {$/;"	f	class:GLViewer
+setZRotation	./glviewer.cpp	/^void GLViewer::setZRotation(int angle) {$/;"	f	class:GLViewer
+showBusy	./qt_gui.cpp	/^void Graphical_UI::showBusy(int id, const char* message, int max){$/;"	f	class:Graphical_UI
+showEdgeErrors	./qt_gui.cpp	/^void Graphical_UI::showEdgeErrors() {$/;"	f	class:Graphical_UI
+showOptions	./qt_gui.cpp	/^void Graphical_UI::showOptions(){$/;"	f	class:Graphical_UI
+show_clouds_	./glviewer.h	/^    bool show_clouds_;$/;"	m	class:GLViewer
+show_edges_	./glviewer.h	/^    bool show_edges_;$/;"	m	class:GLViewer
+show_features_	./glviewer.h	/^    bool show_features_;$/;"	m	class:GLViewer
+show_grid_	./glviewer.h	/^    bool show_grid_;$/;"	m	class:GLViewer
+show_ids_	./glviewer.h	/^    bool show_ids_;$/;"	m	class:GLViewer
+show_poses_	./glviewer.h	/^    bool show_poses_;$/;"	m	class:GLViewer
+show_tfs_	./glviewer.h	/^    bool show_tfs_;$/;"	m	class:GLViewer
+siftgpu	./sift_gpu_wrapper.h	/^	SiftGPU* siftgpu;                           \/\/\/<siftgpu instance$/;"	m	class:SiftGPUWrapper
+siftgpu_descriptors	./node.h	/^	std::vector<float> siftgpu_descriptors;$/;"	m	class:Node
+siftgpu_mutex	./node.cpp	/^QMutex Node::siftgpu_mutex;$/;"	m	class:Node	file:
+siftgpu_mutex	./node.h	/^  static QMutex siftgpu_mutex;$/;"	m	class:Node
+sizeHint	./glviewer.cpp	/^QSize GLViewer::sizeHint() const {$/;"	f	class:GLViewer
+squareroot_descriptor_space	./node.cpp	/^void squareroot_descriptor_space(cv::Mat& descriptors)$/;"	f
+stampedTransformInWorldFrame	./graph_mgr_io.cpp	/^tf::StampedTransform GraphManager::stampedTransformInWorldFrame(const Node* node, const tf::Transform& computed_motion) const $/;"	f	class:GraphManager
+start	./scoped_timer.h	/^    struct timespec start;$/;"	m	class:ScopedTimer	typeref:struct:ScopedTimer::timespec
+stats_image_label	./qt_gui.h	/^    QLabel *stats_image_label;$/;"	m	class:Graphical_UI
+std_vector_of_eigen_vector4f	./node.h	/^typedef std::vector<Eigen::Vector4f, Eigen::aligned_allocator<Eigen::Vector4f> > std_vector_of_eigen_vector4f;$/;"	t
+stereoCallback	./openni_listener.cpp	/^void OpenNIListener::stereoCallback(const sensor_msgs::ImageConstPtr& visual_img_msg, const sensor_msgs::PointCloud2ConstPtr& point_cloud)$/;"	f	class:OpenNIListener
+stereo_	./glviewer.h	/^    bool stereo_;$/;"	m	class:GLViewer
+stereo_shift_	./glviewer.h	/^    double stereo_shift_, fov_; \/\/field of view$/;"	m	class:GLViewer
+stereo_sync_	./openni_listener.h	/^    message_filters::Synchronizer<StereoSyncPolicy>* stereo_sync_;$/;"	m	class:OpenNIListener
+tested_pairs	./graph_manager.h	/^    std::set<std::pair<int,int> > tested_pairs;$/;"	m	class:GraphManager
+tf	./openni_listener.h	/^namespace tf{$/;"	n
+tf2G2O	./misc.cpp	/^g2o::SE3Quat tf2G2O(const tf::Transform t) $/;"	f
+tf_br_	./openni_listener.h	/^    tf::TransformBroadcaster tf_br_;$/;"	m	class:OpenNIListener
+tf_pub_	./openni_listener.h	/^    ros::Publisher tf_pub_;$/;"	m	class:OpenNIListener
+tflistener_	./openni_listener.h	/^    tf::TransformListener* tflistener_; \/\/!this being a pointer saves the include (using the above forward declaration)$/;"	m	class:OpenNIListener
+timer_	./graph_manager.h	/^    ros::Timer timer_;$/;"	m	class:GraphManager
+tmpLabel	./qt_gui.h	/^    QLabel *tmpLabel;$/;"	m	class:Graphical_UI
+toggleBackgroundColor	./glviewer.cpp	/^void GLViewer::toggleBackgroundColor(bool flag){$/;"	f	class:GLViewer
+toggleBagRecording	./openni_listener.cpp	/^void OpenNIListener::toggleBagRecording(){$/;"	f	class:OpenNIListener
+toggleCloudStorage	./qt_gui.cpp	/^void Graphical_UI::toggleCloudStorage(bool storage) {$/;"	f	class:Graphical_UI
+toggleCloudStorage	./ros_service_ui.cpp	/^void RosUi::toggleCloudStorage(bool storage) {$/;"	f	class:RosUi
+toggleFollowMode	./glviewer.cpp	/^void GLViewer::toggleFollowMode(bool flag){$/;"	f	class:GLViewer
+toggleFullscreen	./qt_gui.cpp	/^void Graphical_UI::toggleFullscreen(bool mode){$/;"	f	class:Graphical_UI
+toggleLandmarkOptimization	./qt_gui.cpp	/^void Graphical_UI::toggleLandmarkOptimization(bool landmarks) {$/;"	f	class:Graphical_UI
+toggleMapping	./graph_manager2.cpp	/^void GraphManager::toggleMapping(bool mappingOn){$/;"	f	class:GraphManager
+toggleMappingPriv	./qt_gui.cpp	/^void Graphical_UI::toggleMappingPriv(bool mapping_on) {$/;"	f	class:Graphical_UI
+toggleOnlineVoxelMapping	./qt_gui.cpp	/^void Graphical_UI::toggleOnlineVoxelMapping(bool online) {$/;"	f	class:Graphical_UI
+togglePause	./openni_listener.cpp	/^void OpenNIListener::togglePause(){$/;"	f	class:OpenNIListener
+toggleScreencast	./qt_gui.cpp	/^void Graphical_UI::toggleScreencast(bool on) {$/;"	f	class:Graphical_UI
+toggleShowClouds	./glviewer.cpp	/^void GLViewer::toggleShowClouds(bool flag){$/;"	f	class:GLViewer
+toggleShowEdges	./glviewer.cpp	/^void GLViewer::toggleShowEdges(bool flag){$/;"	f	class:GLViewer
+toggleShowFeatures	./glviewer.cpp	/^void GLViewer::toggleShowFeatures(bool flag){$/;"	f	class:GLViewer
+toggleShowGrid	./glviewer.cpp	/^void GLViewer::toggleShowGrid(bool flag){$/;"	f	class:GLViewer
+toggleShowIDs	./glviewer.cpp	/^void GLViewer::toggleShowIDs(bool flag){$/;"	f	class:GLViewer
+toggleShowPoses	./glviewer.cpp	/^void GLViewer::toggleShowPoses(bool flag){$/;"	f	class:GLViewer
+toggleShowTFs	./glviewer.cpp	/^void GLViewer::toggleShowTFs(bool flag){$/;"	f	class:GLViewer
+toggleStereo	./glviewer.cpp	/^void GLViewer::toggleStereo(bool flag){$/;"	f	class:GLViewer
+toggleTriangulation	./glviewer.cpp	/^void GLViewer::toggleTriangulation() {$/;"	f	class:GLViewer
+total_descriptor_count	./graph_manager.h	/^    uint total_descriptor_count;$/;"	m	class:GraphManager
+transformAndAppendPointCloud	./misc.cpp	/^void transformAndAppendPointCloud (const pointcloud_type &cloud_in, $/;"	f
+tree	./graph_manager.h	/^    cv::flann::Index *tree;$/;"	m	class:GraphManager
+ui_connections	./main.cpp	/^void ui_connections(QObject* ui, GraphManager* graph_mgr, OpenNIListener* listener)$/;"	f
+unconditional_triggering	./scoped_timer.h	/^    bool unconditional_triggering;$/;"	m	class:ScopedTimer
+updateCloudOrigin	./graph_mgr_io.cpp	/^bool GraphManager::updateCloudOrigin(Node* node)$/;"	f	class:GraphManager
+updateInlierFeatures	./graph_manager.cpp	/^void updateInlierFeatures(const MatchingResult& mr, Node* new_node, Node* old_node)$/;"	f
+updateLandmarkInGraph	./landmark.cpp	/^void GraphManager::updateLandmarkInGraph(Landmark* lm){$/;"	f	class:GraphManager
+updateLandmarks	./landmark.cpp	/^void GraphManager::updateLandmarks(const MatchingResult& match_result, Node* old_node, Node* new_node){$/;"	f	class:GraphManager
+updateProjectionEdges	./landmark.cpp	/^void GraphManager::updateProjectionEdges(){$/;"	f	class:GraphManager
+updateTransforms	./glviewer.cpp	/^void GLViewer::updateTransforms(QList<QMatrix4x4>* transforms){$/;"	f	class:GLViewer
+validXYZ	./glviewer.cpp	/^inline bool validXYZ(const PointType& p){$/;"	f
+valid_tf_estimate_	./node.h	/^  bool valid_tf_estimate_;      \/\/<Flags whether the data of this node should be considered for postprocessing steps, e.g., visualization, trajectory, map creation$/;"	m	class:Node
+vertex_id_	./node.h	/^	int vertex_id_;   \/\/<id of the corresponding vertex in the g2o graph$/;"	m	class:Node
+viewpoint_tf_	./glviewer.h	/^    QMatrix4x4 viewpoint_tf_;$/;"	m	class:GLViewer
+visua_sub_	./openni_listener.h	/^    message_filters::Subscriber<sensor_msgs::Image> *visua_sub_;      $/;"	m	class:OpenNIListener
+visual_image_label	./qt_gui.h	/^    QLabel *visual_image_label;$/;"	m	class:Graphical_UI
+visualization_depth_mono8_img_	./openni_listener.h	/^    cv::Mat visualization_depth_mono8_img_;$/;"	m	class:OpenNIListener
+visualization_img_	./openni_listener.h	/^    cv::Mat visualization_img_;$/;"	m	class:OpenNIListener
+visualizeFeatureFlow3D	./graph_mgr_io.cpp	/^void GraphManager::visualizeFeatureFlow3D(unsigned int marker_id, bool draw_outlier)$/;"	f	class:GraphManager
+visualizeGraphEdges	./graph_mgr_io.cpp	/^void GraphManager::visualizeGraphEdges() const {$/;"	f	class:GraphManager
+visualizeGraphNodes	./graph_mgr_io.cpp	/^void GraphManager::visualizeGraphNodes() const {$/;"	f	class:GraphManager
+vsplitter	./qt_gui.h	/^    QSplitter* vsplitter;$/;"	m	class:Graphical_UI
+wheelEvent	./glviewer.cpp	/^void GLViewer::wheelEvent(QWheelEvent *event) {$/;"	f	class:GLViewer
+whole_cloud_pub_	./graph_manager.h	/^    ros::Publisher whole_cloud_pub_;$/;"	m	class:GraphManager
+width_	./glviewer.h	/^    int width_, height_;$/;"	m	class:GLViewer
+writeOctomap	./graph_mgr_io.cpp	/^void GraphManager::writeOctomap(QString filename) const$/;"	f	class:GraphManager
+writePGM	./sift_gpu_wrapper.cpp	/^void SiftGPUWrapper::writePGM(FILE *fp, unsigned char* data, int width, int height)$/;"	f	class:SiftGPUWrapper
+xRot	./glviewer.h	/^    int xRot, yRot, zRot;$/;"	m	class:GLViewer
+xTra	./glviewer.h	/^    float xTra, yTra, zTra;$/;"	m	class:GLViewer
+yRot	./glviewer.h	/^    int xRot, yRot, zRot;$/;"	m	class:GLViewer
+yTra	./glviewer.h	/^    float xTra, yTra, zTra;$/;"	m	class:GLViewer
+zRot	./glviewer.h	/^    int xRot, yRot, zRot;$/;"	m	class:GLViewer
+zTra	./glviewer.h	/^    float xTra, yTra, zTra;$/;"	m	class:GLViewer
+~ColorOctomapServer	./ColorOctomapServer.cpp	/^ColorOctomapServer::~ColorOctomapServer() {}$/;"	f	class:ColorOctomapServer
+~GLViewer	./glviewer.cpp	/^GLViewer::~GLViewer() { }$/;"	f	class:GLViewer
+~GraphManager	./graph_manager2.cpp	/^GraphManager::~GraphManager() {$/;"	f	class:GraphManager
+~Node	./node.cpp	/^Node::~Node() {$/;"	f	class:Node
+~OpenNIListener	./openni_listener.cpp	/^OpenNIListener::~OpenNIListener(){$/;"	f	class:OpenNIListener
+~ScopedTimer	./scoped_timer.cpp	/^ScopedTimer::~ScopedTimer(){$/;"	f	class:ScopedTimer
+~SiftGPUWrapper	./sift_gpu_wrapper.cpp	/^SiftGPUWrapper::~SiftGPUWrapper() {$/;"	f	class:SiftGPUWrapper

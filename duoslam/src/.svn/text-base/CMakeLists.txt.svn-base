@@ -1,0 +1,6 @@
+
+add_subdirectory(misc)
+add_subdirectory(minet)
+add_subdirectory(octowrapper)
+add_subdirectory(slam)
+

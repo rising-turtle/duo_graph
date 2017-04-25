@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/minet
+END
+ServerMain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/minet/ServerMain.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/minet/CMakeLists.txt
+END
+Com.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/minet/Com.cpp
+END
+ExternalCom.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/minet/ExternalCom.cpp
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/minet/.project
+END
+ClientMain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/minet/ClientMain.cpp
+END
+Com.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/minet/Com.h
+END
+ClientNet.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/minet/ClientNet.cpp
+END
+.cproject
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/minet/.cproject
+END
+ExternalCom.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/minet/ExternalCom.h
+END
+ClientNet.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/minet/ClientNet.h
+END

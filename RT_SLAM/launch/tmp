@@ -1,0 +1,618 @@
+Initializing Node...
+[0m[ INFO] [1374225401.507079302]: Connected to roscore[0m
+[33m[ WARN] [1374225401.704524316]: graph_seq: 0, [0m
+graph_seq: 0
+[0m[ INFO] [1374225401.709696760]: Listening to /camera/rgb/image_color and /camera/depth/image[0m
+[0m[ INFO] [1374225401.711841583]: no_cloud_sync succeed, override it![0m
+[0m[ INFO] [1374225401.713499609]: Loading Bagfile /home/davidz/work/ros/fuetre/stacks/rgbdslam/bags/rgbd_dataset_freiburg2_large_no_loop.bag[0m
+[0m[ INFO] [1374225401.894499712]: Opened Bagfile /home/davidz/work/ros/fuetre/stacks/rgbdslam/bags/rgbd_dataset_freiburg2_large_no_loop.bag[0m
+[0m[ INFO] [1374225402.553233755]: Pause toggled to: false[0m
+[33m[ WARN] [1374225404.933745958]: First RGBD-Data Received[0m
+[0m[ INFO] [1374225404.945109094]: Yes!!!!!!!!! Succeed to override the callback function!!!!![0m
+[0m[ INFO] [1374225404.945149968]: Received 1 frames![0m
+[33m[ WARN] [1374225404.945178385]: Received 1 frames![0m
+[0m[ INFO] [1374225405.132765812]: Feature Count of Node:	221[0m
+[0m[ INFO] [1374225405.133020014]: After Construct 1 node![0m
+[33m[ WARN] [1374225405.143285720]: Frame id /camera_link does not exist! Frames (8): Frame /openni_camera exists with parent /kinect.
+Frame /kinect exists with parent /world.
+Frame /world exists with parent NO_PARENT.
+Frame /openni_rgb_frame exists with parent /openni_camera.
+Frame /openni_rgb_optical_frame exists with parent /openni_rgb_frame.
+Frame /openni_depth_frame exists with parent /openni_camera.
+Frame /openni_depth_optical_frame exists with parent /openni_depth_frame.
+[0m
+[33m[ WARN] [1374225405.143303294]: Using Standard kinect /openni_camera -> /openni_rgb_optical_frame as transformation (This message is throttled to 1 per 5 seconds)[0m
+[0m[ INFO] [1374225405.144327385]: Ground Truth Transform for First Node: Translation 0 0 0[0m
+[0m[ INFO] [1374225405.144389729]: Ground Truth Transform for First Node: Rotation 0 0 0 1[0m
+[0m[ INFO] [1374225405.144458243]: Adding initial node with id 0 and seq 0, v_id: 0[0m
+[0m[ INFO] [1374225405.302779658]: Yes!!!!!!!!! Succeed to override the callback function!!!!![0m
+[0m[ INFO] [1374225405.302817737]: Received 2 frames![0m
+[33m[ WARN] [1374225405.302831142]: Received 2 frames![0m
+[0m[ INFO] [1374225405.372794934]: 1 Keyframes: 0, [0m
+[0m[ INFO] [1374225405.508729072]: Feature Count of Node:	254[0m
+[0m[ INFO] [1374225405.508949737]: After Construct 2 node![0m
+[33m[ WARN] [1374225405.519116045]: Frame id /camera_link does not exist! Frames (8): Frame /openni_camera exists with parent /kinect.
+Frame /kinect exists with parent /world.
+Frame /world exists with parent NO_PARENT.
+Frame /openni_rgb_frame exists with parent /openni_camera.
+Frame /openni_rgb_optical_frame exists with parent /openni_rgb_frame.
+Frame /openni_depth_frame exists with parent /openni_camera.
+Frame /openni_depth_optical_frame exists with parent /openni_depth_frame.
+[0m
+[33m[ WARN] [1374225405.519132513]: Using Standard kinect /openni_camera -> /openni_rgb_optical_frame as transformation (This message is throttled to 1 per 5 seconds)[0m
+[0m[ INFO] [1374225405.519792055]: Odometry Delta: Translation 0 0 0[0m
+[0m[ INFO] [1374225405.519841884]: Odometry Delta: Rotation 0 0 0 1[0m
+[0m[ INFO] [1374225405.519856816]: No Valid Odometry, using identity[0m
+[0m[ INFO] [1374225405.519884018]: Comparing new node (1) with previous node 0[0m
+[0m[ INFO] [1374225405.524630956]: Feature Matches between Nodes   1 ( 254 features) and   0 ( 221 features) in segment 1/1 (features 0 to 254 of first node):	 155. Percentage: 61.023622%, Avg NN Ratio: 0.501138[0m
+[0m[ INFO] [1374225405.524697504]: count_matrix(  2,   1) =   155;[0m
+[0m[ INFO] [1374225405.524731160]: dista_matrix(  2,   1) =  0.371472;[0m
+[0m[ INFO] [1374225405.524862317]: Initial Test: Trying identity as hypothesis[0m
+[0m[ INFO] [1374225405.525136979]: Improvment in iteration 1: inliers: 131 (min 20), inlier_error: 1.69 (max 3.00)[0m
+[0m[ INFO] [1374225405.525182128]: 1 good iterations (from 100), inlier pct 84, inlier cnt: 131, error (MHD): 1.69[0m
+[0m[ INFO] [1374225405.525214735]: 1 good iterations (from 100), inlier pct 84, inlier cnt: 131, error (MHD): 1.69[0m
+[0m[ INFO] [1374225405.527440474]: Observation Likelihood: 1 projected to 0: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225405.530734400]: Observation Likelihood: 0 projected to 1: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225405.534743294]: RANSAC found a valid transformation with 131 inliers matches with average ratio 0.304069[0m
+[0m[ INFO] [1374225405.534767873]: Returning Valid Edge[0m
+[0m[ INFO] [1374225405.540214916]: Node ID's to compare with candidate for node 1. Sequential: 0[0m
+[0m[ INFO] [1374225405.540247600]: Nodes to compare: 0[0m
+[0m[ INFO] [1374225405.540272351]: Running node comparisons in parallel in 6 (of 8) available threads[0m
+[0m[ INFO] [1374225405.542060060]: Feature Matches between Nodes   1 ( 254 features) and   0 ( 221 features) in segment 1/1 (features 0 to 254 of first node):	 155. Percentage: 61.023622%, Avg NN Ratio: 0.501138[0m
+[0m[ INFO] [1374225405.542086761]: count_matrix(  2,   1) =   155;[0m
+[0m[ INFO] [1374225405.542099378]: dista_matrix(  2,   1) =  0.371472;[0m
+[0m[ INFO] [1374225405.542139305]: Initial Test: Trying identity as hypothesis[0m
+[0m[ INFO] [1374225405.542350660]: Improvment in iteration 5: inliers: 134 (min 20), inlier_error: 2.07 (max 3.00)[0m
+[0m[ INFO] [1374225405.542368563]: 1 good iterations (from 100), inlier pct 86, inlier cnt: 134, error (MHD): 2.07[0m
+[0m[ INFO] [1374225405.542381858]: 1 good iterations (from 100), inlier pct 86, inlier cnt: 134, error (MHD): 2.07[0m
+[0m[ INFO] [1374225405.542505057]: Observation Likelihood: 0 projected to 1: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225405.542535996]: Observation Likelihood: 1 projected to 0: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225405.542646096]: RANSAC found a valid transformation with 134 inliers matches with average ratio 0.311295[0m
+[0m[ INFO] [1374225405.542660805]: Returning Valid Edge[0m
+[0m[ INFO] [1374225405.542725477]: new node has id 1[0m
+[0m[ INFO] [1374225405.542757191]: Rotation: 1.08, Distance:  0.077m[0m
+[0m[ INFO] [1374225405.542813130]: Rotation: 1.08, Distance:  0.077m[0m
+[0m[ INFO] [1374225405.542980660]: Cleaning: removed 0 matches from 134[0m
+[0m[ INFO] [1374225405.543176275]: Added Edge between 0 and 1. Inliers: 134[0m
+[0m[ INFO] [1374225405.543208585]: Adding node with id 1 and seq id 1 to the graph[0m
+[0m[ INFO] [1374225405.612413359]: Yes!!!!!!!!! Succeed to override the callback function!!!!![0m
+[0m[ INFO] [1374225405.612441095]: Received 3 frames![0m
+[33m[ WARN] [1374225405.612452515]: Received 3 frames![0m
+[0m[ INFO] [1374225405.764173571]: Added Node, new graphsize: 2 nodes[0m
+[33m[ WARN] [1374225405.764275581]: Loop Closures: 0, Sequential Edges: 1[0m
+[33m[ WARN] [1374225405.764309665]: Starting Optimization[0m
+[0m[ INFO] [1374225405.764364480]: Added, Camera Pose Graph Size: 2N/1E, Duration: 0.244755, Inliers:  134[0m
+[33m[ WARN] [1374225405.764429277]: 134 Landmarks with mean of 2.00 observations[0m
+[33m[ WARN] [1374225405.764504221]: Optimization with 2 cams, 2 nodes and 1 edges in the graph[0m
+[33m[ WARN] [1374225405.765337370]: G2O Statistics: 2 cameras, 1 edges. 7.57307769712392e-35 ; chi2 , Iterations: 2[0m
+[0m[ INFO] [1374225405.765381065]: A: last cam: 1[0m
+[33m[ WARN] [1374225405.765509825]: GM: 1198: no graph edges in visualzation[0m
+[33m[ WARN] [1374225405.765602292]: Optimizer Runtime; 0.00134879 s[0m
+[0m[ INFO] [1374225405.768091520]: drawFeatureFlow runtime: 0.00366416 s[0m
+[0m[ INFO] [1374225405.831338649]: Feature Count of Node:	312[0m
+[0m[ INFO] [1374225405.831662706]: After Construct 3 node![0m
+[33m[ WARN] [1374225405.841855322]: Unable to lookup transform, cache is empty, when looking up transform from frame [/openni_rgb_optical_frame] to frame [/camera_link][0m
+[33m[ WARN] [1374225405.841871675]: Using Standard kinect /openni_camera -> /openni_rgb_optical_frame as transformation (This message is throttled to 1 per 5 seconds)[0m
+[0m[ INFO] [1374225405.842521738]: Odometry Delta: Translation 0 0 0[0m
+[0m[ INFO] [1374225405.842557268]: Odometry Delta: Rotation 0 0 0 1[0m
+[0m[ INFO] [1374225405.842588500]: No Valid Odometry, using identity[0m
+[0m[ INFO] [1374225405.842617138]: Comparing new node (2) with previous node 1[0m
+[0m[ INFO] [1374225405.847364351]: Feature Matches between Nodes   2 ( 312 features) and   1 ( 254 features) in segment 1/1 (features 0 to 312 of first node):	 200. Percentage: 64.102564%, Avg NN Ratio: 0.426699[0m
+[0m[ INFO] [1374225405.847400475]: count_matrix(  3,   2) =   200;[0m
+[0m[ INFO] [1374225405.847421194]: dista_matrix(  3,   2) =  0.329513;[0m
+[0m[ INFO] [1374225405.847472148]: Initial Test: Trying identity as hypothesis[0m
+[0m[ INFO] [1374225405.847581664]: Improvment in iteration 1: inliers: 167 (min 20), inlier_error: 2.17 (max 3.00)[0m
+[0m[ INFO] [1374225405.847606218]: 1 good iterations (from 100), inlier pct 83, inlier cnt: 167, error (MHD): 2.17[0m
+[0m[ INFO] [1374225405.847629191]: 1 good iterations (from 100), inlier pct 83, inlier cnt: 167, error (MHD): 2.17[0m
+[0m[ INFO] [1374225405.847840974]: Observation Likelihood: 1 projected to 2: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225405.847875204]: Observation Likelihood: 2 projected to 1: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225405.847925202]: RANSAC found a valid transformation with 167 inliers matches with average ratio 0.272518[0m
+[0m[ INFO] [1374225405.847947664]: Returning Valid Edge[0m
+[0m[ INFO] [1374225405.847972980]: Rotation: 2.85, Distance:  0.117m[0m
+[0m[ INFO] [1374225405.848006787]: Rotation: 2.85, Distance:  0.117m[0m
+[0m[ INFO] [1374225405.848099021]: Cleaning: removed 0 matches from 167[0m
+[0m[ INFO] [1374225405.848187596]: Added Edge between 1 and 2. Inliers: 167[0m
+[0m[ INFO] [1374225405.848220068]: Node ID's to compare with candidate for node 3. Sequential: 1, 0, [0m
+[0m[ INFO] [1374225405.848241579]: Nodes to compare: 0[0m
+[0m[ INFO] [1374225405.848263194]: Nodes to compare: 1[0m
+[0m[ INFO] [1374225405.848281510]: Running node comparisons in parallel in 6 (of 8) available threads[0m
+[0m[ INFO] [1374225405.850003466]: Feature Matches between Nodes   2 ( 312 features) and   0 ( 221 features) in segment 1/1 (features 0 to 312 of first node):	 166. Percentage: 53.205128%, Avg NN Ratio: 0.608279[0m
+[0m[ INFO] [1374225405.850036818]: Feature Matches between Nodes   2 ( 312 features) and   1 ( 254 features) in segment 1/1 (features 0 to 312 of first node):	 200. Percentage: 64.102564%, Avg NN Ratio: 0.426699[0m
+[0m[ INFO] [1374225405.850075243]: count_matrix(  3,   2) =   200;[0m
+[0m[ INFO] [1374225405.850096149]: dista_matrix(  3,   2) =  0.329513;[0m
+[0m[ INFO] [1374225405.850148530]: Initial Test: Trying identity as hypothesis[0m
+[0m[ INFO] [1374225405.850341144]: Improvment in iteration 5: inliers: 167 (min 20), inlier_error: 2.27 (max 3.00)[0m
+[0m[ INFO] [1374225405.850364259]: 1 good iterations (from 100), inlier pct 83, inlier cnt: 167, error (MHD): 2.27[0m
+[0m[ INFO] [1374225405.850388154]: 1 good iterations (from 100), inlier pct 83, inlier cnt: 167, error (MHD): 2.27[0m
+[0m[ INFO] [1374225405.850475200]: count_matrix(  3,   1) =   166;[0m
+[0m[ INFO] [1374225405.850496399]: dista_matrix(  3,   1) =  0.475375;[0m
+[0m[ INFO] [1374225405.850548876]: Initial Test: Trying identity as hypothesis[0m
+[0m[ INFO] [1374225405.850599220]: Observation Likelihood: 1 projected to 2: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225405.850640352]: Observation Likelihood: 2 projected to 1: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225405.850691481]: Improvment in iteration 2: inliers: 117 (min 20), inlier_error: 2.16 (max 3.00)[0m
+[0m[ INFO] [1374225405.850714858]: 1 good iterations (from 100), inlier pct 70, inlier cnt: 117, error (MHD): 2.16[0m
+[0m[ INFO] [1374225405.850736947]: 1 good iterations (from 100), inlier pct 70, inlier cnt: 117, error (MHD): 2.16[0m
+[0m[ INFO] [1374225405.850776256]: RANSAC found a valid transformation with 167 inliers matches with average ratio 0.272518[0m
+[0m[ INFO] [1374225405.850802168]: Returning Valid Edge[0m
+[0m[ INFO] [1374225405.850873819]: Observation Likelihood: 0 projected to 2: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225405.850900971]: Observation Likelihood: 2 projected to 0: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225405.850937372]: RANSAC found a valid transformation with 117 inliers matches with average ratio 0.360277[0m
+[0m[ INFO] [1374225405.850950380]: Returning Valid Edge[0m
+[0m[ INFO] [1374225405.850978886]: new node has id 2[0m
+[0m[ INFO] [1374225405.850995389]: Rotation: 2.99, Distance:  0.080m[0m
+[0m[ INFO] [1374225405.851019515]: Rotation: 2.99, Distance:  0.080m[0m
+[0m[ INFO] [1374225405.851103356]: Cleaning: removed 0 matches from 167[0m
+[0m[ INFO] [1374225405.851152575]: Added Edge between 1 and 2. Inliers: 167[0m
+[0m[ INFO] [1374225405.851169654]: new node has id 2[0m
+[0m[ INFO] [1374225405.851191847]: Rotation: 3.16, Distance:  0.099m[0m
+[0m[ INFO] [1374225405.851220679]: Rotation: 3.16, Distance:  0.099m[0m
+[0m[ INFO] [1374225405.851281029]: Cleaning: removed 0 matches from 117[0m
+[0m[ INFO] [1374225405.851330621]: Added Edge between 0 and 2. Inliers: 117[0m
+[0m[ INFO] [1374225405.851357034]: Adding node with id 2 and seq id 2 to the graph[0m
+[0m[ INFO] [1374225405.933086995]: Yes!!!!!!!!! Succeed to override the callback function!!!!![0m
+[0m[ INFO] [1374225405.933126421]: Received 4 frames![0m
+[33m[ WARN] [1374225405.933139864]: Received 4 frames![0m
+[0m[ INFO] [1374225406.092647122]: Added Node, new graphsize: 3 nodes[0m
+[33m[ WARN] [1374225406.092761680]: Loop Closures: 0, Sequential Edges: 4[0m
+[33m[ WARN] [1374225406.092784549]: Starting Optimization[0m
+[33m[ WARN] [1374225406.092827223]: 218 Landmarks with mean of 2.49 observations[0m
+[33m[ WARN] [1374225406.092856574]: Optimization with 3 cams, 3 nodes and 4 edges in the graph[0m
+[0m[ INFO] [1374225406.093608855]: Added, Camera Pose Graph Size: 3N/4E, Duration: 0.251292, Inliers:  167[0m
+[33m[ WARN] [1374225406.095464273]: G2O Statistics: 3 cameras, 4 edges. 0.185106316832332 ; chi2 , Iterations: 10[0m
+[0m[ INFO] [1374225406.095500483]: A: last cam: 2[0m
+[33m[ WARN] [1374225406.095565563]: GM: 1198: no graph edges in visualzation[0m
+[33m[ WARN] [1374225406.095613212]: Optimizer Runtime; 0.00285631 s[0m
+[0m[ INFO] [1374225406.097645807]: drawFeatureFlow runtime: 0.00400026 s[0m
+[0m[ INFO] [1374225406.177535299]: Feature Count of Node:	385[0m
+[0m[ INFO] [1374225406.177874399]: After Construct 4 node![0m
+[33m[ WARN] [1374225406.188046448]: Unable to lookup transform, cache is empty, when looking up transform from frame [/openni_rgb_optical_frame] to frame [/camera_link][0m
+[33m[ WARN] [1374225406.188062691]: Using Standard kinect /openni_camera -> /openni_rgb_optical_frame as transformation (This message is throttled to 1 per 5 seconds)[0m
+[0m[ INFO] [1374225406.188465428]: Odometry Delta: Translation 0 0 0[0m
+[0m[ INFO] [1374225406.188506529]: Odometry Delta: Rotation 0 0 0 1[0m
+[0m[ INFO] [1374225406.188528219]: No Valid Odometry, using identity[0m
+[0m[ INFO] [1374225406.188552117]: Comparing new node (3) with previous node 2[0m
+[0m[ INFO] [1374225406.193450066]: Feature Matches between Nodes   3 ( 385 features) and   2 ( 312 features) in segment 1/1 (features 0 to 385 of first node):	 261. Percentage: 67.792208%, Avg NN Ratio: 0.408252[0m
+[0m[ INFO] [1374225406.193490827]: count_matrix(  4,   3) =   261;[0m
+[0m[ INFO] [1374225406.193511166]: dista_matrix(  4,   3) =  0.299478;[0m
+[0m[ INFO] [1374225406.193655090]: Initial Test: Trying identity as hypothesis[0m
+[0m[ INFO] [1374225406.193781087]: Improvment in iteration 1: inliers: 208 (min 20), inlier_error: 2.74 (max 3.00)[0m
+[0m[ INFO] [1374225406.193807008]: 1 good iterations (from 100), inlier pct 79, inlier cnt: 208, error (MHD): 2.74[0m
+[0m[ INFO] [1374225406.193829996]: 1 good iterations (from 100), inlier pct 79, inlier cnt: 208, error (MHD): 2.74[0m
+[0m[ INFO] [1374225406.193881935]: Observation Likelihood: 3 projected to 2: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225406.193911121]: Observation Likelihood: 2 projected to 3: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225406.193973812]: RANSAC found a valid transformation with 208 inliers matches with average ratio 0.226565[0m
+[0m[ INFO] [1374225406.194002093]: Returning Valid Edge[0m
+[0m[ INFO] [1374225406.194031773]: Rotation: 3.05, Distance:  0.150m[0m
+[0m[ INFO] [1374225406.194075780]: Rotation: 3.05, Distance:  0.150m[0m
+[0m[ INFO] [1374225406.194183564]: Cleaning: removed 0 matches from 208[0m
+[0m[ INFO] [1374225406.194341529]: Added Edge between 2 and 3. Inliers: 208[0m
+[0m[ INFO] [1374225406.194364580]: Node ID's to compare with candidate for node 4. Sequential: 2, 1, 0, [0m
+[0m[ INFO] [1374225406.194378224]: Nodes to compare: 0[0m
+[0m[ INFO] [1374225406.194393101]: Nodes to compare: 1[0m
+[0m[ INFO] [1374225406.194414492]: Nodes to compare: 2[0m
+[0m[ INFO] [1374225406.194433275]: Running node comparisons in parallel in 6 (of 8) available threads[0m
+[0m[ INFO] [1374225406.197420915]: Feature Matches between Nodes   3 ( 385 features) and   0 ( 221 features) in segment 1/1 (features 0 to 385 of first node):	 160. Percentage: 41.558442%, Avg NN Ratio: 0.688908[0m
+[0m[ INFO] [1374225406.197468661]: count_matrix(  4,   1) =   160;[0m
+[0m[ INFO] [1374225406.197489079]: dista_matrix(  4,   1) =  0.568804;[0m
+[0m[ INFO] [1374225406.197550688]: Initial Test: Trying identity as hypothesis[0m
+[0m[ INFO] [1374225406.197837575]: Feature Matches between Nodes   3 ( 385 features) and   1 ( 254 features) in segment 1/1 (features 0 to 385 of first node):	 198. Percentage: 51.428571%, Avg NN Ratio: 0.578955[0m
+[0m[ INFO] [1374225406.197890240]: count_matrix(  4,   2) =   198;[0m
+[0m[ INFO] [1374225406.197917128]: dista_matrix(  4,   2) =  0.480556;[0m
+[0m[ INFO] [1374225406.197988380]: Initial Test: Trying identity as hypothesis[0m
+[0m[ INFO] [1374225406.198035793]: Feature Matches between Nodes   3 ( 385 features) and   2 ( 312 features) in segment 1/1 (features 0 to 385 of first node):	 261. Percentage: 67.792208%, Avg NN Ratio: 0.408252[0m
+[0m[ INFO] [1374225406.198091857]: count_matrix(  4,   3) =   261;[0m
+[0m[ INFO] [1374225406.198125340]: dista_matrix(  4,   3) =  0.299478;[0m
+[0m[ INFO] [1374225406.198201502]: Initial Test: Trying identity as hypothesis[0m
+[0m[ INFO] [1374225406.198238323]: Improvment in iteration 2: inliers: 141 (min 20), inlier_error: 1.80 (max 3.00)[0m
+[0m[ INFO] [1374225406.198270172]: 1 good iterations (from 100), inlier pct 71, inlier cnt: 141, error (MHD): 1.80[0m
+[0m[ INFO] [1374225406.198305305]: 1 good iterations (from 100), inlier pct 71, inlier cnt: 141, error (MHD): 1.80[0m
+[0m[ INFO] [1374225406.198349808]: Observation Likelihood: 1 projected to 3: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225406.198393526]: Observation Likelihood: 3 projected to 1: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225406.198434639]: RANSAC found a valid transformation with 141 inliers matches with average ratio 0.384700[0m
+[0m[ INFO] [1374225406.198456673]: Returning Valid Edge[0m
+[0m[ INFO] [1374225406.198550804]: Improvment in iteration 1: inliers: 209 (min 20), inlier_error: 2.07 (max 3.00)[0m
+[0m[ INFO] [1374225406.198574898]: 1 good iterations (from 100), inlier pct 80, inlier cnt: 209, error (MHD): 2.07[0m
+[0m[ INFO] [1374225406.198598606]: 1 good iterations (from 100), inlier pct 80, inlier cnt: 209, error (MHD): 2.07[0m
+[0m[ INFO] [1374225406.198643224]: Observation Likelihood: 3 projected to 2: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225406.198682017]: Observation Likelihood: 2 projected to 3: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225406.198753903]: RANSAC found a valid transformation with 209 inliers matches with average ratio 0.228257[0m
+[0m[ INFO] [1374225406.198773597]: Returning Valid Edge[0m
+[0m[ INFO] [1374225406.198802594]: Improvment in iteration 39: inliers: 92 (min 20), inlier_error: 2.51 (max 3.00)[0m
+[0m[ INFO] [1374225406.202940350]: 7 good iterations (from 100), inlier pct 57, inlier cnt: 92, error (MHD): 2.51[0m
+[0m[ INFO] [1374225406.202986416]: 7 good iterations (from 100), inlier pct 57, inlier cnt: 92, error (MHD): 2.51[0m
+[0m[ INFO] [1374225406.203069994]: Observation Likelihood: 3 projected to 0: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225406.203126635]: Observation Likelihood: 0 projected to 3: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225406.203180806]: RANSAC found a valid transformation with 92 inliers matches with average ratio 0.418146[0m
+[0m[ INFO] [1374225406.203200293]: Returning Valid Edge[0m
+[0m[ INFO] [1374225406.203243956]: new node has id 3[0m
+[0m[ INFO] [1374225406.203279237]: Rotation: 1.27, Distance:  0.094m[0m
+[0m[ INFO] [1374225406.203321290]: Rotation: 1.27, Distance:  0.094m[0m
+[0m[ INFO] [1374225406.203442970]: Cleaning: removed 0 matches from 209[0m
+[0m[ INFO] [1374225406.203507160]: Added Edge between 2 and 3. Inliers: 209[0m
+[0m[ INFO] [1374225406.203520958]: new node has id 3[0m
+[0m[ INFO] [1374225406.203533544]: Rotation: 2.99, Distance:  0.040m[0m
+[0m[ INFO] [1374225406.203563100]: Rotation: 2.99, Distance:  0.040m[0m
+[0m[ INFO] [1374225406.203657637]: Cleaning: removed 0 matches from 141[0m
+[0m[ INFO] [1374225406.203735923]: Added Edge between 1 and 3. Inliers: 141[0m
+[0m[ INFO] [1374225406.203750992]: new node has id 3[0m
+[0m[ INFO] [1374225406.203768811]: Rotation: 5.89, Distance:  0.128m[0m
+[0m[ INFO] [1374225406.203801627]: Rotation: 5.89, Distance:  0.128m[0m
+[0m[ INFO] [1374225406.203873906]: Cleaning: removed 0 matches from 92[0m
+[0m[ INFO] [1374225406.203921835]: Added Edge between 0 and 3. Inliers: 92[0m
+[0m[ INFO] [1374225406.204047306]: Adding node with id 3 and seq id 3 to the graph[0m
+[0m[ INFO] [1374225406.245934134]: Yes!!!!!!!!! Succeed to override the callback function!!!!![0m
+[0m[ INFO] [1374225406.245973025]: Received 5 frames![0m
+[33m[ WARN] [1374225406.246015519]: Received 5 frames![0m
+[0m[ INFO] [1374225406.432005115]: Added Node, new graphsize: 4 nodes[0m
+[33m[ WARN] [1374225406.432075406]: Loop Closures: 1, Sequential Edges: 7[0m
+[33m[ WARN] [1374225406.432103012]: Starting Optimization[0m
+[33m[ WARN] [1374225406.432145830]: 297 Landmarks with mean of 2.88 observations[0m
+[33m[ WARN] [1374225406.432180835]: Optimization with 4 cams, 4 nodes and 8 edges in the graph[0m
+[0m[ INFO] [1374225406.432230015]: Added, Camera Pose Graph Size: 4N/8E, Duration: 0.243761, Inliers:  209[0m
+[33m[ WARN] [1374225406.434005239]: G2O Statistics: 4 cameras, 8 edges. 0.602195619052917 ; chi2 , Iterations: 10[0m
+[0m[ INFO] [1374225406.434035675]: A: last cam: 3[0m
+[33m[ WARN] [1374225406.434086818]: GM: 1198: no graph edges in visualzation[0m
+[33m[ WARN] [1374225406.434133499]: Optimizer Runtime; 0.00206827 s[0m
+[0m[ INFO] [1374225406.437109611]: drawFeatureFlow runtime: 0.00484328 s[0m
+[0m[ INFO] [1374225406.492390697]: Feature Count of Node:	449[0m
+[0m[ INFO] [1374225406.492777048]: After Construct 5 node![0m
+[33m[ WARN] [1374225406.502936082]: Unable to lookup transform, cache is empty, when looking up transform from frame [/openni_rgb_optical_frame] to frame [/camera_link][0m
+[33m[ WARN] [1374225406.502950065]: Using Standard kinect /openni_camera -> /openni_rgb_optical_frame as transformation (This message is throttled to 1 per 5 seconds)[0m
+[0m[ INFO] [1374225406.503338035]: Odometry Delta: Translation 0 0 0[0m
+[0m[ INFO] [1374225406.503370985]: Odometry Delta: Rotation 0 0 0 1[0m
+[0m[ INFO] [1374225406.503382615]: No Valid Odometry, using identity[0m
+[0m[ INFO] [1374225406.503401334]: Comparing new node (4) with previous node 3[0m
+[0m[ INFO] [1374225406.511209760]: Feature Matches between Nodes   4 ( 449 features) and   3 ( 385 features) in segment 1/1 (features 0 to 449 of first node):	 311. Percentage: 69.265033%, Avg NN Ratio: 0.381011[0m
+[0m[ INFO] [1374225406.511298503]: count_matrix(  5,   4) =   311;[0m
+[0m[ INFO] [1374225406.511338021]: dista_matrix(  5,   4) =  0.267195;[0m
+[0m[ INFO] [1374225406.511458888]: Initial Test: Trying identity as hypothesis[0m
+[0m[ INFO] [1374225406.511840871]: Improvment in iteration 1: inliers: 256 (min 20), inlier_error: 2.54 (max 3.00)[0m
+[0m[ INFO] [1374225406.511884330]: 1 good iterations (from 100), inlier pct 82, inlier cnt: 256, error (MHD): 2.54[0m
+[0m[ INFO] [1374225406.511921794]: 1 good iterations (from 100), inlier pct 82, inlier cnt: 256, error (MHD): 2.54[0m
+[0m[ INFO] [1374225406.511995229]: Observation Likelihood: 3 projected to 4: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225406.512054748]: Observation Likelihood: 4 projected to 3: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225406.512147776]: RANSAC found a valid transformation with 256 inliers matches with average ratio 0.210985[0m
+[0m[ INFO] [1374225406.512181914]: Returning Valid Edge[0m
+[0m[ INFO] [1374225406.512226686]: Rotation: 2.66, Distance:  0.114m[0m
+[0m[ INFO] [1374225406.512290079]: Rotation: 2.66, Distance:  0.114m[0m
+[0m[ INFO] [1374225406.512542799]: Cleaning: removed 0 matches from 256[0m
+[0m[ INFO] [1374225406.512859872]: Added Edge between 3 and 4. Inliers: 256[0m
+[0m[ INFO] [1374225406.512917138]: Node ID's to compare with candidate for node 5. Sequential: 3, 2, 1, 0, [0m
+[0m[ INFO] [1374225406.512957674]: Nodes to compare: 0[0m
+[0m[ INFO] [1374225406.512994606]: Nodes to compare: 1[0m
+[0m[ INFO] [1374225406.513027951]: Nodes to compare: 2[0m
+[0m[ INFO] [1374225406.513060615]: Nodes to compare: 3[0m
+[0m[ INFO] [1374225406.513098359]: Running node comparisons in parallel in 6 (of 8) available threads[0m
+[0m[ INFO] [1374225406.515621054]: Feature Matches between Nodes   4 ( 449 features) and   1 ( 254 features) in segment 1/1 (features 0 to 449 of first node):	 201. Percentage: 44.766147%, Avg NN Ratio: 0.638981[0m
+[0m[ INFO] [1374225406.515649945]: count_matrix(  5,   2) =   201;[0m
+[0m[ INFO] [1374225406.515662451]: dista_matrix(  5,   2) =  0.506789;[0m
+[0m[ INFO] [1374225406.515700351]: Initial Test: Trying identity as hypothesis[0m
+[0m[ INFO] [1374225406.515933120]: Improvment in iteration 4: inliers: 132 (min 20), inlier_error: 2.43 (max 3.00)[0m
+[0m[ INFO] [1374225406.515951344]: 1 good iterations (from 100), inlier pct 65, inlier cnt: 132, error (MHD): 2.43[0m
+[0m[ INFO] [1374225406.515966479]: 1 good iterations (from 100), inlier pct 65, inlier cnt: 132, error (MHD): 2.43[0m
+[0m[ INFO] [1374225406.516002112]: Observation Likelihood: 1 projected to 4: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225406.516060849]: Observation Likelihood: 4 projected to 1: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225406.516283227]: RANSAC found a valid transformation with 132 inliers matches with average ratio 0.381806[0m
+[0m[ INFO] [1374225406.516312000]: Returning Valid Edge[0m
+[0m[ INFO] [1374225406.517433766]: Feature Matches between Nodes   4 ( 449 features) and   3 ( 385 features) in segment 1/1 (features 0 to 449 of first node):	 311. Percentage: 69.265033%, Avg NN Ratio: 0.381011[0m
+[0m[ INFO] [1374225406.517505310]: Feature Matches between Nodes   4 ( 449 features) and   0 ( 221 features) in segment 1/1 (features 0 to 449 of first node):	 171. Percentage: 38.084633%, Avg NN Ratio: 0.726449[0m
+[0m[ INFO] [1374225406.517563428]: Feature Matches between Nodes   4 ( 449 features) and   2 ( 312 features) in segment 1/1 (features 0 to 449 of first node):	 254. Percentage: 56.570156%, Avg NN Ratio: 0.516876[0m
+[0m[ INFO] [1374225406.517619295]: count_matrix(  5,   4) =   311;[0m
+[0m[ INFO] [1374225406.517660997]: dista_matrix(  5,   4) =  0.267195;[0m
+[0m[ INFO] [1374225406.517723847]: count_matrix(  5,   3) =   254;[0m
+[0m[ INFO] [1374225406.517773070]: dista_matrix(  5,   3) =  0.385339;[0m
+[0m[ INFO] [1374225406.517820089]: Initial Test: Trying identity as hypothesis[0m
+[0m[ INFO] [1374225406.517878460]: count_matrix(  5,   1) =   171;[0m
+[0m[ INFO] [1374225406.517916406]: dista_matrix(  5,   1) =  0.620127;[0m
+[0m[ INFO] [1374225406.517956471]: Initial Test: Trying identity as hypothesis[0m
+[0m[ INFO] [1374225406.518003929]: Initial Test: Trying identity as hypothesis[0m
+[0m[ INFO] [1374225406.518736690]: Improvment in iteration 6: inliers: 257 (min 20), inlier_error: 1.83 (max 3.00)[0m
+[0m[ INFO] [1374225406.518771147]: 1 good iterations (from 100), inlier pct 82, inlier cnt: 257, error (MHD): 1.83[0m
+[0m[ INFO] [1374225406.518794935]: 1 good iterations (from 100), inlier pct 82, inlier cnt: 257, error (MHD): 1.83[0m
+[0m[ INFO] [1374225406.518832766]: Observation Likelihood: 4 projected to 3: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225406.518968234]: Observation Likelihood: 3 projected to 4: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225406.519017660]: RANSAC found a valid transformation with 257 inliers matches with average ratio 0.210307[0m
+[0m[ INFO] [1374225406.519037624]: Returning Valid Edge[0m
+[0m[ INFO] [1374225406.519073808]: Improvment in iteration 13: inliers: 188 (min 20), inlier_error: 2.62 (max 3.00)[0m
+[0m[ INFO] [1374225406.519101548]: 1 good iterations (from 100), inlier pct 74, inlier cnt: 188, error (MHD): 2.62[0m
+[0m[ INFO] [1374225406.519125429]: 1 good iterations (from 100), inlier pct 74, inlier cnt: 188, error (MHD): 2.62[0m
+[0m[ INFO] [1374225406.519284571]: Observation Likelihood: 2 projected to 4: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225406.519342095]: Observation Likelihood: 4 projected to 2: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225406.519427022]: RANSAC found a valid transformation with 188 inliers matches with average ratio 0.275737[0m
+[0m[ INFO] [1374225406.519446408]: Returning Valid Edge[0m
+[0m[ INFO] [1374225406.519474857]: Improvment in iteration 31: inliers: 88 (min 20), inlier_error: 2.81 (max 3.00)[0m
+[0m[ INFO] [1374225406.519924568]: Improvment in iteration 52: inliers: 91 (min 20), inlier_error: 2.71 (max 3.00)[0m
+[0m[ INFO] [1374225406.520919635]: 5 good iterations (from 100), inlier pct 53, inlier cnt: 91, error (MHD): 2.71[0m
+[0m[ INFO] [1374225406.520934441]: 5 good iterations (from 100), inlier pct 53, inlier cnt: 91, error (MHD): 2.71[0m
+[0m[ INFO] [1374225406.520977304]: Observation Likelihood: 0 projected to 4: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225406.521003563]: Observation Likelihood: 4 projected to 0: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225406.521144565]: RANSAC found a valid transformation with 91 inliers matches with average ratio 0.467569[0m
+[0m[ INFO] [1374225406.521165992]: Returning Valid Edge[0m
+[0m[ INFO] [1374225406.521214212]: new node has id 4[0m
+[0m[ INFO] [1374225406.521240530]: Rotation: 0.99, Distance:  0.022m[0m
+[0m[ INFO] [1374225406.521273680]: Rotation: 0.99, Distance:  0.022m[0m
+[0m[ INFO] [1374225406.521375303]: Cleaning: removed 0 matches from 257[0m
+[0m[ INFO] [1374225406.521433603]: Added Edge between 3 and 4. Inliers: 257[0m
+[0m[ INFO] [1374225406.521446817]: new node has id 4[0m
+[0m[ INFO] [1374225406.521460349]: Rotation: 2.84, Distance:  0.143m[0m
+[0m[ INFO] [1374225406.521489413]: Rotation: 2.84, Distance:  0.143m[0m
+[0m[ INFO] [1374225406.521560241]: Cleaning: removed 0 matches from 188[0m
+[0m[ INFO] [1374225406.521643398]: Added Edge between 2 and 4. Inliers: 188[0m
+[0m[ INFO] [1374225406.521673151]: new node has id 4[0m
+[0m[ INFO] [1374225406.521696670]: Rotation: 2.93, Distance:  0.137m[0m
+[0m[ INFO] [1374225406.521729548]: Rotation: 2.93, Distance:  0.137m[0m
+[0m[ INFO] [1374225406.521795442]: Cleaning: removed 0 matches from 132[0m
+[0m[ INFO] [1374225406.521836199]: Added Edge between 1 and 4. Inliers: 132[0m
+[0m[ INFO] [1374225406.521847635]: new node has id 4[0m
+[0m[ INFO] [1374225406.521861220]: Rotation: 5.29, Distance:  0.113m[0m
+[0m[ INFO] [1374225406.521881934]: Rotation: 5.29, Distance:  0.113m[0m
+[0m[ INFO] [1374225406.521929057]: Cleaning: removed 0 matches from 91[0m
+[0m[ INFO] [1374225406.521960765]: Added Edge between 0 and 4. Inliers: 91[0m
+[0m[ INFO] [1374225406.521981301]: Adding node with id 4 and seq id 4 to the graph[0m
+[0m[ INFO] [1374225406.622052325]: Yes!!!!!!!!! Succeed to override the callback function!!!!![0m
+[0m[ INFO] [1374225406.622100349]: Received 6 frames![0m
+[33m[ WARN] [1374225406.622129525]: Received 6 frames![0m
+[0m[ INFO] [1374225406.748492170]: Added Node, new graphsize: 5 nodes[0m
+[33m[ WARN] [1374225406.748577753]: Loop Closures: 3, Sequential Edges: 10[0m
+[33m[ WARN] [1374225406.748598676]: Starting Optimization[0m
+[33m[ WARN] [1374225406.748643775]: 391 Landmarks with mean of 3.19 observations[0m
+[33m[ WARN] [1374225406.748669474]: Optimization with 5 cams, 5 nodes and 13 edges in the graph[0m
+[0m[ INFO] [1374225406.748729156]: Added, Camera Pose Graph Size: 5N/13E, Duration: 0.245394, Inliers:  257[0m
+[33m[ WARN] [1374225406.749754492]: G2O Statistics: 5 cameras, 13 edges. 1.39259867720486 ; chi2 , Iterations: 10[0m
+[0m[ INFO] [1374225406.749777784]: A: last cam: 4[0m
+[33m[ WARN] [1374225406.749819021]: GM: 1198: no graph edges in visualzation[0m
+[33m[ WARN] [1374225406.749855314]: Optimizer Runtime; 0.00129487 s[0m
+[0m[ INFO] [1374225406.753898753]: drawFeatureFlow runtime: 0.00507381 s[0m
+[0m[ INFO] [1374225406.874675883]: Feature Count of Node:	450[0m
+[0m[ INFO] [1374225406.875055813]: After Construct 6 node![0m
+[33m[ WARN] [1374225406.885213328]: Unable to lookup transform, cache is empty, when looking up transform from frame [/openni_rgb_optical_frame] to frame [/camera_link][0m
+[33m[ WARN] [1374225406.885226846]: Using Standard kinect /openni_camera -> /openni_rgb_optical_frame as transformation (This message is throttled to 1 per 5 seconds)[0m
+[0m[ INFO] [1374225406.885695166]: Odometry Delta: Translation 0 0 0[0m
+[0m[ INFO] [1374225406.885740855]: Odometry Delta: Rotation 0 0 0 1[0m
+[0m[ INFO] [1374225406.885753500]: No Valid Odometry, using identity[0m
+[0m[ INFO] [1374225406.885782159]: Comparing new node (5) with previous node 4[0m
+[0m[ INFO] [1374225406.892106083]: Feature Matches between Nodes   5 ( 450 features) and   4 ( 449 features) in segment 1/1 (features 0 to 450 of first node):	 345. Percentage: 76.666667%, Avg NN Ratio: 0.326200[0m
+[0m[ INFO] [1374225406.892152656]: count_matrix(  6,   5) =   345;[0m
+[0m[ INFO] [1374225406.892182092]: dista_matrix(  6,   5) =  0.226191;[0m
+[0m[ INFO] [1374225406.892278875]: Initial Test: Trying identity as hypothesis[0m
+[0m[ INFO] [1374225406.892541981]: Improvment in iteration 1: inliers: 289 (min 20), inlier_error: 2.82 (max 3.00)[0m
+[0m[ INFO] [1374225406.892574284]: 1 good iterations (from 100), inlier pct 83, inlier cnt: 289, error (MHD): 2.82[0m
+[0m[ INFO] [1374225406.892595301]: 1 good iterations (from 100), inlier pct 83, inlier cnt: 289, error (MHD): 2.82[0m
+[0m[ INFO] [1374225406.892675799]: Observation Likelihood: 5 projected to 4: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225406.892718189]: Observation Likelihood: 4 projected to 5: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225406.892766014]: RANSAC found a valid transformation with 289 inliers matches with average ratio 0.177769[0m
+[0m[ INFO] [1374225406.892802125]: Returning Valid Edge[0m
+[0m[ INFO] [1374225406.892825739]: Rotation: 1.72, Distance:  0.164m[0m
+[0m[ INFO] [1374225406.892865747]: Rotation: 1.72, Distance:  0.164m[0m
+[0m[ INFO] [1374225406.893024791]: Cleaning: removed 0 matches from 289[0m
+[0m[ INFO] [1374225406.893209745]: Added Edge between 4 and 5. Inliers: 289[0m
+[0m[ INFO] [1374225406.893320278]: Node ID's to compare with candidate for node 6. Sequential: 3, Dijkstra: 0, 2, Random Sampling: [0m
+[0m[ INFO] [1374225406.893346144]: Nodes to compare: 3[0m
+[0m[ INFO] [1374225406.893365805]: Nodes to compare: 0[0m
+[0m[ INFO] [1374225406.893382714]: Nodes to compare: 2[0m
+[0m[ INFO] [1374225406.893402033]: Running node comparisons in parallel in 6 (of 8) available threads[0m
+[0m[ INFO] [1374225406.897101928]: Feature Matches between Nodes   5 ( 450 features) and   0 ( 221 features) in segment 1/1 (features 0 to 450 of first node):	 161. Percentage: 35.777778%, Avg NN Ratio: 0.745172[0m
+[0m[ INFO] [1374225406.897186375]: Feature Matches between Nodes   5 ( 450 features) and   2 ( 312 features) in segment 1/1 (features 0 to 450 of first node):	 248. Percentage: 55.111111%, Avg NN Ratio: 0.540752[0m
+[0m[ INFO] [1374225406.897253047]: count_matrix(  6,   1) =   161;[0m
+[0m[ INFO] [1374225406.897304771]: dista_matrix(  6,   1) =  0.635061;[0m
+[0m[ INFO] [1374225406.897334277]: count_matrix(  6,   3) =   248;[0m
+[0m[ INFO] [1374225406.897356001]: dista_matrix(  6,   3) =  0.404843;[0m
+[0m[ INFO] [1374225406.897380058]: Initial Test: Trying identity as hypothesis[0m
+[0m[ INFO] [1374225406.897411889]: Feature Matches between Nodes   5 ( 450 features) and   3 ( 385 features) in segment 1/1 (features 0 to 450 of first node):	 299. Percentage: 66.444444%, Avg NN Ratio: 0.422609[0m
+[0m[ INFO] [1374225406.897528578]: Initial Test: Trying identity as hypothesis[0m
+[0m[ INFO] [1374225406.897602044]: count_matrix(  6,   4) =   299;[0m
+[0m[ INFO] [1374225406.897641495]: dista_matrix(  6,   4) =  0.302664;[0m
+[0m[ INFO] [1374225406.897718328]: Initial Test: Trying identity as hypothesis[0m
+[0m[ INFO] [1374225406.897786604]: Improvment in iteration 2: inliers: 178 (min 20), inlier_error: 2.48 (max 3.00)[0m
+[0m[ INFO] [1374225406.897812742]: 1 good iterations (from 100), inlier pct 71, inlier cnt: 178, error (MHD): 2.48[0m
+[0m[ INFO] [1374225406.897836001]: 1 good iterations (from 100), inlier pct 71, inlier cnt: 178, error (MHD): 2.48[0m
+[0m[ INFO] [1374225406.897875048]: Observation Likelihood: 5 projected to 2: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225406.897905617]: Observation Likelihood: 2 projected to 5: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225406.897994839]: RANSAC found a valid transformation with 178 inliers matches with average ratio 0.309865[0m
+[0m[ INFO] [1374225406.898026425]: Returning Valid Edge[0m
+[0m[ INFO] [1374225406.898114439]: Improvment in iteration 1: inliers: 244 (min 20), inlier_error: 2.02 (max 3.00)[0m
+[0m[ INFO] [1374225406.898200235]: Improvment in iteration 12: inliers: 57 (min 20), inlier_error: 2.18 (max 3.00)[0m
+[0m[ INFO] [1374225406.898272654]: 1 good iterations (from 100), inlier pct 81, inlier cnt: 244, error (MHD): 2.02[0m
+[0m[ INFO] [1374225406.898352608]: 1 good iterations (from 100), inlier pct 81, inlier cnt: 244, error (MHD): 2.02[0m
+[0m[ INFO] [1374225406.898460365]: Observation Likelihood: 5 projected to 3: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225406.898566598]: Observation Likelihood: 3 projected to 5: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225406.898636121]: RANSAC found a valid transformation with 244 inliers matches with average ratio 0.250318[0m
+[0m[ INFO] [1374225406.898700077]: Returning Valid Edge[0m
+[0m[ INFO] [1374225406.901529993]: 2 good iterations (from 100), inlier pct 35, inlier cnt: 57, error (MHD): 2.18[0m
+[0m[ INFO] [1374225406.901575867]: 2 good iterations (from 100), inlier pct 35, inlier cnt: 57, error (MHD): 2.18[0m
+[0m[ INFO] [1374225406.901861902]: Observation Likelihood: 5 projected to 0: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225406.901960925]: Observation Likelihood: 0 projected to 5: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225406.902071160]: RANSAC found a valid transformation with 57 inliers matches with average ratio 0.498503[0m
+[0m[ INFO] [1374225406.902095220]: Returning Valid Edge[0m
+[0m[ INFO] [1374225406.902155220]: new node has id 5[0m
+[0m[ INFO] [1374225406.902206221]: Rotation: 3.12, Distance:  0.092m[0m
+[0m[ INFO] [1374225406.902246408]: Rotation: 3.12, Distance:  0.092m[0m
+[0m[ INFO] [1374225406.902383366]: Cleaning: removed 0 matches from 178[0m
+[0m[ INFO] [1374225406.902469910]: Added Edge between 2 and 5. Inliers: 178[0m
+[0m[ INFO] [1374225406.902489617]: new node has id 5[0m
+[0m[ INFO] [1374225406.902512702]: Rotation: 4.84, Distance:  0.208m[0m
+[0m[ INFO] [1374225406.902544626]: Rotation: 4.84, Distance:  0.208m[0m
+[0m[ INFO] [1374225406.902603047]: Cleaning: removed 0 matches from 57[0m
+[0m[ INFO] [1374225406.902655233]: Added Edge between 0 and 5. Inliers: 57[0m
+[0m[ INFO] [1374225406.902675217]: new node has id 5[0m
+[0m[ INFO] [1374225406.902697676]: Rotation: 1.67, Distance:  0.060m[0m
+[0m[ INFO] [1374225406.902730191]: Rotation: 1.67, Distance:  0.060m[0m
+[0m[ INFO] [1374225406.902860152]: Cleaning: removed 0 matches from 244[0m
+[0m[ INFO] [1374225406.902965548]: Added Edge between 3 and 5. Inliers: 244[0m
+[0m[ INFO] [1374225406.902995403]: Adding node with id 5 and seq id 5 to the graph[0m
+[0m[ INFO] [1374225406.972235596]: Yes!!!!!!!!! Succeed to override the callback function!!!!![0m
+[0m[ INFO] [1374225406.972299262]: Received 7 frames![0m
+[33m[ WARN] [1374225406.972312391]: Received 7 frames![0m
+[0m[ INFO] [1374225407.136368211]: Added Node, new graphsize: 6 nodes[0m
+[33m[ WARN] [1374225407.136446447]: Loop Closures: 5, Sequential Edges: 12[0m
+[33m[ WARN] [1374225407.136471166]: Starting Optimization[0m
+[33m[ WARN] [1374225407.136521766]: 468 Landmarks with mean of 3.54 observations[0m
+[33m[ WARN] [1374225407.136599359]: Optimization with 6 cams, 6 nodes and 17 edges in the graph[0m
+[0m[ INFO] [1374225407.136664370]: Added, Camera Pose Graph Size: 6N/17E, Duration: 0.251007, Inliers:  289[0m
+[33m[ WARN] [1374225407.138932654]: G2O Statistics: 6 cameras, 17 edges. 2.00721745155889 ; chi2 , Iterations: 9[0m
+[0m[ INFO] [1374225407.138963352]: A: last cam: 5[0m
+[33m[ WARN] [1374225407.139041862]: GM: 1198: no graph edges in visualzation[0m
+[33m[ WARN] [1374225407.139097230]: Optimizer Runtime; 0.00265636 s[0m
+[0m[ INFO] [1374225407.143115433]: drawFeatureFlow runtime: 0.00640717 s[0m
+[0m[ INFO] [1374225407.238440461]: Feature Count of Node:	471[0m
+[0m[ INFO] [1374225407.238853512]: After Construct 7 node![0m
+[33m[ WARN] [1374225407.249013605]: Unable to lookup transform, cache is empty, when looking up transform from frame [/openni_rgb_optical_frame] to frame [/camera_link][0m
+[33m[ WARN] [1374225407.249027229]: Using Standard kinect /openni_camera -> /openni_rgb_optical_frame as transformation (This message is throttled to 1 per 5 seconds)[0m
+[0m[ INFO] [1374225407.249528215]: Odometry Delta: Translation 0 0 0[0m
+[0m[ INFO] [1374225407.249566001]: Odometry Delta: Rotation 0 0 0 1[0m
+[0m[ INFO] [1374225407.249583222]: No Valid Odometry, using identity[0m
+[0m[ INFO] [1374225407.249637416]: Comparing new node (6) with previous node 5[0m
+[0m[ INFO] [1374225407.260092775]: Feature Matches between Nodes   6 ( 471 features) and   5 ( 450 features) in segment 1/1 (features 0 to 471 of first node):	 351. Percentage: 74.522293%, Avg NN Ratio: 0.336505[0m
+[0m[ INFO] [1374225407.260195611]: count_matrix(  7,   6) =   351;[0m
+[0m[ INFO] [1374225407.260242372]: dista_matrix(  7,   6) =  0.239505;[0m
+[0m[ INFO] [1374225407.260397425]: Initial Test: Trying identity as hypothesis[0m
+[0m[ INFO] [1374225407.260914831]: Improvment in iteration 2: inliers: 305 (min 20), inlier_error: 1.86 (max 3.00)[0m
+[0m[ INFO] [1374225407.260968300]: 1 good iterations (from 100), inlier pct 86, inlier cnt: 305, error (MHD): 1.86[0m
+[0m[ INFO] [1374225407.261012998]: 1 good iterations (from 100), inlier pct 86, inlier cnt: 305, error (MHD): 1.86[0m
+[0m[ INFO] [1374225407.261112431]: Observation Likelihood: 6 projected to 5: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225407.261195474]: Observation Likelihood: 5 projected to 6: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225407.261285147]: RANSAC found a valid transformation with 305 inliers matches with average ratio 0.196798[0m
+[0m[ INFO] [1374225407.261309469]: Returning Valid Edge[0m
+[0m[ INFO] [1374225407.261363399]: Rotation: 1.52, Distance:  0.091m[0m
+[0m[ INFO] [1374225407.261435573]: Rotation: 1.52, Distance:  0.091m[0m
+[0m[ INFO] [1374225407.261723138]: Cleaning: removed 0 matches from 305[0m
+[0m[ INFO] [1374225407.262520596]: Added Edge between 5 and 6. Inliers: 305[0m
+[0m[ INFO] [1374225407.262670092]: Node ID's to compare with candidate for node 7. Sequential: 4, Dijkstra: 1, 6, Random Sampling: 0, [0m
+[0m[ INFO] [1374225407.262727438]: Nodes to compare: 4[0m
+[0m[ INFO] [1374225407.262742995]: Nodes to compare: 1[0m
+[0m[ INFO] [1374225407.262757948]: Nodes to compare: 6[0m
+[0m[ INFO] [1374225407.262773586]: Nodes to compare: 0[0m
+[0m[ INFO] [1374225407.262789912]: Running node comparisons in parallel in 6 (of 8) available threads[0m
+[0m[ INFO] [1374225407.265427577]: Feature Matches between Nodes   6 ( 471 features) and   1 ( 254 features) in segment 1/1 (features 0 to 471 of first node):	 197. Percentage: 41.825902%, Avg NN Ratio: 0.660259[0m
+[0m[ INFO] [1374225407.265456454]: count_matrix(  7,   2) =   197;[0m
+[0m[ INFO] [1374225407.265470885]: dista_matrix(  7,   2) =  0.522625;[0m
+[0m[ INFO] [1374225407.265590891]: Initial Test: Trying identity as hypothesis[0m
+[0m[ INFO] [1374225407.265711689]: Feature Matches between Nodes   6 ( 471 features) and   4 ( 449 features) in segment 1/1 (features 0 to 471 of first node):	 342. Percentage: 72.611465%, Avg NN Ratio: 0.401676[0m
+[0m[ INFO] [1374225407.265758158]: count_matrix(  7,   5) =   342;[0m
+[0m[ INFO] [1374225407.265783761]: dista_matrix(  7,   5) =  0.307550;[0m
+[0m[ INFO] [1374225407.265832217]: Improvment in iteration 2: inliers: 119 (min 20), inlier_error: 2.89 (max 3.00)[0m
+[0m[ INFO] [1374225407.265937118]: 1 good iterations (from 100), inlier pct 60, inlier cnt: 119, error (MHD): 2.89[0m
+[0m[ INFO] [1374225407.265959396]: Initial Test: Trying identity as hypothesis[0m
+[0m[ INFO] [1374225407.266023374]: 1 good iterations (from 100), inlier pct 60, inlier cnt: 119, error (MHD): 2.89[0m
+[0m[ INFO] [1374225407.266075475]: Observation Likelihood: 6 projected to 1: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225407.266103858]: Observation Likelihood: 1 projected to 6: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225407.266167265]: RANSAC found a valid transformation with 119 inliers matches with average ratio 0.383614[0m
+[0m[ INFO] [1374225407.266190646]: Returning Valid Edge[0m
+[0m[ INFO] [1374225407.266256910]: Improvment in iteration 2: inliers: 276 (min 20), inlier_error: 2.54 (max 3.00)[0m
+[0m[ INFO] [1374225407.266280198]: 1 good iterations (from 100), inlier pct 80, inlier cnt: 276, error (MHD): 2.54[0m
+[0m[ INFO] [1374225407.266301105]: 1 good iterations (from 100), inlier pct 80, inlier cnt: 276, error (MHD): 2.54[0m
+[0m[ INFO] [1374225407.266344318]: Observation Likelihood: 6 projected to 4: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225407.266377501]: Observation Likelihood: 4 projected to 6: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225407.266414665]: RANSAC found a valid transformation with 276 inliers matches with average ratio 0.229988[0m
+[0m[ INFO] [1374225407.266431248]: Returning Valid Edge[0m
+[0m[ INFO] [1374225407.266468243]: Feature Matches between Nodes   6 ( 471 features) and   0 ( 221 features) in segment 1/1 (features 0 to 471 of first node):	 167. Percentage: 35.456476%, Avg NN Ratio: 0.733887[0m
+[0m[ INFO] [1374225407.266502588]: count_matrix(  7,   1) =   167;[0m
+[0m[ INFO] [1374225407.266522579]: dista_matrix(  7,   1) =  0.626610;[0m
+[0m[ INFO] [1374225407.266576946]: Initial Test: Trying identity as hypothesis[0m
+[0m[ INFO] [1374225407.269094264]: Yes!!!!!!!!! Succeed to override the callback function!!!!![0m
+[0m[ INFO] [1374225407.269120585]: Received 8 frames![0m
+[33m[ WARN] [1374225407.269141339]: Received 8 frames![0m
+[0m[ INFO] [1374225407.269831073]: 0 good iterations (from 100), inlier pct 0, inlier cnt: 0, error (MHD): 1000000.00[0m
+[0m[ INFO] [1374225407.269860699]: 0 good iterations (from 100), inlier pct 0, inlier cnt: 0, error (MHD): 1000000.00[0m
+[0m[ INFO] [1374225407.269893524]: RANSAC found a invalid transformation with 167 inliers matches with average ratio 0.626610[0m
+[0m[ INFO] [1374225407.270071013]: Feature Matches between Nodes   6 ( 471 features) and   6 ( 471 features) in segment 1/1 (features 0 to 471 of first node):	 471. Percentage: 100.000000%, Avg NN Ratio: 0.000000[0m
+[0m[ INFO] [1374225407.270132277]: count_matrix(  7,   7) =   471;[0m
+[0m[ INFO] [1374225407.270163797]: dista_matrix(  7,   7) =  0.000000;[0m
+[0m[ INFO] [1374225407.270236431]: Initial Test: Trying identity as hypothesis[0m
+[0m[ INFO] [1374225407.270432895]: No-Motion guess for 6<->6: inliers: 453 (min 20), inlier_error: 0.00 (max 3.00)[0m
+[0m[ INFO] [1374225407.286076893]: 101 good iterations (from 100), inlier pct 96, inlier cnt: 453, error (MHD): 0.00[0m
+[0m[ INFO] [1374225407.286123542]: 101 good iterations (from 100), inlier pct 96, inlier cnt: 453, error (MHD): 0.00[0m
+[0m[ INFO] [1374225407.286203902]: Observation Likelihood: 6 projected to 6: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225407.286237959]: Observation Likelihood: 6 projected to 6: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225407.286282917]: RANSAC found a valid transformation with 453 inliers matches with average ratio 0.000000[0m
+[0m[ INFO] [1374225407.286302342]: Returning Valid Edge[0m
+[0m[ INFO] [1374225407.286367955]: new node has id 6[0m
+[0m[ INFO] [1374225407.286411078]: Rotation: 0.00, Distance:  0.000m[0m
+[0m[ INFO] [1374225407.286450040]: new node has id 6[0m
+[0m[ INFO] [1374225407.286490944]: Rotation: 5.25, Distance:  0.162m[0m
+[0m[ INFO] [1374225407.286522681]: Rotation: 5.25, Distance:  0.162m[0m
+[0m[ INFO] [1374225407.286619797]: Cleaning: removed 0 matches from 119[0m
+[0m[ INFO] [1374225407.286713255]: Added Edge between 1 and 6. Inliers: 119[0m
+[0m[ INFO] [1374225407.286739058]: new node has id 6[0m
+[0m[ INFO] [1374225407.286778340]: Rotation: 1.65, Distance:  0.119m[0m
+[0m[ INFO] [1374225407.286814655]: Rotation: 1.65, Distance:  0.119m[0m
+[0m[ INFO] [1374225407.286964601]: Cleaning: removed 0 matches from 276[0m
+[0m[ INFO] [1374225407.287131316]: Added Edge between 4 and 6. Inliers: 276[0m
+[0m[ INFO] [1374225407.287161762]: Adding node with id 6 and seq id 6 to the graph[0m
+[0m[ INFO] [1374225407.287197096]: 2 Keyframes: 0, 5, [0m
+[0m[ INFO] [1374225407.520886660]: Added Node, new graphsize: 7 nodes[0m
+[33m[ WARN] [1374225407.521030213]: Loop Closures: 6, Sequential Edges: 14[0m
+[33m[ WARN] [1374225407.521073395]: Starting Optimization[0m
+[0m[ INFO] [1374225407.521116538]: Added, Camera Pose Graph Size: 7N/20E, Duration: 0.271549, Inliers:  305[0m
+[33m[ WARN] [1374225407.521166854]: 537 Landmarks with mean of 3.89 observations[0m
+[33m[ WARN] [1374225407.521228143]: Optimization with 7 cams, 7 nodes and 20 edges in the graph[0m
+[33m[ WARN] [1374225407.522921904]: G2O Statistics: 7 cameras, 20 edges. 2.58263056154909 ; chi2 , Iterations: 10[0m
+[0m[ INFO] [1374225407.522947122]: A: last cam: 6[0m
+[33m[ WARN] [1374225407.523002936]: GM: 1198: no graph edges in visualzation[0m
+[33m[ WARN] [1374225407.523061309]: Optimizer Runtime; 0.00207457 s[0m
+[0m[ INFO] [1374225407.526220936]: drawFeatureFlow runtime: 0.00504763 s[0m
+[0m[ INFO] [1374225407.526587897]: Feature Count of Node:	489[0m
+[0m[ INFO] [1374225407.526995103]: After Construct 8 node![0m
+[33m[ WARN] [1374225407.537178515]: Unable to lookup transform, cache is empty, when looking up transform from frame [/openni_rgb_optical_frame] to frame [/camera_link][0m
+[33m[ WARN] [1374225407.537195677]: Using Standard kinect /openni_camera -> /openni_rgb_optical_frame as transformation (This message is throttled to 1 per 5 seconds)[0m
+[0m[ INFO] [1374225407.537784454]: Odometry Delta: Translation 0 0 0[0m
+[0m[ INFO] [1374225407.537822366]: Odometry Delta: Rotation 0 0 0 1[0m
+[0m[ INFO] [1374225407.537845164]: No Valid Odometry, using identity[0m
+[0m[ INFO] [1374225407.537879549]: Comparing new node (7) with previous node 6[0m
+[0m[ INFO] [1374225407.541187301]: Feature Matches between Nodes   7 ( 489 features) and   6 ( 471 features) in segment 1/1 (features 0 to 489 of first node):	 363. Percentage: 74.233129%, Avg NN Ratio: 0.351621[0m
+[0m[ INFO] [1374225407.541230923]: count_matrix(  8,   7) =   363;[0m
+[0m[ INFO] [1374225407.541252325]: dista_matrix(  8,   7) =  0.248540;[0m
+[0m[ INFO] [1374225407.541336161]: Initial Test: Trying identity as hypothesis[0m
+[0m[ INFO] [1374225407.541548093]: Improvment in iteration 1: inliers: 307 (min 20), inlier_error: 1.53 (max 3.00)[0m
+[0m[ INFO] [1374225407.541573371]: 1 good iterations (from 100), inlier pct 84, inlier cnt: 307, error (MHD): 1.53[0m
+[0m[ INFO] [1374225407.541597149]: 1 good iterations (from 100), inlier pct 84, inlier cnt: 307, error (MHD): 1.53[0m
+[0m[ INFO] [1374225407.541641881]: Observation Likelihood: 7 projected to 6: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225407.541680723]: Observation Likelihood: 6 projected to 7: good_point_ratio: 1/1: 1, occluded points: 0[0m
+[0m[ INFO] [1374225407.541740633]: RANSAC found a valid transformation with 307 inliers matches with average ratio 0.206280[0m
+[0m[ INFO] [1374225407.541769283]: Returning Valid Edge[0m
+[0m[ INFO] [1374225407.541807381]: Rotation: 1.22, Distance:  0.011m[0m
+[33m[ WARN] [1374225407.541862029]: Transformation not within bounds. Did not add as Node[0m
+[0m[ INFO] [1374225407.541923969]: Computed new transform: Translation 0.0703014 -0.200003 -0.042627[0m
+[0m[ INFO] [1374225407.541949736]: Computed new transform: Rotation -0.00698467 0.0233285 -0.0599244 0.997906[0m
+[33m[ WARN] [1374225407.541994755]: Did not add as Node[0m
+[0m[ INFO] [1374225407.542091338]: Ignored, Camera Pose Graph Size: 7N/20E, Duration: 0.004381, Inliers:  307[0m
+... logging to /home/davidz/.ros/log/ebe4fd90-f053-11e2-a5d9-fc4dd43826ff/roslaunch-lyxp-19180.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;bagrgbd.launch
+[1mstarted roslaunch server http://lyxp:33692/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rgbdslam/config/bagfile_name
+ * /rgbdslam/config/feature_detector_type
+ * /rgbdslam/config/feature_extractor_type
+ * /rgbdslam/config/max_keypoints
+ * /rgbdslam/config/nn_distance_ratio
+ * /rgbdslam/config/topic_image_depth
+ * /rgbdslam/config/topic_image_mono
+ * /rgbdslam/config/topic_points
+ * /rosdistro
+ * /rosversion
+
+NODES
+  /
+    rgbdslam (RT_SLAM/submap)
+
+auto-starting new master
+[1mprocess[master]: started with pid [19194][0m
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;bagrgbd.launch http://localhost:11311
+[1msetting /run_id to ebe4fd90-f053-11e2-a5d9-fc4dd43826ff[0m
+[1mprocess[rosout-1]: started with pid [19207][0m
+started core service [/rosout]
+[1mprocess[rgbdslam-2]: started with pid [19219][0m
+[rgbdslam-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m

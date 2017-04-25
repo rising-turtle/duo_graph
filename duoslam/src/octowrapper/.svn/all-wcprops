@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper
+END
+ColorOctreeImpl.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/ColorOctreeImpl.h
+END
+ColorOctreeImpl.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/ColorOctreeImpl.hpp
+END
+FileReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/FileReader.h
+END
+octo_globaldef.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/octo_globaldef.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/CMakeLists.txt
+END
+OctoVizWrapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/OctoVizWrapper.cpp
+END
+bag_listener.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/bag_listener.cpp
+END
+ColorOctreeImpl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/ColorOctreeImpl.cpp
+END
+FileReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/FileReader.cpp
+END
+OctoVizWrapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/OctoVizWrapper.h
+END
+bag_listener.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/bag_listener.h
+END
+octo_globaldef.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/octo_globaldef.cpp
+END

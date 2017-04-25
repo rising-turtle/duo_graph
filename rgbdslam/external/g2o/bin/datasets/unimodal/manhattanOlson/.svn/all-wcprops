@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/data/svn/maxmixture/!svn/ver/1/trunk/datasets/unimodal/manhattanOlson
+END
+MaxMix-n100_lgr10_seed773331599w_0.01s_1e-11_manhattanOlson3500.g2o
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/data/svn/maxmixture/!svn/ver/1/trunk/datasets/unimodal/manhattanOlson/MaxMix-n100_lgr10_seed773331599w_0.01s_1e-11_manhattanOlson3500.g2o
+END
+MaxMix-n1000_local_seed1129968082w_0.01s_1e-11_manhattanOlson3500.g2o
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/data/svn/maxmixture/!svn/ver/1/trunk/datasets/unimodal/manhattanOlson/MaxMix-n1000_local_seed1129968082w_0.01s_1e-11_manhattanOlson3500.g2o
+END
+MaxMix-n1000_randm_seed791095741w_0.01s_1e-11_manhattanOlson3500.g2o
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/data/svn/maxmixture/!svn/ver/1/trunk/datasets/unimodal/manhattanOlson/MaxMix-n1000_randm_seed791095741w_0.01s_1e-11_manhattanOlson3500.g2o
+END
+MaxMix-n100_grp10_seed1630990442w_0.01s_1e-11_manhattanOlson3500.g2o
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/data/svn/maxmixture/!svn/ver/1/trunk/datasets/unimodal/manhattanOlson/MaxMix-n100_grp10_seed1630990442w_0.01s_1e-11_manhattanOlson3500.g2o
+END

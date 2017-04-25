@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../slam_parser/interface/abstract_slam_interface.h
+vector
+-
+string
+-
+
+../slam_parser/interface/parser_interface.h
+abstract_slam_interface.h
+../slam_parser/interface/abstract_slam_interface.h
+iosfwd
+-
+sstream
+-
+
+/home/davidz/work/ros/groovy/catkin_ws/src/rgbdslam/external/g2o/slam_parser/example/example_slam_interface.h
+slam_parser/interface/abstract_slam_interface.h
+/home/davidz/work/ros/groovy/catkin_ws/src/rgbdslam/external/g2o/slam_parser/example/slam_parser/interface/abstract_slam_interface.h
+map
+-
+vector
+-
+
+/home/davidz/work/ros/groovy/catkin_ws/src/rgbdslam/external/g2o/slam_parser/example/test_slam_interface.cpp
+iostream
+-
+example_slam_interface.h
+/home/davidz/work/ros/groovy/catkin_ws/src/rgbdslam/external/g2o/slam_parser/example/example_slam_interface.h
+slam_parser/interface/parser_interface.h
+/home/davidz/work/ros/groovy/catkin_ws/src/rgbdslam/external/g2o/slam_parser/example/slam_parser/interface/parser_interface.h
+

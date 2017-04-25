@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -Wall -W -O3 -DNDEBUG -O3 -msse4 -march=native   -shared -Wl,-soname,libg2o_example.so -o ../../../lib/libg2o_example.so CMakeFiles/example_library.dir/example_slam_interface.cpp.o ../../../lib/libg2o_parser.so ../../../lib/libg2o_interface.so ../../../lib/libg2o_parser.so -Wl,-rpath,/home/davidz/work/ros/groovy/catkin_ws/src/rgbdslam/external/g2o/lib 

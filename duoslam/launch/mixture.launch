@@ -1,0 +1,23 @@
+<!-- This file demonstrates mixture to find consistent topological graph among submaps. 
+      -->
+
+<launch>
+  <node pkg="duoslam" type="mixture" name="mixture" cwd="node" required="true" output="log"> 
+    <!-- Input data settings-->
+    <param name="config/predecessor_candidates"        value="3"/><!-- -->
+    <param name="config/neighbor_candidates"           value="5"/><!-- ignore previous nodes -->
+    <param name="config/min_sampled_candidates"        value="3"/><!-- -->
+    <param name="config/observability_threshold"       value="-0.5"/>  -->
+
+    <!-- Submap Settings -->
+    <param name="/config/submap_min_matches" 		       value="150"/><!-- min matches in the submap -->
+    <param name="/config/submap_saved_path" 		       value="./submaps"/><!-- where to save submap path -->
+    <param name="/config/submap_number" 		           value="75"/><!-- number of submaps -->
+    <param name="/config/submap_first" 		               value="0"/><!-- the first submap id -->
+    <param name="/config/submap_step" 		               value="1"/><!-- submap steps -->
+    <param name="/config/submap_downsample"               value="true"/>
+
+    <!-- Submap match thresholds -->
+    <param name="/config/max_dist_for_inliers"          value="5"/><!-- inliers max_distance -->
+   </node>
+</launch>

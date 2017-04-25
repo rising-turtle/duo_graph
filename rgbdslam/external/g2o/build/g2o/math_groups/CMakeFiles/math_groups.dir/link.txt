@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -Wall -W -O3 -DNDEBUG -O3 -msse4 -march=native   -shared -Wl,-soname,libg2o_math_groups.so -o ../../../lib/libg2o_math_groups.so CMakeFiles/math_groups.dir/se3quat_gradients.cpp.o -lm 

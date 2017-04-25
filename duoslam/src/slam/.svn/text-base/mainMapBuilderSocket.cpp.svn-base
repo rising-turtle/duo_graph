@@ -1,0 +1,248 @@
+#include "SubmapGraph.h"
+#include "SubmapNode.h"
+#include "Submap.h"
+#include "qtros.h"
+#include <QObject>
+#include <QApplication>
+#include <iostream>
+#include <sstream>
+#include <string>
+#include "stdlib.h"
+
+#include <pcl_ros/point_cloud.h>
+
+#include "ExternalCom.h"
+#include "pthread.h"
+
+#include "paramSrvMi.h"
+
+using namespace std;
+
+tf::Transform submap_tf;
+std_vector_of_eigen_vector4f feature_loc;
+cv::Mat feature_des;
+pointcloud_type::Ptr submap_pcd;
+
+pthread_mutex_t m_MutexDataReady;
+
+
+int submap_idx=0;
+
+//socket
+bool DATA_READY = false;
+int g_nTestSock=-1;
+int RecvDataFromClient(int nDataLen,char *pcData)
+{
+	pthread_mutex_lock(&m_MutexDataReady);
+	char cShow[nDataLen];
+	memcpy(cShow,pcData,nDataLen);
+	//printf("Server Recv Data Len:%d  \n",nDataLen);
+
+	//copy tf
+	int len_tf = 0;
+	memcpy(&len_tf, cShow, 4);
+	memcpy(&submap_tf, &cShow[4], len_tf);
+
+	//printf("Server Recv tf len:%d  \n", len_tf);
+	//copy feature loc
+	int len_loc = 0;
+	memcpy(&len_loc, &cShow[4+len_tf], 4);
+	int fea_num = len_loc / sizeof(Eigen::Vector4f);
+	//printf("fea_num:%d  \n", fea_num);
+	feature_loc.resize(fea_num);
+	//printf("resize  \n");
+	memcpy(&feature_loc[0], &cShow[8+len_tf], len_loc);
+
+	//printf("Server Recv loc len:%d  \n", len_loc);
+	//copy feature des
+	int len_des = 0;
+	memcpy(&len_des, &cShow[8+len_tf+len_loc], 4);
+	int des_size = len_des/(fea_num*sizeof(float));
+	feature_des = cv::Mat(fea_num, des_size, CV_32FC1);
+	memcpy(feature_des.data, &cShow[12+len_tf+len_loc], len_des);
+
+	//printf("Server Recv des len:%d  \n", len_des);
+	//copy pcd
+	int len_pcd = 0;
+	memcpy(&len_pcd, &cShow[12+len_tf+len_loc+len_des], 4);
+	int points_num = len_pcd/sizeof(pcl::PointXYZRGB);
+
+	submap_pcd = pointcloud_type::Ptr (new pointcloud_type);
+	submap_pcd->points.resize(points_num);
+	submap_pcd->height = 1;
+	submap_pcd->width = points_num;
+	memcpy(&submap_pcd->points[0], &cShow[16+len_tf+len_loc+len_des], len_pcd);
+
+	//printf("Server Recv pcd len:%d  \n", len_pcd);
+
+	pthread_mutex_unlock(&m_MutexDataReady);
+
+	DATA_READY = true;
+	//printf("server: received %d features and %d points. %d, %d, %d, %d \n", fea_num, points_num, len_tf, len_loc, len_des, len_pcd);
+
+	//saving
+	/*
+	{
+
+		printf("start saving %d submap \n", submap_idx);
+
+		char name[255];
+		sprintf(name, "./submaps/%d_traj.txt", submap_idx);
+		ofstream outT(name);
+		outT<<"Data:  "<<submap_tf<<endl;
+		outT.close();
+
+		sprintf(name, "./submaps/%d_featureLoc.map", submap_idx);
+		ofstream outL(name);
+		outL<<"feature num:  "<<fea_num<<endl;
+		outL<<"loc length:  "<<3<<endl;
+		for(int i=0;i<fea_num;i++)
+		{
+			Eigen::Vector4f& fea_loc = feature_loc[i];
+			outL<<fea_loc(0)<<" "<<fea_loc(1)<<" "<<fea_loc(2)<<endl;
+		}
+
+		outL.close();
+
+		sprintf(name, "./submaps/%d_featureDes.map", submap_idx);
+		ofstream outD(name);
+		outD<<"feature num:  "<<fea_num<<endl;
+		outD<<"des length:  "<<des_size<<endl;
+		outD<<"Data:  "<<feature_des<<endl;
+		outD.close();
+
+		sprintf(name, "./submaps/%d_cloud.pcd", submap_idx);
+		pcl::io::savePCDFile(name,*submap_pcd);
+
+		submap_idx++;
+
+		printf("finish saving");
+	}
+	*/
+
+	return 0;
+}
+
+void* ThreadClientProcess(void* lpParam)
+{
+	ExternalCom * pCExternalCom=(ExternalCom *) lpParam;
+	pCExternalCom->ComRun();
+}
+
+
+void* ThreadSendData2Client(void* lpParam)
+{
+	ExternalCom * pCExternalCom=(ExternalCom *) lpParam;
+
+	char *pcData="I am Server";
+	while(1)
+	{
+		if(g_nTestSock>=0)
+		{
+			pCExternalCom->SendData2Cleint(strlen(pcData),pcData,g_nTestSock);
+			sleep(1);
+		}
+
+		usleep(10000);
+	}
+}
+
+int Register(int nSock,char *pcIP,int nStatus)
+{
+	if(nStatus==1)
+	{
+		g_nTestSock=nSock;
+	}
+	else
+	{
+		g_nTestSock=-1;
+	}
+}
+
+int main(int argc, char* argv[])
+{
+	ros::init(argc, argv, "mapBuilderSocket");
+
+    ParamSrvMi* mips = ParamSrvMi::instanceMi();
+
+	char *pcIP = mips->get<string>("socket_host_ip").c_str();
+	int nPort = mips->get<int>("socket_host_port");
+	char cIPConf[20];
+	int submap_idx=0;
+	pthread_mutex_init(&m_MutexDataReady,0);
+
+
+	memset(cIPConf,0,20);
+	memcpy(cIPConf,pcIP,strlen(pcIP));
+	memcpy(&cIPConf[16],&nPort,4);
+
+
+	ExternalCom CExternalCom;
+	CExternalCom.ComInit(cIPConf);
+	CExternalCom.m_cbRecvData=RecvDataFromClient;
+	CExternalCom.m_cbRegister=Register;
+
+	pthread_t m_hThreadClientProcess;
+	pthread_t m_hThreadSendData2Client;
+
+	pthread_create(&m_hThreadClientProcess,NULL,ThreadClientProcess,&CExternalCom);
+	//pthread_create(&m_hThreadSendData2Client,NULL,ThreadSendData2Client,&CExternalCom);
+
+	CSubmapGraph graph_mgr;
+	char name[255];
+	while(1)
+	{
+		if(DATA_READY)
+		{
+				//build submap
+			ROS_ERROR("MapBuilderSocket: DATA READY, START TO BUILDING \n");
+			pthread_mutex_lock(&m_MutexDataReady);
+			CSubmap<CNodeWrapper> * ps = new CSubmap<CNodeWrapper>;
+			ps->m_root = submap_tf;
+			ps->id_ = submap_idx;
+			//ps->m_stamp = 0;//submap_tf.stamp_;
+
+			//add feature loc
+			ps->m_feature_locs.swap(feature_loc);
+
+			//add feature descriptors
+			ps->m_feature_des = cv::Mat(feature_des);
+
+			//add point cloud
+			pcl::copyPointCloud(*submap_pcd, *(ps->pc_col));
+			pthread_mutex_unlock(&m_MutexDataReady);
+
+			CSubmapNode* node = new CSubmapNode(ps);
+			graph_mgr.addNode(node);
+			//if(!(submap_idx%5))
+			{
+				ROS_ERROR("MapBuilderSocket: START OPT NOW");
+				//sprintf(name, "./submaps/%d_preCloud.pcd", submap_idx);
+				//graph_mgr.saveCloud2File(name);
+				graph_mgr.optimizeSubmapGraph();
+				sprintf(name, "./submaps/%d_posCloud.pcd", submap_idx);
+				graph_mgr.saveCloud2File(name);
+				graph_mgr.saveFeaturePosDes2File("./submaps/%d_feature.map");
+				//sprintf(name, "./submaps/%d_posCloud.ot", submap_idx);
+				//graph_mgr.saveCloudByOctomap(name);
+			}
+
+			sprintf(name, "./submaps/%d_traj.txt", submap_idx);
+			submap_idx++;
+			ofstream outT(name);
+			outT<<"Tf:  "<<ps->m_root<<endl;
+			outT.close();
+
+			DATA_READY = false;
+			ROS_ERROR("MapBuilderSocket: FINISHED MAP BUILDING");
+		}
+		else
+		{
+			ros::spinOnce();
+			usleep(10000);
+		}
+	}
+	return 0;
+
+
+}

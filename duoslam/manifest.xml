@@ -1,0 +1,21 @@
+<package>
+  <description brief="duoslam">
+  duoslam
+  </description>
+  <author>liu</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/gicpwrapper</url>
+  <depend package="tf"/>
+  <depend package="roscpp"/>
+  <depend package="cv_bridge"/>
+  <depend package="image_transport"/>
+  <depend package="rosbag"/>
+  <depend package="pcl"/>
+  <depend package="pcl_ros"/>
+  <depend package="std_msgs"/>
+  <depend package="geometry_msgs"/> 
+  <depend package="camera_info_manager"/>
+</package>
+
+

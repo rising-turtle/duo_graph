@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/data/svn/maxmixture/!svn/ver/1/trunk/datasets/unimodal/city
+END
+MaxMix-n100_grp10_seed2036932421w_0.01s_1e-11_city10000.g2o
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/data/svn/maxmixture/!svn/ver/1/trunk/datasets/unimodal/city/MaxMix-n100_grp10_seed2036932421w_0.01s_1e-11_city10000.g2o
+END
+MaxMix-n1000_local_seed1020988071w_0.01s_1e-11_city10000.g2o
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/data/svn/maxmixture/!svn/ver/1/trunk/datasets/unimodal/city/MaxMix-n1000_local_seed1020988071w_0.01s_1e-11_city10000.g2o
+END
+MaxMix-n1000_randm_seed197804269w_0.01s_1e-11_city10000.g2o
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/data/svn/maxmixture/!svn/ver/1/trunk/datasets/unimodal/city/MaxMix-n1000_randm_seed197804269w_0.01s_1e-11_city10000.g2o
+END
+MaxMix-n100_lgr10_seed566864332w_0.01s_1e-11_city10000.g2o
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/data/svn/maxmixture/!svn/ver/1/trunk/datasets/unimodal/city/MaxMix-n100_lgr10_seed566864332w_0.01s_1e-11_city10000.g2o
+END

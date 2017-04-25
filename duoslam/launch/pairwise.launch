@@ -1,0 +1,10 @@
+<!-- This file demonstrates mixture to find consistent topological graph among submaps. 
+      -->
+
+<launch>
+  <node pkg="duoslam" type="pairwise" name="pairwise" cwd="node" required="true" output="log"> 
+   </node>
+  <node pkg="duoslam" type="sendImg" name="sendImg" cwd="node" required="true" output="log"> 
+   </node>
+
+</launch>

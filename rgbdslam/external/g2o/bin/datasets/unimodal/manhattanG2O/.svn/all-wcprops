@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/data/svn/maxmixture/!svn/ver/1/trunk/datasets/unimodal/manhattanG2O
+END
+MaxMix-n100_lgr10_seed1244124294w_0.01s_1e-11_manhattanG2O3500.g2o
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/data/svn/maxmixture/!svn/ver/1/trunk/datasets/unimodal/manhattanG2O/MaxMix-n100_lgr10_seed1244124294w_0.01s_1e-11_manhattanG2O3500.g2o
+END
+MaxMix-n1000_randm_seed127469208w_0.01s_1e-11_manhattanG2O3500.g2o
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/data/svn/maxmixture/!svn/ver/1/trunk/datasets/unimodal/manhattanG2O/MaxMix-n1000_randm_seed127469208w_0.01s_1e-11_manhattanG2O3500.g2o
+END
+MaxMix-n1000_local_seed1586059537w_0.01s_1e-11_manhattanG2O3500.g2o
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/data/svn/maxmixture/!svn/ver/1/trunk/datasets/unimodal/manhattanG2O/MaxMix-n1000_local_seed1586059537w_0.01s_1e-11_manhattanG2O3500.g2o
+END
+MaxMix-n100_grp10_seed48989453w_0.01s_1e-11_manhattanG2O3500.g2o
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/data/svn/maxmixture/!svn/ver/1/trunk/datasets/unimodal/manhattanG2O/MaxMix-n100_grp10_seed48989453w_0.01s_1e-11_manhattanG2O3500.g2o
+END

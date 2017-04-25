@@ -1,0 +1,113 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ConsistencyTest	./ConsistencyTest.cpp	/^ConsistencyTest::ConsistencyTest(PbMap &PBM_source, PbMap &PBM_target) :$/;"	f	class:ConsistencyTest
+ConvertPlanes	./planeMatching.cpp	/^void ConvertPlanes(vector<Plane> PbMap_planes, vector<PLANE> &loc_planes)$/;"	f
+GeneratePCDPose	./main.cpp	/^void GeneratePCDPose(string cloudfilename, string posefilename,frameRGBDandPose &inputcloudAndPose, Eigen::Matrix4f &eigenpose)$/;"	f
+ID	./planeMatching.cpp	/^	int ID;$/;"	m	struct:PLANE	file:
+ID_1	./planeMatching.cpp	/^	int ID_1;$/;"	m	struct:MATCHID	file:
+ID_2	./planeMatching.cpp	/^	int ID_2;$/;"	m	struct:MATCHID	file:
+LoadPbMap	./PbMap.cpp	/^bool  PbMap::LoadPbMap(std::string txtFilePbm)$/;"	f	class:PbMap
+LoadPoseFile	./main.cpp	/^bool LoadPoseFile(string posefilename, Eigen::Matrix4f &inputpose)$/;"	f
+MATCHID	./planeMatching.cpp	/^struct MATCHID$/;"	s	file:
+MAX_PLANE_NUM	./planeMatching.cpp	9;"	d	file:
+MergePCDwithPlanes	./main.cpp	/^void MergePCDwithPlanes(vector<string> vstrpcdinput, vector<string> vstrposeinput, pcl::PointCloud<pcl::PointXYZRGBA> &globalCloud, bool PoseMode)$/;"	f
+MergeWith	./PbMap.cpp	/^void PbMap::MergeWith(PbMap &pbm, Eigen::Matrix4f &T)$/;"	f	class:PbMap
+Neighbors	./planeMatching.cpp	/^	int Neighbors[100];$/;"	m	struct:PLANE	file:
+Neighbors_num	./planeMatching.cpp	/^	int Neighbors_num;$/;"	m	struct:PLANE	file:
+PI	./planeMatching.cpp	8;"	d	file:
+PLANE	./planeMatching.cpp	/^struct PLANE{$/;"	s	file:
+PbMap	./PbMap.cpp	/^PbMap::PbMap() :$/;"	f	class:PbMap
+PbMapMaker	./PbmapmakerPerFrame.cpp	/^PbMapMaker::PbMapMaker(const string &config_file) :$/;"	f	class:PbMapMaker
+PlaneMatching	./planeMatching.cpp	/^PlaneMatching::PlaneMatching(PbMap &PBM_source, PbMap &PBM_target):$/;"	f	class:PlaneMatching
+PoseEstimation	./main.cpp	/^void PoseEstimation()$/;"	f
+SMALL_NUM	./Miscellaneous.cpp	47;"	d	file:
+SelectMatchingRes	./planeMatching.cpp	/^void SelectMatchingRes(vector<MATCHID> matches, std::map<unsigned, unsigned> &match_res)$/;"	f
+THRD_ANGL	./planeMatching.cpp	13;"	d	file:
+THRD_AREA_RATIO	./planeMatching.cpp	11;"	d	file:
+THRD_DISTANCE	./planeMatching.cpp	12;"	d	file:
+TOLERANCE_SIZE	./planeMatching.cpp	10;"	d	file:
+ThreadPbMapMaker	./PbmapmakerPerFrame.cpp	/^void*  PbMapMaker::ThreadPbMapMaker(void* lpParam)$/;"	f	class:PbMapMaker
+_VERBOSE	./PbmapmakerPerFrame.cpp	60;"	d	file:
+angle_threshold	./PbmapmakerPerFrame.cpp	/^  float angle_threshold; \/\/  = 0.017453 * 4.0 \/\/ Maximum angle between contiguous 3D-points$/;"	m	struct:config_pbmap	file:
+arePlanesNearby	./PbmapmakerPerFrame.cpp	/^bool PbMapMaker::arePlanesNearby(Plane &plane1, Plane &plane2, const float distThreshold)$/;"	f	class:PbMapMaker
+areSamePlane	./PbmapmakerPerFrame.cpp	/^bool PbMapMaker::areSamePlane(Plane &plane1, Plane &plane2, const float &cosAngleThreshold, const float &distThreshold, const float &proxThreshold)$/;"	f	class:PbMapMaker
+area	./planeMatching.cpp	/^	double area;$/;"	m	struct:PLANE	file:
+calcAlignmentError	./ConsistencyTest.cpp	/^double ConsistencyTest::calcAlignmentError( std::map<unsigned, unsigned> &matched_planes, Eigen::Matrix4f &rigidTransf )$/;"	f	class:ConsistencyTest
+calcConvexHull	./Plane.cpp	/^void Plane::calcConvexHull(pcl::PointCloud<pcl::PointXYZRGBA>::Ptr &pointCloud, std::vector<size_t> &indices)$/;"	f	class:Plane
+calcElongationAndPpalDir	./Plane.cpp	/^void Plane::calcElongationAndPpalDir()$/;"	f	class:Plane
+calcMainColor	./Plane.cpp	/^void Plane::calcMainColor()$/;"	f	class:Plane
+center_x	./planeMatching.cpp	/^	double center_x;$/;"	m	struct:PLANE	file:
+center_y	./planeMatching.cpp	/^	double center_y;$/;"	m	struct:PLANE	file:
+center_z	./planeMatching.cpp	/^	double center_z;$/;"	m	struct:PLANE	file:
+checkProximity	./PbmapmakerPerFrame.cpp	/^void PbMapMaker::checkProximity(Plane &plane, float proximity)$/;"	f	class:PbMapMaker
+color_B	./planeMatching.cpp	/^	double color_B;$/;"	m	struct:PLANE	file:
+color_G	./planeMatching.cpp	/^	double color_G;$/;"	m	struct:PLANE	file:
+color_R	./planeMatching.cpp	/^	double color_R;$/;"	m	struct:PLANE	file:
+color_threshold	./PbmapmakerPerFrame.cpp	/^  float color_threshold;$/;"	m	struct:config_pbmap	file:
+common_observations	./planeMatching.cpp	/^	int common_observations[100];$/;"	m	struct:PLANE	file:
+compute2DPolygonalArea	./Plane.cpp	/^float Plane::compute2DPolygonalArea ()$/;"	f	class:Plane
+computeMassCenterAndArea	./Plane.cpp	/^void Plane::computeMassCenterAndArea()$/;"	f	class:Plane
+configPbMap	./PbmapmakerPerFrame.cpp	/^} configPbMap;$/;"	v	typeref:struct:config_pbmap
+config_localiser	./PbmapmakerPerFrame.cpp	/^  string config_localiser;$/;"	m	struct:config_pbmap	file:
+config_pbmap	./PbmapmakerPerFrame.cpp	/^struct config_pbmap$/;"	s	file:
+cross	./Plane.cpp	/^double cross(const mPointHull &O, const mPointHull &A, const mPointHull &B)$/;"	f
+crossProduct3D	./PoseRelated.cpp	/^void crossProduct3D(Eigen::Matrix<double,3,1> v0, Eigen::Matrix<double,3,1> v1, Eigen::Matrix<double,3,1> &vOut)$/;"	f
+detectPlanesCloud	./PbmapmakerPerFrame.cpp	/^void PbMapMaker::detectPlanesCloud( pcl::PointCloud<PointT>::Ptr &pointCloudPtr_arg,$/;"	f	class:PbMapMaker
+detect_loopClosure	./PbmapmakerPerFrame.cpp	/^  bool detect_loopClosure;             \/\/ Run PbMapLocaliser in a different threads to detect loop closures or preloaded PbMaps$/;"	m	struct:config_pbmap	file:
+dist3D_Segment_to_Segment2	./Miscellaneous.cpp	/^float dist3D_Segment_to_Segment2( Segment S1, Segment S2)$/;"	f
+dist_threshold	./PbmapmakerPerFrame.cpp	/^  float dist_threshold; \/\/ Maximum distance to the plane between neighbor 3D-points$/;"	m	struct:config_pbmap	file:
+exp_HomogeneousMatrix	./PoseRelated.cpp	/^void exp_HomogeneousMatrix(const Eigen::Matrix<double,6,1>& mu, Eigen::Matrix4f &ResultMatrix, bool pseudo_exponential)$/;"	f
+findMatchedPlanes	./planeMatching.cpp	/^void  PlaneMatching::findMatchedPlanes(vector<Plane>& planes_src, vector<Plane>& planes_target, std::map<unsigned, unsigned> &match_res)$/;"	f	class:PlaneMatching
+findMaxIndex	./planeMatching.cpp	/^void  PlaneMatching::findMaxIndex(int* vote, int num, int* max_index, int* max_num, int& max_size)$/;"	f	class:PlaneMatching
+forcePtsLayOnPlane	./Plane.cpp	/^void Plane::forcePtsLayOnPlane()$/;"	f	class:Plane
+generatePbMap	./main.cpp	/^void generatePbMap(const string cloudFile, const string PbMapFile, const string &config_file)$/;"	f
+generateTotalPbMap	./main.cpp	/^void generateTotalPbMap(const string &config_file)$/;"	f
+getPlaneNrgb	./Plane.cpp	/^void Plane::getPlaneNrgb()$/;"	f	class:Plane
+getRTwithModel	./ConsistencyTest.cpp	/^Eigen::Matrix4f ConsistencyTest::getRTwithModel( std::map<unsigned, unsigned> &matched_planes )$/;"	f	class:ConsistencyTest
+getRTwithModelLY	./ConsistencyTest.cpp	/^Eigen::Matrix4f ConsistencyTest::getRTwithModelLY( std::map<unsigned, unsigned> &matched_planes )$/;"	f	class:ConsistencyTest
+graph_mode	./PbmapmakerPerFrame.cpp	/^  int   graph_mode;  \/\/ This var selects the condition to create edges in the graph, either proximity of planar patches or co-visibility in a single frame$/;"	m	struct:config_pbmap	file:
+id	./Plane.cpp	/^    size_t id;$/;"	m	struct:mPointHull	file:
+inferStructure	./PbmapmakerPerFrame.cpp	/^  bool inferStructure;    \/\/ Infer if the planes correspond to the floor, ceiling or walls$/;"	m	struct:config_pbmap	file:
+initPose	./ConsistencyTest.cpp	/^Eigen::Matrix4f ConsistencyTest::initPose( std::map<unsigned, unsigned> &matched_planes )$/;"	f	class:ConsistencyTest
+initPose2D	./ConsistencyTest.cpp	/^Eigen::Matrix4f ConsistencyTest::initPose2D( std::map<unsigned, unsigned> &matched_planes )$/;"	f	class:ConsistencyTest
+initPoseLY	./ConsistencyTest.cpp	/^Eigen::Matrix4f ConsistencyTest::initPoseLY( std::map<unsigned, unsigned> &matched_planes )$/;"	f	class:ConsistencyTest
+input_from_rawlog	./PbmapmakerPerFrame.cpp	/^  bool input_from_rawlog;$/;"	m	struct:config_pbmap	file:
+isInHull	./Miscellaneous.cpp	/^bool isInHull(PointT &point3D, pcl::PointCloud<PointT>::Ptr hull3D)$/;"	f
+isPlaneNearby	./Plane.cpp	/^bool Plane::isPlaneNearby(Plane &plane_nearby, const float distThreshold)$/;"	f	class:Plane
+isSamePlane	./Plane.cpp	/^bool Plane::isSamePlane(Plane &plane_nearby, const float &cosAngleThreshold, const float &distThreshold, const float &proxThreshold)$/;"	f	class:Plane
+mPointHull	./Plane.cpp	/^struct mPointHull {$/;"	s	file:
+main	./main.cpp	/^int main(int argc, char **argv)$/;"	f
+makeClusters	./PbmapmakerPerFrame.cpp	/^  bool makeClusters; \/\/ Should the PbMapMaker cluster the planes according to their co-visibility$/;"	m	struct:config_pbmap	file:
+max_cos_normal	./PbmapmakerPerFrame.cpp	/^  float max_cos_normal;$/;"	m	struct:config_pbmap	file:
+max_dist_center_plane	./PbmapmakerPerFrame.cpp	/^  float max_dist_center_plane; \/\/ Two planar patches that represent the same surface must have their center in the same plane$/;"	m	struct:config_pbmap	file:
+mergePlane	./Plane.cpp	/^void Plane::mergePlane(Plane &plane_nearby)$/;"	f	class:Plane
+mergePlanes	./PbmapmakerPerFrame.cpp	/^void PbMapMaker::mergePlanes(Plane &updatePlane, Plane &discardPlane)$/;"	f	class:PbMapMaker
+minInliersRate	./PbmapmakerPerFrame.cpp	/^  float minInliersRate; \/\/ Minimum ratio of inliers\/image points required$/;"	m	struct:config_pbmap	file:
+normal_x	./planeMatching.cpp	/^	double normal_x;$/;"	m	struct:PLANE	file:
+normal_y	./planeMatching.cpp	/^	double normal_y;$/;"	m	struct:PLANE	file:
+normal_z	./planeMatching.cpp	/^	double normal_z;$/;"	m	struct:PLANE	file:
+operator <	./Plane.cpp	/^    bool operator <(const mPointHull &p) const {$/;"	f	struct:mPointHull
+path_save_pbmap	./PbmapmakerPerFrame.cpp	/^  std::string path_save_pbmap;$/;"	m	struct:config_pbmap	file:
+path_save_registered_cloud	./PbmapmakerPerFrame.cpp	/^  std::string path_save_registered_cloud;$/;"	m	struct:config_pbmap	file:
+printHelp	./main.cpp	/^void printHelp()$/;"	f
+printPbMap	./PbMap.cpp	/^void PbMap::printPbMap(string txtFilePbm)$/;"	f	class:PbMap
+proximity_neighbor_planes	./PbmapmakerPerFrame.cpp	/^  float proximity_neighbor_planes;  \/\/ Two planar patches are considered neighbors when the closest distance between them is under proximity_neighbor_planes$/;"	m	struct:config_pbmap	file:
+proximity_threshold	./PbmapmakerPerFrame.cpp	/^  float proximity_threshold;  \/\/ Two planar patches that represent the same surface must overlap or be nearby$/;"	m	struct:config_pbmap	file:
+ratioXY	./planeMatching.cpp	/^	double ratioXY;$/;"	m	struct:PLANE	file:
+rawlog_path	./PbmapmakerPerFrame.cpp	/^  std::string rawlog_path;$/;"	m	struct:config_pbmap	file:
+readConfigFile	./PbmapmakerPerFrame.cpp	/^void readConfigFile(const string &config_file_name)$/;"	f
+record_rawlog	./PbmapmakerPerFrame.cpp	/^  bool record_rawlog;$/;"	m	struct:config_pbmap	file:
+rodrigues_so3_exp	./PoseRelated.cpp	/^void rodrigues_so3_exp(Eigen::Matrix<double,3,1> w, double A, double B, Eigen::Matrix<double,3,3> R)$/;"	f
+run	./PbmapmakerPerFrame.cpp	/^void PbMapMaker::run()$/;"	f	class:PbMapMaker
+save_registered_cloud	./PbmapmakerPerFrame.cpp	/^  bool save_registered_cloud;$/;"	m	struct:config_pbmap	file:
+stop_pbMapMaker	./PbmapmakerPerFrame.cpp	/^bool PbMapMaker::stop_pbMapMaker()$/;"	f	class:PbMapMaker
+updateposeFUN	./ConsistencyTest.cpp	/^void ConsistencyTest::updateposeFUN(Eigen::Matrix<float,6,1> updatedSE3, Eigen::Matrix4f &updatePose)$/;"	f	class:ConsistencyTest
+use_color	./PbmapmakerPerFrame.cpp	/^  bool use_color;                   \/\/ Add color information to the planes$/;"	m	struct:config_pbmap	file:
+x	./Plane.cpp	/^    double x, y;$/;"	m	struct:mPointHull	file:
+y	./Plane.cpp	/^    double x, y;$/;"	m	struct:mPointHull	file:
+~PbMap	./PbMap.cpp	/^PbMap::~PbMap()$/;"	f	class:PbMap
+~PbMapMaker	./PbmapmakerPerFrame.cpp	/^PbMapMaker::~PbMapMaker()$/;"	f	class:PbMapMaker

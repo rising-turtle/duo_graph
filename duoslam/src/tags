@@ -1,0 +1,1323 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARCHITECTURE_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	193;"	d	file:
+ARCHITECTURE_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	196;"	d	file:
+ARCHITECTURE_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	199;"	d	file:
+ARCHITECTURE_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	202;"	d	file:
+ARCHITECTURE_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	206;"	d	file:
+ARCHITECTURE_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	181;"	d	file:
+ARCHITECTURE_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	184;"	d	file:
+ARCHITECTURE_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	187;"	d	file:
+ARCHITECTURE_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	190;"	d	file:
+ARCHITECTURE_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	194;"	d	file:
+ARCHITECTURE_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	193;"	d	file:
+ARCHITECTURE_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	196;"	d	file:
+ARCHITECTURE_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	199;"	d	file:
+ARCHITECTURE_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	202;"	d	file:
+ARCHITECTURE_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	206;"	d	file:
+ARCHITECTURE_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	181;"	d	file:
+ARCHITECTURE_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	184;"	d	file:
+ARCHITECTURE_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	187;"	d	file:
+ARCHITECTURE_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	190;"	d	file:
+ARCHITECTURE_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	194;"	d	file:
+Alpha	./octowrapper/bag_listener.h	/^            unsigned char Alpha;$/;"	m	struct:CBagListener::__anon1::__anon2
+B	./misc/colortable.h	/^    static unsigned char const B=Blue;$/;"	m	struct:tm_color
+BACKLOG	./minet/Com.h	10;"	d
+BAG_LISTENER_H	./octowrapper/bag_listener.h	2;"	d
+Blue	./octowrapper/bag_listener.h	/^            unsigned char Blue;$/;"	m	struct:CBagListener::__anon1::__anon2
+CAMERA	./octowrapper/bag_listener.h	/^    enum SYN {COLOR=0, DEPTH, CAMERA, TF};$/;"	e	enum:CBagListener::SYN
+CAMERAFOLLOWMODE_H_	./octowrapper/viewer/CameraFollowMode.h	27;"	d
+CAMERA_PATH_ID	./octowrapper/viewer/CameraFollowMode.cpp	30;"	d	file:
+CBagListener	./octowrapper/bag_listener.h	/^    CBagListener(int stack = 10)$/;"	f	class:CBagListener
+CBagListener	./octowrapper/bag_listener.h	/^class CBagListener : public QObject$/;"	c
+CDuoGraph	./slam/DuoGraph.cpp	/^CDuoGraph::CDuoGraph() : $/;"	f	class:CDuoGraph
+CDuoGraph	./slam/DuoGraph.h	/^class CDuoGraph$/;"	c
+CFileReader	./octowrapper/FileReader.cpp	/^CFileReader::CFileReader():$/;"	f	class:CFileReader
+CFileReader	./octowrapper/FileReader.h	/^class CFileReader$/;"	c
+CGraphHolder	./pairwise/GraphHolder.cpp	/^CGraphHolder::CGraphHolder(string dir):$/;"	f	class:CGraphHolder
+CGraphHolder	./pairwise/GraphHolder.h	/^class CGraphHolder$/;"	c
+CGraphWrapper	./slam/GraphWrapper.cpp	/^CGraphWrapper::CGraphWrapper():$/;"	f	class:CGraphWrapper
+CGraphWrapper	./slam/GraphWrapper.h	/^class CGraphWrapper : public GraphManager$/;"	c
+CLIENTNET_H	./minet/ClientNet.h	2;"	d
+CMAKE_BINARY_DIR	./PoseEstimation/build/Makefile	/^CMAKE_BINARY_DIR = \/home\/davidz\/work\/ros\/groovy\/catkin_ws\/src\/slam_svn\/duoslam\/src\/PoseEstimation\/build$/;"	m
+CMAKE_BINARY_DIR	./VisualizePbMap/build/Makefile	/^CMAKE_BINARY_DIR = \/home\/helen\/workspace\/code\/VisualizePbMap\/build$/;"	m
+CMAKE_COMMAND	./PoseEstimation/build/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_COMMAND	./VisualizePbMap/build/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_EDIT_COMMAND	./VisualizePbMap/build/Makefile	/^CMAKE_EDIT_COMMAND = \/usr\/bin\/ccmake$/;"	m
+CMAKE_SOURCE_DIR	./PoseEstimation/build/Makefile	/^CMAKE_SOURCE_DIR = \/home\/davidz\/work\/ros\/groovy\/catkin_ws\/src\/slam_svn\/duoslam\/src\/PoseEstimation$/;"	m
+CMAKE_SOURCE_DIR	./VisualizePbMap/build/Makefile	/^CMAKE_SOURCE_DIR = \/home\/helen\/workspace\/code\/VisualizePbMap$/;"	m
+CMixGraph	./mixture/MixGraph.cpp	/^CMixGraph::CMixGraph():$/;"	f	class:CMixGraph
+CMixGraph	./mixture/MixGraph.h	/^class CMixGraph $/;"	c
+CNodeHolder	./pairwise/NodeHolder.cpp	/^CNodeHolder::CNodeHolder(cv::Mat visual_img, cv::Mat depth_float_img, $/;"	f	class:CNodeHolder
+CNodeHolder	./pairwise/NodeHolder.h	/^class CNodeHolder$/;"	c
+CNodeWrapper	./slam/NodeWrapper.cpp	/^CNodeWrapper::CNodeWrapper(){}$/;"	f	class:CNodeWrapper
+CNodeWrapper	./slam/NodeWrapper.cpp	/^CNodeWrapper::CNodeWrapper(const CNodeWrapper& rhs)$/;"	f	class:CNodeWrapper
+CNodeWrapper	./slam/NodeWrapper.cpp	/^CNodeWrapper::CNodeWrapper(const cv::Mat visual,$/;"	f	class:CNodeWrapper
+CNodeWrapper	./slam/NodeWrapper.cpp	/^CNodeWrapper::CNodeWrapper(const cv::Mat& visual, $/;"	f	class:CNodeWrapper
+CNodeWrapper	./slam/NodeWrapper.h	/^class CNodeWrapper : public Node$/;"	c
+COLOR	./octowrapper/bag_listener.h	/^    enum SYN {COLOR=0, DEPTH, CAMERA, TF};$/;"	e	enum:CBagListener::SYN
+COLOR_OCTREE_IMPL_H	./octowrapper/ColorOctreeImpl.h	2;"	d
+COLOR_TABLE_H	./misc/colortable.h	2;"	d
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	10;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	13;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	16;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	19;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	22;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	25;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	28;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	32;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	34;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	36;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	40;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	43;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	46;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	49;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	52;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	55;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	58;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	61;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	66;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	77;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	80;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	86;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	89;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	92;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	12;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	15;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	18;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	21;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	24;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	27;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	30;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	34;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	36;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	38;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	42;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	45;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	48;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	51;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	54;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	57;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	60;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	65;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	68;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	74;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	77;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	80;"	d	file:
+COMPILER_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	9;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	10;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	13;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	16;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	19;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	22;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	25;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	28;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	32;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	34;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	36;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	40;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	43;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	46;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	49;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	52;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	55;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	58;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	61;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	66;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	77;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	80;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	86;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	89;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	92;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	12;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	15;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	18;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	21;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	24;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	27;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	30;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	34;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	36;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	38;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	42;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	45;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	48;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	51;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	54;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	57;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	60;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	65;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	68;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	74;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	77;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	80;"	d	file:
+COMPILER_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	9;"	d	file:
+COM_H	./minet/Com.h	2;"	d
+COctVizWrapper	./octowrapper/OctoVizWrapper.cpp	/^COctVizWrapper::COctVizWrapper(float _Resolution)$/;"	f	class:COctVizWrapper
+COctVizWrapper	./octowrapper/OctoVizWrapper.h	/^class COctVizWrapper : public octomap::ViewerGui$/;"	c
+COpenniWrapper	./slam/OpenniWrapper.cpp	/^COpenniWrapper::COpenniWrapper(CDuoGraph* g_mgr) : $/;"	f	class:COpenniWrapper
+COpenniWrapper	./slam/OpenniWrapper.h	/^class COpenniWrapper : public OpenNIListener $/;"	c
+CPose3D	./pairwise/Pose3D.cpp	/^    CPose3D::CPose3D()$/;"	f	class:pairwise::CPose3D
+CPose3D	./pairwise/Pose3D.cpp	/^    CPose3D::CPose3D(double t[3], double q[4])$/;"	f	class:pairwise::CPose3D
+CPose3D	./pairwise/Pose3D.h	/^class CPose3D$/;"	c	namespace:pairwise
+CReadFiles	./pairwise/ReadFiles.cpp	/^CReadFiles::CReadFiles(string dir): $/;"	f	class:CReadFiles
+CReadFiles	./pairwise/ReadFiles.h	/^class CReadFiles$/;"	c
+CRecePub	./pairwise/RecePub.cpp	/^CRecePub::CRecePub():$/;"	f	class:CRecePub
+CRecePub	./pairwise/RecePub.h	/^class CRecePub$/;"	c
+CSubmap	./slam/Submap.h	/^class CSubmap $/;"	c
+CSubmap	./slam/Submap.hpp	/^CSubmap<NODE>::CSubmap():$/;"	f	class:CSubmap
+CSubmapGraph	./slam/SubmapGraph.cpp	/^CSubmapGraph::CSubmapGraph(){}$/;"	f	class:CSubmapGraph
+CSubmapGraph	./slam/SubmapGraph.h	/^class CSubmapGraph : public CGraphWrapper$/;"	c
+CSubmapNode	./slam/SubmapNode.cpp	/^CSubmapNode::CSubmapNode(CSubmap<CNodeWrapper>* pSubmap)$/;"	f	class:CSubmapNode
+CSubmapNode	./slam/SubmapNode.cpp	/^CSubmapNode::CSubmapNode(string fname)$/;"	f	class:CSubmapNode
+CSubmapNode	./slam/SubmapNode.h	/^class CSubmapNode : public CNodeWrapper$/;"	c
+CallBack_RecvData	./minet/ExternalCom.h	/^typedef int (*CallBack_RecvData)(int nDataLen,char *pcData);$/;"	t
+CallBack_RecvDataFromServer	./minet/ClientNet.h	/^typedef int (*CallBack_RecvDataFromServer)(char *pcData,int nDataLen);$/;"	t
+CallBack_Register	./minet/ExternalCom.h	/^typedef int (*CallBack_Register)(int nSock,char *pcIP,int nStatus);$/;"	t
+CameraFollowMode	./octowrapper/viewer/CameraFollowMode.cpp	/^CameraFollowMode::CameraFollowMode(octomap::ScanGraph *graph)$/;"	f	class:CameraFollowMode
+CameraFollowMode	./octowrapper/viewer/CameraFollowMode.h	/^class CameraFollowMode : public QObject {$/;"	c
+ClientNet	./minet/ClientNet.cpp	/^ClientNet::ClientNet(void)$/;"	f	class:ClientNet
+ClientNet	./minet/ClientNet.h	/^class ClientNet$/;"	c
+ClientNetInit	./minet/ClientNet.cpp	/^int ClientNet::ClientNetInit(char *pucConfig)$/;"	f	class:ClientNet
+ColorOctreeImpl	./octowrapper/ColorOctreeImpl.cpp	/^ColorOctreeImpl::ColorOctreeImpl(float res):ColorOcTree(res){}$/;"	f	class:ColorOctreeImpl
+ColorOctreeImpl	./octowrapper/ColorOctreeImpl.h	/^class ColorOctreeImpl : public octomap::ColorOcTree$/;"	c
+Com	./minet/Com.cpp	/^Com::Com()$/;"	f	class:Com
+Com	./minet/Com.h	/^class Com$/;"	c
+ComInit	./minet/Com.cpp	/^int Com::ComInit(char *pcData)$/;"	f	class:Com
+ComInit	./minet/ExternalCom.cpp	/^int ExternalCom::ComInit(char *pcData)$/;"	f	class:ExternalCom
+ComRun	./minet/ExternalCom.cpp	/^int ExternalCom::ComRun()$/;"	f	class:ExternalCom
+ConsistencyTest	./PoseEstimation/include/ConsistencyTest.h	/^  class ConsistencyTest$/;"	c
+ConsistencyTest	./PoseEstimation/src/ConsistencyTest.cpp	/^ConsistencyTest::ConsistencyTest(PbMap &PBM_source, PbMap &PBM_target) :$/;"	f	class:ConsistencyTest
+ConvertPlanes	./PoseEstimation/src/planeMatching.cpp	/^void ConvertPlanes(vector<Plane> PbMap_planes, vector<PLANE> &loc_planes)$/;"	f
+D2R	./misc/globaldef.h	15;"	d
+DATA_READY	./slam/mainMapBuilderSocket.cpp	/^bool DATA_READY = false;$/;"	v
+DEFAULT_OCTREE_ID	./octowrapper/viewer/ViewerGui.h	/^    static const unsigned int DEFAULT_OCTREE_ID  = 0; $/;"	m	class:octomap::ViewerGui
+DEFAULT_VECTOR	./PoseEstimation/include/Plane.h	/^static std::vector<size_t> DEFAULT_VECTOR;$/;"	v
+DEFAULT_VECTOR	./VisualizePbMap/include/Plane.h	/^static std::vector<size_t> DEFAULT_VECTOR;$/;"	v
+DEPTH	./octowrapper/bag_listener.h	/^    enum SYN {COLOR=0, DEPTH, CAMERA, TF};$/;"	e	enum:CBagListener::SYN
+DUO_GRAPH_H	./slam/DuoGraph.h	2;"	d
+EDPbmap_H	./PoseEstimation/include/EDPbmap.h	2;"	d
+EDPbmap_H	./VisualizePbMap/include/EDPbmap.h	2;"	d
+EXTERNALCOM_H	./minet/ExternalCom.h	2;"	d
+EdgeSet	./mixture/MixGraph.cpp	/^typedef std::set<g2o::HyperGraph::Edge*> EdgeSet;$/;"	t	file:
+ExternalCom	./minet/ExternalCom.cpp	/^ExternalCom::ExternalCom()$/;"	f	class:ExternalCom
+ExternalCom	./minet/ExternalCom.h	/^class ExternalCom:public Com$/;"	c
+FEATURE_CLOUD_READY	./slam/mainMapBuilderROS.cpp	/^bool FEATURE_CLOUD_READY = false;$/;"	v
+FEATURE_DES_READY	./slam/mainMapBuilderROS.cpp	/^bool FEATURE_DES_READY = false;$/;"	v
+FEATURE_LOC_READY	./slam/mainMapBuilderROS.cpp	/^bool FEATURE_LOC_READY = false;$/;"	v
+FEATURE_TF_READY	./slam/mainMapBuilderROS.cpp	/^bool FEATURE_TF_READY = false;$/;"	v
+FILE_READER_H	./octowrapper/FileReader.h	2;"	d
+FloorPlane	./PoseEstimation/include/PbMap.h	/^    int FloorPlane;$/;"	m	class:PbMap
+FloorPlane	./VisualizePbMap/include/PbMap.h	/^    int FloorPlane;$/;"	m	class:PbMap
+G	./misc/colortable.h	/^    static unsigned char const G=Green;$/;"	m	struct:tm_color
+GLOBAL_DEF_H	./misc/globaldef.h	2;"	d
+GRAPHHOLDER_H	./pairwise/GraphHolder.h	2;"	d
+GRAPH_WRAPPER_H	./slam/GraphWrapper.h	2;"	d
+GeneratePCDPose	./PoseEstimation/src/main.cpp	/^void GeneratePCDPose(string cloudfilename, string posefilename,frameRGBDandPose &inputcloudAndPose, Eigen::Matrix4f &eigenpose)$/;"	f
+Green	./octowrapper/bag_listener.h	/^            unsigned char Green;$/;"	m	struct:CBagListener::__anon1::__anon2
+ID	./PoseEstimation/src/planeMatching.cpp	/^	int ID;$/;"	m	struct:PLANE	file:
+ID_1	./PoseEstimation/src/planeMatching.cpp	/^	int ID_1;$/;"	m	struct:MATCHID	file:
+ID_2	./PoseEstimation/src/planeMatching.cpp	/^	int ID_2;$/;"	m	struct:MATCHID	file:
+ID_VOID_MAIN	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	6;"	d	file:
+ID_VOID_MAIN	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	6;"	d	file:
+Init	./slam/NodeWrapper.cpp	/^void CNodeWrapper::Init()$/;"	f	class:CNodeWrapper
+InitRender	./octowrapper/OctoVizWrapper.cpp	/^void COctVizWrapper::InitRender()$/;"	f	class:COctVizWrapper
+IsDraw	./slam/GraphWrapper.h	/^    bool IsDraw(){return m_bDrawThisGraph;}$/;"	f	class:CGraphWrapper
+IsVerbose	./slam/GraphWrapper.h	/^    bool IsVerbose(){return optimizer_->verbose();}$/;"	f	class:CGraphWrapper
+Key	./pairwise/ReadFiles.h	/^    typedef double Key; $/;"	t	class:CReadFiles
+LASERTYPE_SICK	./octowrapper/viewer/ViewerGui.h	/^    static const unsigned int LASERTYPE_SICK = 1;$/;"	m	class:octomap::ViewerGui
+LASERTYPE_URG	./octowrapper/viewer/ViewerGui.h	/^    static const unsigned int LASERTYPE_URG  = 0;$/;"	m	class:octomap::ViewerGui
+Listen2Host	./minet/ClientNet.cpp	/^int ClientNet::Listen2Host()$/;"	f	class:ClientNet
+LoadPbMap	./PoseEstimation/src/PbMap.cpp	/^bool  PbMap::LoadPbMap(std::string txtFilePbm)$/;"	f	class:PbMap
+LoadPbMap	./VisualizePbMap/src/PbMap.cpp	/^bool  PbMap::LoadPbMap(std::string txtFilePbm)$/;"	f	class:PbMap
+LoadPoseFile	./PoseEstimation/src/main.cpp	/^bool LoadPoseFile(string posefilename, Eigen::Matrix4f &inputpose)$/;"	f
+MATCHID	./PoseEstimation/src/planeMatching.cpp	/^struct MATCHID$/;"	s	file:
+MAX_PLANE_NUM	./PoseEstimation/src/planeMatching.cpp	9;"	d	file:
+MIX_GRAPH_H	./mixture/MixGraph.h	2;"	d
+M_PI_2	./octowrapper/viewer/ViewerWidget.cpp	31;"	d	file:
+MergePCDwithPlanes	./PoseEstimation/src/main.cpp	/^void MergePCDwithPlanes(vector<string> vstrpcdinput, vector<string> vstrposeinput, pcl::PointCloud<pcl::PointXYZRGBA> &globalCloud, bool PoseMode)$/;"	f
+MergeWith	./PoseEstimation/src/PbMap.cpp	/^void PbMap::MergeWith(PbMap &pbm, Eigen::Matrix4f &T)$/;"	f	class:PbMap
+MergeWith	./VisualizePbMap/src/PbMap.cpp	/^void PbMap::MergeWith(PbMap &pbm, Eigen::Matrix4f &T)$/;"	f	class:PbMap
+NET_STATUS_INIT_NUM	./minet/Com.h	30;"	d
+NET_STATUS_NORMAL_BIT_NUM	./minet/Com.h	27;"	d
+NET_STATUS_OK_BIT_NUM	./minet/Com.h	26;"	d
+NET_STATUS_SLOW_BIT_NUM	./minet/Com.h	28;"	d
+NET_STATUS_UNKOWN_BIT_NUM	./minet/Com.h	29;"	d
+NODE_HOLDER_H	./pairwise/NodeHolder.h	2;"	d
+NODE_WRAPPER_H	./slam/NodeWrapper.h	2;"	d
+Neighbors	./PoseEstimation/src/planeMatching.cpp	/^	int Neighbors[100];$/;"	m	struct:PLANE	file:
+Neighbors_num	./PoseEstimation/src/planeMatching.cpp	/^	int Neighbors_num;$/;"	m	struct:PLANE	file:
+NoCloudSyncPolicy	./pairwise/RecePub.h	/^                                                       sensor_msgs::CameraInfo> NoCloudSyncPolicy;$/;"	t
+OCO_GLOBALDEF_H	./octowrapper/octo_globaldef.h	2;"	d
+OCTOVIZ_WRAPPER_H	./octowrapper/OctoVizWrapper.h	2;"	d
+OPENNI_WRAPPER_H	./slam/OpenniWrapper.h	2;"	d
+P0	./PoseEstimation/include/Miscellaneous.h	/^    PointT P0, P1;$/;"	m	struct:Segment
+P0	./VisualizePbMap/include/Miscellaneous.h	/^    PointT P0, P1;$/;"	m	struct:Segment
+P1	./PoseEstimation/include/Miscellaneous.h	/^    PointT P0, P1;$/;"	m	struct:Segment
+P1	./VisualizePbMap/include/Miscellaneous.h	/^    PointT P0, P1;$/;"	m	struct:Segment
+PARAMSRVMI_H_	./slam/paramSrvMi.h	9;"	d
+PBMAPVISUALIZER_H_	./VisualizePbMap/include/PbMapVisualizer.h	9;"	d
+PBMSource	./PoseEstimation/include/ConsistencyTest.h	/^    PbMap &PBMSource;$/;"	m	class:ConsistencyTest
+PBMSource	./PoseEstimation/include/planeMatching.h	/^	    PbMap &PBMSource;$/;"	m	class:PlaneMatching
+PBMTarget	./PoseEstimation/include/ConsistencyTest.h	/^    PbMap &PBMTarget;$/;"	m	class:ConsistencyTest
+PBMTarget	./PoseEstimation/include/planeMatching.h	/^	    PbMap &PBMTarget;$/;"	m	class:PlaneMatching
+PC_Incremental	./octowrapper/OctoVizWrapper.h	/^    enum PcModel{PC_Incremental, PC_OnlyOne};$/;"	e	enum:COctVizWrapper::PcModel
+PC_OnlyOne	./octowrapper/OctoVizWrapper.h	/^    enum PcModel{PC_Incremental, PC_OnlyOne};$/;"	e	enum:COctVizWrapper::PcModel
+PI	./PoseEstimation/src/planeMatching.cpp	8;"	d	file:
+PLANE	./PoseEstimation/src/planeMatching.cpp	/^struct PLANE{$/;"	s	file:
+PLANEMATCHING_H_	./PoseEstimation/include/planeMatching.h	9;"	d
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	104;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	107;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	110;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	113;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	116;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	119;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	122;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	125;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	128;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	131;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	134;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	137;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	140;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	146;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	149;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	152;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	155;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	158;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	161;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	164;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	167;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	170;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	173;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	176;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	179;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	182;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	101;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	104;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	107;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	110;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	113;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	116;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	119;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	122;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	125;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	128;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	134;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	137;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	140;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	143;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	146;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	149;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	152;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	155;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	158;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	161;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	164;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	167;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	170;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	92;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	95;"	d	file:
+PLATFORM_ID	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	98;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	104;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	107;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	110;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	113;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	116;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	119;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	122;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	125;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	128;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	131;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	134;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	137;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	140;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	146;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	149;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	152;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	155;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	158;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	161;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	164;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	167;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	170;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	173;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	176;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	179;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	182;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	101;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	104;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	107;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	110;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	113;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	116;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	119;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	122;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	125;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	128;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	134;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	137;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	140;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	143;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	146;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	149;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	152;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	155;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	158;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	161;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	164;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	167;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	170;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	92;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	95;"	d	file:
+PLATFORM_ID	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	98;"	d	file:
+POINTCLOUD_ENABLED	./slam/Submap.h	22;"	d
+POSE3D_H	./pairwise/Pose3D.h	2;"	d
+POSERELATED_H_	./PoseEstimation/include/PoseRelated.h	9;"	d
+ParamSrvMi	./slam/paramSrvMi.cpp	/^ParamSrvMi::ParamSrvMi(){$/;"	f	class:ParamSrvMi
+ParamSrvMi	./slam/paramSrvMi.h	/^class ParamSrvMi$/;"	c
+ParseIP	./minet/ClientNet.cpp	/^int ClientNet::ParseIP(char *pcData,char *pcIP)$/;"	f	class:ClientNet
+ParseIP	./minet/Com.cpp	/^int Com::ParseIP(char *pcData,char *pcIP)$/;"	f	class:Com
+PbMap	./PoseEstimation/include/PbMap.h	/^  class PbMap$/;"	c
+PbMap	./PoseEstimation/src/PbMap.cpp	/^PbMap::PbMap() :$/;"	f	class:PbMap
+PbMap	./VisualizePbMap/include/PbMap.h	/^  class PbMap$/;"	c
+PbMap	./VisualizePbMap/src/PbMap.cpp	/^PbMap::PbMap() :$/;"	f	class:PbMap
+PbMapMaker	./PoseEstimation/include/PbmapmakerPerFrame.h	/^class PbMapMaker$/;"	c
+PbMapMaker	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^PbMapMaker::PbMapMaker(const string &config_file) :$/;"	f	class:PbMapMaker
+PbMapVisualizer	./VisualizePbMap/include/PbMapVisualizer.h	/^class PbMapVisualizer {$/;"	c
+PbMapVisualizer	./VisualizePbMap/src/PbMapVisualizer.cpp	/^PbMapVisualizer::PbMapVisualizer():$/;"	f	class:PbMapVisualizer
+PcModel	./octowrapper/OctoVizWrapper.h	/^    enum PcModel{PC_Incremental, PC_OnlyOne};$/;"	g	class:COctVizWrapper
+Plane	./PoseEstimation/include/Plane.h	/^ Plane() :$/;"	f	class:Plane
+Plane	./PoseEstimation/include/Plane.h	/^class Plane $/;"	c
+Plane	./VisualizePbMap/include/Plane.h	/^ Plane() :$/;"	f	class:Plane
+Plane	./VisualizePbMap/include/Plane.h	/^class Plane $/;"	c
+PlaneMatching	./PoseEstimation/include/planeMatching.h	/^ class PlaneMatching$/;"	c
+PlaneMatching	./PoseEstimation/src/planeMatching.cpp	/^PlaneMatching::PlaneMatching(PbMap &PBM_source, PbMap &PBM_target):$/;"	f	class:PlaneMatching
+PointT	./PoseEstimation/include/Miscellaneous.h	/^  typedef pcl::PointXYZRGBA PointT;$/;"	t
+PointT	./PoseEstimation/include/PbmapmakerPerFrame.h	/^typedef pcl::PointXYZRGBA PointT;$/;"	t
+PointT	./VisualizePbMap/include/Miscellaneous.h	/^  typedef pcl::PointXYZRGBA PointT;$/;"	t
+Pose6d	./slam/SubmapStore.h	/^}Pose6d;$/;"	t	namespace:submap	typeref:struct:submap::_Pose
+PoseEstimation	./PoseEstimation/src/main.cpp	/^void PoseEstimation()$/;"	f
+Process2Record	./octowrapper/FileReader.cpp	/^void CFileReader::Process2Record(string outf)$/;"	f	class:CFileReader
+ProcessDirectory	./octowrapper/FileReader.cpp	/^void CFileReader::ProcessDirectory(std::string directory)$/;"	f	class:CFileReader
+ProcessEntity	./octowrapper/FileReader.cpp	/^void CFileReader::ProcessEntity(struct dirent* entity)$/;"	f	class:CFileReader
+ProcessFile	./octowrapper/FileReader.cpp	/^void CFileReader::ProcessFile(std::string file)$/;"	f	class:CFileReader
+R	./misc/colortable.h	/^    static unsigned char const R=Red;$/;"	m	struct:tm_color
+R2D	./misc/globaldef.h	14;"	d
+READFILES_H	./pairwise/ReadFiles.h	2;"	d
+RECEPUB_H	./pairwise/RecePub.h	2;"	d
+RGBValue	./octowrapper/bag_listener.h	/^    } RGBValue;$/;"	t	class:CBagListener	typeref:union:CBagListener::__anon1
+RM	./PoseEstimation/build/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+RM	./VisualizePbMap/build/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+ROBOT_TRAJECTORY_ID	./octowrapper/viewer/CameraFollowMode.cpp	31;"	d	file:
+RcvStream	./minet/ClientNet.cpp	/^int ClientNet::RcvStream(int nGoalSize,char *pcTmpBuff,int sockfd)$/;"	f	class:ClientNet
+RcvStream	./minet/Com.cpp	/^int Com::RcvStream(int nGoalSize,char *pcTmpBuff,int sockfd)$/;"	f	class:Com
+Record	./pairwise/ReadFiles.h	/^    typedef map<Key, Value> Record;$/;"	t	class:CReadFiles
+RecvDataFromClient	./minet/ServerMain.cpp	/^int RecvDataFromClient(int nDataLen,char *pcData)$/;"	f
+RecvDataFromClient	./slam/mainMapBuilderSocket.cpp	/^int RecvDataFromClient(int nDataLen,char *pcData)$/;"	f
+RecvDataFromServer	./minet/ClientMain.cpp	/^int RecvDataFromServer(char *pcData,int nDataLen)$/;"	f
+Red	./octowrapper/bag_listener.h	/^            unsigned char Red;$/;"	m	struct:CBagListener::__anon1::__anon2
+Register	./minet/ServerMain.cpp	/^int Register(int nSock,char *pcIP,int nStatus)$/;"	f
+Register	./slam/mainMapBuilderSocket.cpp	/^int Register(int nSock,char *pcIP,int nStatus)$/;"	f
+SHELL	./PoseEstimation/build/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	./VisualizePbMap/build/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SMALL_NUM	./PoseEstimation/src/Miscellaneous.cpp	47;"	d	file:
+SMALL_NUM	./VisualizePbMap/src/Miscellaneous.cpp	47;"	d	file:
+SQ	./misc/globaldef.h	18;"	d
+SUBMAP_GRAPH_H	./slam/SubmapGraph.h	2;"	d
+SUBMAP_H	./slam/Submap.h	2;"	d
+SUBMAP_NODE_H	./slam/SubmapNode.h	2;"	d
+SUBMAP_STORE_H	./slam/SubmapStore.h	2;"	d
+SUFFIXES	./PoseEstimation/build/Makefile	/^SUFFIXES =$/;"	m
+SUFFIXES	./VisualizePbMap/build/Makefile	/^SUFFIXES =$/;"	m
+SYN	./octowrapper/bag_listener.h	/^    enum SYN {COLOR=0, DEPTH, CAMERA, TF};$/;"	g	class:CBagListener
+Segment	./PoseEstimation/include/Miscellaneous.h	/^    Segment(PointT p0, PointT p1) :$/;"	f	struct:Segment
+Segment	./PoseEstimation/include/Miscellaneous.h	/^  struct Segment$/;"	s
+Segment	./VisualizePbMap/include/Miscellaneous.h	/^    Segment(PointT p0, PointT p1) :$/;"	f	struct:Segment
+Segment	./VisualizePbMap/include/Miscellaneous.h	/^  struct Segment$/;"	s
+SelectMatchingRes	./PoseEstimation/src/planeMatching.cpp	/^void SelectMatchingRes(vector<MATCHID> matches, std::map<unsigned, unsigned> &match_res)$/;"	f
+SendData	./minet/ClientNet.cpp	/^int ClientNet::SendData(char *pcData,int nDataLen)$/;"	f	class:ClientNet
+SendData2Cleint	./minet/ExternalCom.cpp	/^int ExternalCom::SendData2Cleint(int nDataLen,char *pcData,int nSock)$/;"	f	class:ExternalCom
+SendStream	./minet/ClientNet.cpp	/^int ClientNet::SendStream(int nGoalSize,char *pcTmpBuff,int sockfd)$/;"	f	class:ClientNet
+SendStream	./minet/Com.cpp	/^int Com::SendStream(int nGoalSize,char *pcTmpBuff,int sockfd)$/;"	f	class:Com
+ServerAddr	./minet/Com.h	/^	struct sockaddr_in ServerAddr;$/;"	m	class:Com	typeref:struct:Com::sockaddr_in
+SetAddr	./minet/ClientNet.cpp	/^int ClientNet::SetAddr(int nPort,unsigned char *pucIP,sockaddr_in &addr)$/;"	f	class:ClientNet
+SetAddr	./minet/Com.cpp	/^int Com::SetAddr(int nPort,unsigned char *pucIP,sockaddr_in &addr)$/;"	f	class:Com
+SetSockOpt	./minet/Com.cpp	/^int Com::SetSockOpt(int nSock)$/;"	f	class:Com
+SetSocket	./minet/ClientNet.cpp	/^int ClientNet::SetSocket(int nPort,unsigned char *pucIP,sockaddr_in &addr)$/;"	f	class:ClientNet
+SetSocket	./minet/Com.cpp	/^int Com::SetSocket(int nPort,unsigned char *pucIP,sockaddr_in &addr)$/;"	f	class:Com
+SlamBlockSolver	./mixture/MixGraph.cpp	/^typedef g2o::BlockSolver< g2o::BlockSolverTraits<6, 3> >  SlamBlockSolver;$/;"	t	file:
+SlamLinearCSparseSolver	./mixture/MixGraph.cpp	/^typedef g2o::LinearSolverCSparse<SlamBlockSolver::PoseMatrixType> SlamLinearCSparseSolver;$/;"	t	file:
+SlamLinearCholmodSolver	./mixture/MixGraph.cpp	/^typedef g2o::LinearSolverCholmod<SlamBlockSolver::PoseMatrixType> SlamLinearCholmodSolver;$/;"	t	file:
+SlamLinearDenseSolver	./mixture/MixGraph.cpp	/^typedef g2o::LinearSolverDense<SlamBlockSolver::PoseMatrixType> SlamLinearDenseSolver;$/;"	t	file:
+SlamLinearPCGSolver	./mixture/MixGraph.cpp	/^typedef g2o::LinearSolverPCG<SlamBlockSolver::PoseMatrixType> SlamLinearPCGSolver;$/;"	t	file:
+StartTiming	./misc/globaldef.cpp	/^void StartTiming() \/\/ not thread-safe$/;"	f
+StopTiming	./misc/globaldef.cpp	/^double StopTiming()$/;"	f
+SubmapHeader	./slam/SubmapStore.h	/^}SubmapHeader;$/;"	t	namespace:submap	typeref:struct:submap::_SubmapHeader
+TF	./octowrapper/bag_listener.h	/^    enum SYN {COLOR=0, DEPTH, CAMERA, TF};$/;"	e	enum:CBagListener::SYN
+THRD_ANGL	./PoseEstimation/src/planeMatching.cpp	13;"	d	file:
+THRD_AREA_RATIO	./PoseEstimation/src/planeMatching.cpp	11;"	d	file:
+THRD_DISTANCE	./PoseEstimation/src/planeMatching.cpp	12;"	d	file:
+TIMESTAMP_H_	./misc/timestamp.h	9;"	d
+TOLERANCE_SIZE	./PoseEstimation/src/planeMatching.cpp	10;"	d	file:
+TRY_TIME	./minet/ClientNet.h	19;"	d
+TTimeStamp	./misc/timestamp.h	/^typedef uint64_t TTimeStamp;$/;"	t
+ThreadClientProcess	./minet/ExternalCom.cpp	/^void* ExternalCom::ThreadClientProcess(void* lpParam)$/;"	f	class:ExternalCom
+ThreadClientProcess	./minet/ServerMain.cpp	/^void* ThreadClientProcess(void* lpParam)$/;"	f
+ThreadClientProcess	./slam/mainMapBuilderSocket.cpp	/^void* ThreadClientProcess(void* lpParam)$/;"	f
+ThreadClientProcessParams	./minet/ExternalCom.h	/^	typedef struct  ThreadClientProcessParams$/;"	s	class:ExternalCom
+ThreadClientProcessParams	./minet/ExternalCom.h	/^	}ThreadClientProcessParams;$/;"	t	class:ExternalCom	typeref:struct:ExternalCom::ThreadClientProcessParams
+ThreadConnectHealthMonitor	./minet/Com.cpp	/^void* Com::ThreadConnectHealthMonitor(void* lpParam)$/;"	f	class:Com
+ThreadListen	./minet/ClientMain.cpp	/^void* ThreadListen(void* lpParam)$/;"	f
+ThreadPbMapMaker	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^void*  PbMapMaker::ThreadPbMapMaker(void* lpParam)$/;"	f	class:PbMapMaker
+ThreadSend2Client	./minet/ClientMain.cpp	/^void * ThreadSend2Client(void* lpParam)$/;"	f
+ThreadSendData2Client	./minet/ServerMain.cpp	/^void* ThreadSendData2Client(void* lpParam)$/;"	f
+ThreadSendData2Client	./slam/mainMapBuilderSocket.cpp	/^void* ThreadSendData2Client(void* lpParam)$/;"	f
+Try2CncHost	./minet/ClientNet.cpp	/^int ClientNet::Try2CncHost()$/;"	f	class:ClientNet
+VIEWERGUI_H	./octowrapper/viewer/ViewerGui.h	27;"	d
+VIEWERSETTINGSPANELFLYMODE_H	./octowrapper/viewer/ViewerSettingsPanelCamera.h	27;"	d
+VIEWERSETTINGSPANEL_H	./octowrapper/viewer/ViewerSettingsPanel.h	27;"	d
+VIEWERSETTINGS_H	./octowrapper/viewer/ViewerSettings.h	27;"	d
+VIEWERWIDGET_H_	./octowrapper/viewer/ViewerWidget.h	27;"	d
+Value	./pairwise/ReadFiles.h	/^    typedef string Value;$/;"	t	class:CReadFiles
+VertexIDMap	./mixture/MixGraph.cpp	/^typedef std::tr1::unordered_map<int, g2o::HyperGraph::Vertex*>     VertexIDMap;$/;"	t	file:
+VertexIDPair	./mixture/MixGraph.cpp	/^typedef std::pair<int, g2o::HyperGraph::Vertex*> VertexIDPair;$/;"	t	file:
+ViewerGui	./octowrapper/viewer/ViewerGui.cpp	/^ViewerGui::ViewerGui(const std::string& filename, QWidget *parent)$/;"	f	class:octomap::ViewerGui
+ViewerGui	./octowrapper/viewer/ViewerGui.h	/^  class ViewerGui : public QMainWindow {$/;"	c	namespace:octomap
+ViewerSettings	./octowrapper/viewer/ViewerSettings.cpp	/^ViewerSettings::ViewerSettings(QWidget *parent)$/;"	f	class:ViewerSettings
+ViewerSettings	./octowrapper/viewer/ViewerSettings.h	/^class ViewerSettings : public QDialog$/;"	c
+ViewerSettingsPanel	./octowrapper/viewer/ViewerSettingsPanel.cpp	/^ViewerSettingsPanel::ViewerSettingsPanel(QWidget *parent)$/;"	f	class:ViewerSettingsPanel
+ViewerSettingsPanel	./octowrapper/viewer/ViewerSettingsPanel.h	/^class ViewerSettingsPanel : public QWidget$/;"	c
+ViewerSettingsPanelCamera	./octowrapper/viewer/ViewerSettingsPanelCamera.cpp	/^ViewerSettingsPanelCamera::ViewerSettingsPanelCamera(QWidget *parent)$/;"	f	class:ViewerSettingsPanelCamera
+ViewerSettingsPanelCamera	./octowrapper/viewer/ViewerSettingsPanelCamera.h	/^class ViewerSettingsPanelCamera : public QWidget$/;"	c
+ViewerWidget	./octowrapper/viewer/ViewerWidget.cpp	/^ViewerWidget::ViewerWidget(QWidget* parent) :$/;"	f	class:octomap::ViewerWidget
+ViewerWidget	./octowrapper/viewer/ViewerWidget.h	/^class ViewerWidget : public QGLViewer {$/;"	c	namespace:octomap
+Visualize	./VisualizePbMap/src/PbMapVisualizer.cpp	/^void PbMapVisualizer::Visualize()$/;"	f	class:PbMapVisualizer
+_MAXRANGE_SICK	./octowrapper/viewer/ViewerGui.cpp	40;"	d	file:
+_MAXRANGE_URG	./octowrapper/viewer/ViewerGui.cpp	39;"	d	file:
+_Pose	./slam/SubmapStore.h	/^    _Pose():tx(0),ty(0),tz(0),rx(0),ry(0),rz(0),rw(1){}$/;"	f	struct:submap::_Pose
+_Pose	./slam/SubmapStore.h	/^    _Pose(tf::Transform& tf_tr)$/;"	f	struct:submap::_Pose
+_Pose	./slam/SubmapStore.h	/^typedef struct _Pose{$/;"	s	namespace:submap
+_SubmapHeader	./slam/SubmapStore.h	/^typedef struct _SubmapHeader$/;"	s	namespace:submap
+_TREE_MAX_DEPTH	./octowrapper/viewer/ViewerSettingsPanel.h	33;"	d
+_VERBOSE	./PoseEstimation/include/ConsistencyTest.h	47;"	d
+_VERBOSE	./PoseEstimation/include/PbmapmakerPerFrame.h	10;"	d
+_VERBOSE	./PoseEstimation/src/PbmapmakerPerFrame.cpp	60;"	d	file:
+__CONSISTENCYTEST_H	./PoseEstimation/include/ConsistencyTest.h	42;"	d
+__EDPBMAP_PLANE_H	./PoseEstimation/include/Plane.h	43;"	d
+__EDPBMAP_PLANE_H	./VisualizePbMap/include/Plane.h	43;"	d
+__MISCELLANEOUS_H	./PoseEstimation/include/Miscellaneous.h	42;"	d
+__MISCELLANEOUS_H	./VisualizePbMap/include/Miscellaneous.h	42;"	d
+__PBMAPMAKER_H	./PoseEstimation/include/PbmapmakerPerFrame.h	3;"	d
+__PBMAP_H	./PoseEstimation/include/PbMap.h	42;"	d
+__PBMAP_H	./VisualizePbMap/include/PbMap.h	42;"	d
+_instanceMi	./slam/paramSrvMi.cpp	/^ParamSrvMi* ParamSrvMi::_instanceMi = NULL;$/;"	m	class:ParamSrvMi	file:
+_instanceMi	./slam/paramSrvMi.h	/^	static ParamSrvMi* _instanceMi;$/;"	m	class:ParamSrvMi
+ablu	./VisualizePbMap/src/PbMapVisualizer.cpp	/^double ablu [10] = {  0,   0, 1.0,   0, 1.0, 1.0,   0, 0.8,   0, 0.7};$/;"	v
+addColorPC	./octowrapper/OctoVizWrapper.cpp	/^void COctVizWrapper::addColorPC(Pointcloud& oct_pc, point3d& ori_pose, vector<gl_color>& colors)$/;"	f	class:COctVizWrapper
+addColorPC	./octowrapper/OctoVizWrapper.cpp	/^void COctVizWrapper::addColorPC(Pointcloud& oct_pc, point3d& ori_pose, vector<gl_color>& colors, pose6d& frame_ori)$/;"	f	class:COctVizWrapper
+addColorPC	./octowrapper/OctoVizWrapper.cpp	/^void COctVizWrapper::addColorPC(color_point_cloud& pcl_pc)$/;"	f	class:COctVizWrapper
+addColorPC	./octowrapper/OctoVizWrapper.cpp	/^void COctVizWrapper::addColorPC(color_point_cloud& pcl_pc, octomap::pose6d& frame_ori)$/;"	f	class:COctVizWrapper
+addCurrentToCameraPath	./octowrapper/viewer/ViewerWidget.cpp	/^void ViewerWidget::addCurrentToCameraPath(int id, int frame) {$/;"	f	class:octomap::ViewerWidget
+addEdgeToG2O	./mixture/MixGraph.cpp	/^bool CMixGraph::addEdgeToG2O(const LoadedEdge3D& edge, Node* n1, Node* n2, bool largeEdge, bool set_estimate)$/;"	f	class:CMixGraph
+addFeatureIndex	./slam/Submap.hpp	/^void CSubmap<NODE>::addFeatureIndex(NODE* node)$/;"	f	class:CSubmap
+addFirstNode	./slam/GraphWrapper.cpp	/^void CGraphWrapper::addFirstNode(Node* new_node, tf::Transform p)$/;"	f	class:CGraphWrapper
+addLandmarks	./slam/Submap.hpp	/^void CSubmap<NODE>::addLandmarks(GraphManager* graph)$/;"	f	class:CSubmap
+addNextScan	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::addNextScan(){$/;"	f	class:octomap::ViewerGui
+addNextScans	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::addNextScans(unsigned scans){$/;"	f	class:octomap::ViewerGui
+addNode	./mixture/MixGraph.cpp	/^bool CMixGraph::addNode(CSubmapNode* new_node)$/;"	f	class:CMixGraph
+addNode	./slam/DuoGraph.cpp	/^bool CDuoGraph::addNode(Node* node_ptr)$/;"	f	class:CDuoGraph
+addNode	./slam/Submap.cpp	/^void CSubmap<CSubmapNode>::addNode(CSubmapNode* node)$/;"	f	class:CSubmap
+addNode	./slam/Submap.hpp	/^void CSubmap<NODE>::addNode(NODE* node)$/;"	f	class:CSubmap
+addNode	./slam/Submap.hpp	/^void CSubmap<NODE>::addNode(vector<NODE*>& nodes)$/;"	f	class:CSubmap
+addNode	./slam/SubmapGraph.cpp	/^bool CSubmapGraph::addNode(CSubmapNode* new_node)$/;"	f	class:CSubmapGraph
+addOctree	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::addOctree(octomap::AbstractOcTree* tree, int id) {$/;"	f	class:octomap::ViewerGui
+addOctree	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::addOctree(octomap::AbstractOcTree* tree, int id, octomap::pose6d origin) {$/;"	f	class:octomap::ViewerGui
+addOption	./slam/paramSrvMi.cpp	/^void ParamSrvMi::addOption(std::string name, boost::any value, std::string description){$/;"	f	class:ParamSrvMi
+addPC	./octowrapper/OctoVizWrapper.cpp	/^void COctVizWrapper::addPC(Pointcloud& oct_pc, point3d& ori_pose)$/;"	f	class:COctVizWrapper
+addPC	./octowrapper/OctoVizWrapper.cpp	/^void COctVizWrapper::addPC(Pointcloud& oct_pc, point3d& ori_pose, pose6d& frame_ori)$/;"	f	class:COctVizWrapper
+addPC	./octowrapper/OctoVizWrapper.cpp	/^void COctVizWrapper::addPC(point_cloud& pcl_pc, gl_color gc)$/;"	f	class:COctVizWrapper
+addPC	./octowrapper/OctoVizWrapper.cpp	/^void COctVizWrapper::addPC(point_cloud& pcl_pc, pose6d& frame_ori, gl_color gc)$/;"	f	class:COctVizWrapper
+addSceneObject	./octowrapper/viewer/ViewerWidget.cpp	/^void ViewerWidget::addSceneObject(SceneObject* obj){$/;"	f	class:octomap::ViewerWidget
+addToCameraPath	./octowrapper/viewer/CameraFollowMode.cpp	/^void CameraFollowMode::addToCameraPath() {$/;"	f	class:CameraFollowMode
+agrn	./VisualizePbMap/src/PbMapVisualizer.cpp	/^double agrn [10] = {  0, 1.0,   0, 1.0,   0, 1.0, 0.6, 0.2, 0.5, 0.9};$/;"	v
+angle_threshold	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^  float angle_threshold; \/\/  = 0.017453 * 4.0 \/\/ Maximum angle between contiguous 3D-points$/;"	m	struct:config_pbmap	file:
+appendCurrentToCameraPath	./octowrapper/viewer/ViewerWidget.cpp	/^void ViewerWidget::appendCurrentToCameraPath(int id) {$/;"	f	class:octomap::ViewerWidget
+appendToCameraPath	./octowrapper/viewer/ViewerWidget.cpp	/^void ViewerWidget::appendToCameraPath(int id, const octomath::Pose6D& pose) {$/;"	f	class:octomap::ViewerWidget
+arePlanesNearby	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^bool PbMapMaker::arePlanesNearby(Plane &plane1, Plane &plane2, const float distThreshold)$/;"	f	class:PbMapMaker
+areSamePlane	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^bool PbMapMaker::areSamePlane(Plane &plane1, Plane &plane2, const float &cosAngleThreshold, const float &distThreshold, const float &proxThreshold)$/;"	f	class:PbMapMaker
+area	./PoseEstimation/src/planeMatching.cpp	/^	double area;$/;"	m	struct:PLANE	file:
+areaHull	./PoseEstimation/include/Plane.h	/^ float areaHull;$/;"	m	class:Plane
+areaHull	./VisualizePbMap/include/Plane.h	/^ float areaHull;$/;"	m	class:Plane
+areaVoxels	./PoseEstimation/include/Plane.h	/^ float areaVoxels;$/;"	m	class:Plane
+areaVoxels	./VisualizePbMap/include/Plane.h	/^ float areaVoxels;$/;"	m	class:Plane
+ared	./VisualizePbMap/src/PbMapVisualizer.cpp	/^double ared [10] = {1.0,   0,   0, 1.0, 1.0,   0, 1.0, 0.8,   0, 1.0};$/;"	v
+b	./PoseEstimation/include/Plane.h	/^ std::vector<float> b;$/;"	m	class:Plane
+b	./VisualizePbMap/include/Plane.h	/^ std::vector<float> b;$/;"	m	class:Plane
+bFromStructure	./PoseEstimation/include/Plane.h	/^ bool bFromStructure;$/;"	m	class:Plane
+bFromStructure	./VisualizePbMap/include/Plane.h	/^ bool bFromStructure;$/;"	m	class:Plane
+bFullExtent	./PoseEstimation/include/Plane.h	/^ bool bFullExtent;$/;"	m	class:Plane
+bFullExtent	./VisualizePbMap/include/Plane.h	/^ bool bFullExtent;$/;"	m	class:Plane
+bRecv	./minet/ExternalCom.h	/^			bool bRecv;$/;"	m	struct:ExternalCom::ThreadClientProcessParams
+b_	./misc/colortable.h	/^    unsigned char b_;$/;"	m	struct:gl_color
+background	./PoseEstimation/include/PbMap.h	/^    unsigned background, foreground, groundplane;$/;"	m	class:PbMap
+background	./VisualizePbMap/include/PbMap.h	/^    unsigned background, foreground, groundplane;$/;"	m	class:PbMap
+base2points_	./slam/Submap.h	/^    tf::StampedTransform base2points_;  $/;"	m	class:CSubmap
+begin	./slam/GraphWrapper.h	/^    giter begin(){return graph_.begin();}$/;"	f	class:CGraphWrapper
+blu	./VisualizePbMap/src/PbMapVisualizer.cpp	/^unsigned char blu [10] = {  0,   0, 255,   0, 255, 255, 0  , 204,   0, 173};$/;"	v
+bruteforceCompare	./mixture/MixGraph.cpp	/^QList<int> CMixGraph::bruteforceCompare(int ignore_nei)$/;"	f	class:CMixGraph
+cIP	./minet/ExternalCom.h	/^			char cIP[4];$/;"	m	struct:ExternalCom::ThreadClientProcessParams
+calcAlignmentError	./PoseEstimation/src/ConsistencyTest.cpp	/^double ConsistencyTest::calcAlignmentError( std::map<unsigned, unsigned> &matched_planes, Eigen::Matrix4f &rigidTransf )$/;"	f	class:ConsistencyTest
+calcConvexHull	./PoseEstimation/src/Plane.cpp	/^void Plane::calcConvexHull(pcl::PointCloud<pcl::PointXYZRGBA>::Ptr &pointCloud, std::vector<size_t> &indices)$/;"	f	class:Plane
+calcConvexHull	./VisualizePbMap/src/Plane.cpp	/^void Plane::calcConvexHull(pcl::PointCloud<pcl::PointXYZRGBA>::Ptr &pointCloud, std::vector<size_t> &indices)$/;"	f	class:Plane
+calcElongationAndPpalDir	./PoseEstimation/src/Plane.cpp	/^void Plane::calcElongationAndPpalDir()$/;"	f	class:Plane
+calcElongationAndPpalDir	./VisualizePbMap/src/Plane.cpp	/^void Plane::calcElongationAndPpalDir()$/;"	f	class:Plane
+calcMainColor	./PoseEstimation/src/Plane.cpp	/^void Plane::calcMainColor()$/;"	f	class:Plane
+calcMainColor	./VisualizePbMap/src/Plane.cpp	/^void Plane::calcMainColor()$/;"	f	class:Plane
+callProcessing	./slam/OpenniWrapper.cpp	/^void COpenniWrapper::callProcessing(cv::Mat visual_img, Node* node_ptr)$/;"	f	class:COpenniWrapper
+cam_cam_edges	./mixture/MixGraph.h	/^    g2o::HyperGraph::EdgeSet cam_cam_edges;$/;"	m	class:CMixGraph
+cameraPathFinished	./octowrapper/viewer/ViewerWidget.cpp	/^void ViewerWidget::cameraPathFinished() {$/;"	f	class:octomap::ViewerWidget
+cameraPathFrameChanged	./octowrapper/viewer/CameraFollowMode.cpp	/^void CameraFollowMode::cameraPathFrameChanged(int id, int current_camera_frame) {$/;"	f	class:CameraFollowMode
+cameraPathInterpolated	./octowrapper/viewer/ViewerWidget.cpp	/^void ViewerWidget::cameraPathInterpolated() {$/;"	f	class:octomap::ViewerWidget
+cameraPathStopped	./octowrapper/viewer/CameraFollowMode.cpp	/^void CameraFollowMode::cameraPathStopped(int id) {$/;"	f	class:CameraFollowMode
+camera_cb	./octowrapper/bag_listener.h	/^    void camera_cb(const sensor_msgs::CameraInfoConstPtr& camera_info)$/;"	f	class:CBagListener
+camera_sub	./octowrapper/bag_listener.h	/^    ros::Subscriber camera_sub;$/;"	m	class:CBagListener
+center_x	./PoseEstimation/src/planeMatching.cpp	/^	double center_x;$/;"	m	struct:PLANE	file:
+center_y	./PoseEstimation/src/planeMatching.cpp	/^	double center_y;$/;"	m	struct:PLANE	file:
+center_z	./PoseEstimation/src/planeMatching.cpp	/^	double center_z;$/;"	m	struct:PLANE	file:
+changeTreeDepth	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::changeTreeDepth(int depth){$/;"	f	class:octomap::ViewerGui
+checkProximity	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^void PbMapMaker::checkProximity(Plane &plane, float proximity)$/;"	f	class:PbMapMaker
+cinfo_sub_	./pairwise/RecePub.h	/^    message_filters::Subscriber<sensor_msgs::CameraInfo> *cinfo_sub_;$/;"	m	class:CRecePub
+cinfo_sub_type	./pairwise/RecePub.cpp	/^typedef message_filters::Subscriber<sensor_msgs::CameraInfo> cinfo_sub_type;$/;"	t	file:
+cinfo_sub_type	./slam/OpenniWrapper.cpp	/^typedef message_filters::Subscriber<sensor_msgs::CameraInfo> cinfo_sub_type;      $/;"	t	file:
+cld_idx	./slam/mainMapBuilderROS.cpp	/^int cld_idx=0;$/;"	v
+clearAll	./octowrapper/viewer/ViewerWidget.cpp	/^void ViewerWidget::clearAll(){$/;"	f	class:octomap::ViewerWidget
+clearCameraPath	./octowrapper/viewer/CameraFollowMode.cpp	/^void CameraFollowMode::clearCameraPath() {$/;"	f	class:CameraFollowMode
+clearRecords	./pairwise/ReadFiles.cpp	/^void CReadFiles::clearRecords()$/;"	f	class:CReadFiles
+cloudCallback	./slam/mainMapBuilderROS.cpp	/^void cloudCallback(pointcloud_type cloud_msg)$/;"	f
+cloudPtr	./PoseEstimation/include/PbmapmakerPerFrame.h	/^    pcl::PointCloud<PointT>::Ptr cloudPtr;$/;"	m	struct:frameRGBDandPose
+cloudViewer	./VisualizePbMap/include/PbMapVisualizer.h	/^    pcl::visualization::CloudViewer cloudViewer;$/;"	m	class:PbMapVisualizer
+color_B	./PoseEstimation/src/planeMatching.cpp	/^	double color_B;$/;"	m	struct:PLANE	file:
+color_G	./PoseEstimation/src/planeMatching.cpp	/^	double color_G;$/;"	m	struct:PLANE	file:
+color_R	./PoseEstimation/src/planeMatching.cpp	/^	double color_R;$/;"	m	struct:PLANE	file:
+color_pc_cptr	./octowrapper/octo_globaldef.h	/^typedef pcl::PointCloud<color_point_type>::ConstPtr color_pc_cptr;$/;"	t	namespace:octowrapper
+color_pc_ptr	./octowrapper/octo_globaldef.h	/^typedef pcl::PointCloud<color_point_type>::Ptr color_pc_ptr;$/;"	t	namespace:octowrapper
+color_point_cloud	./octowrapper/octo_globaldef.h	/^typedef pcl::PointCloud<color_point_type> color_point_cloud;$/;"	t	namespace:octowrapper
+color_point_type	./octowrapper/octo_globaldef.h	/^typedef pcl::PointXYZRGBA color_point_type;$/;"	t	namespace:octowrapper
+color_threshold	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^  float color_threshold;$/;"	m	struct:config_pbmap	file:
+common_observations	./PoseEstimation/src/planeMatching.cpp	/^	int common_observations[100];$/;"	m	struct:PLANE	file:
+compose	./PoseEstimation/include/Miscellaneous.h	/^  Eigen::Matrix<dataType,3,1> compose(Eigen::Matrix<dataType,4,4> &pose, Eigen::Matrix<dataType,3,1> &point)$/;"	f
+compose	./PoseEstimation/include/Miscellaneous.h	/^  Eigen::Matrix<dataType,4,4> compose(Eigen::Matrix<dataType,4,4> &pose1, Eigen::Matrix<dataType,4,4> &pose2)$/;"	f
+compose	./VisualizePbMap/include/Miscellaneous.h	/^  Eigen::Matrix<dataType,3,1> compose(Eigen::Matrix<dataType,4,4> &pose, Eigen::Matrix<dataType,3,1> &point)$/;"	f
+compose	./VisualizePbMap/include/Miscellaneous.h	/^  Eigen::Matrix<dataType,4,4> compose(Eigen::Matrix<dataType,4,4> &pose1, Eigen::Matrix<dataType,4,4> &pose2)$/;"	f
+compute2DPolygonalArea	./PoseEstimation/src/Plane.cpp	/^float Plane::compute2DPolygonalArea ()$/;"	f	class:Plane
+compute2DPolygonalArea	./VisualizePbMap/src/Plane.cpp	/^float Plane::compute2DPolygonalArea ()$/;"	f	class:Plane
+computeMassCenterAndArea	./PoseEstimation/src/Plane.cpp	/^void Plane::computeMassCenterAndArea()$/;"	f	class:Plane
+computeMassCenterAndArea	./VisualizePbMap/src/Plane.cpp	/^void Plane::computeMassCenterAndArea()$/;"	f	class:Plane
+config	./slam/paramSrvMi.h	/^    std::map<std::string, boost::any> config;$/;"	m	class:ParamSrvMi
+configMi	./slam/paramSrvMi.cpp	/^void ParamSrvMi::configMi()$/;"	f	class:ParamSrvMi
+configPbMap	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^} configPbMap;$/;"	v	typeref:struct:config_pbmap
+config_Param	./PoseEstimation/include/PbmapmakerPerFrame.h	/^    FILE *config_Param;$/;"	m	class:PbMapMaker
+config_localiser	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^  string config_localiser;$/;"	m	struct:config_pbmap	file:
+config_pbmap	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^struct config_pbmap$/;"	s	file:
+createNode	./pairwise/GraphHolder.cpp	/^CNodeHolder* CGraphHolder::createNode(string rgbf, string dptf)$/;"	f	class:CGraphHolder
+createOptimizer	./mixture/MixGraph.cpp	/^void CMixGraph::createOptimizer(string backend, g2o::SparseOptimizer* pOptimizer)$/;"	f	class:CMixGraph
+createXYZRGBPointCloud	./octowrapper/bag_listener.cpp	/^pcl::PointCloud<pcl::PointXYZRGBA>::Ptr CBagListener::createXYZRGBPointCloud (const sensor_msgs::ImageConstPtr& depth_msg, $/;"	f	class:CBagListener
+cross	./PoseEstimation/src/Plane.cpp	/^double cross(const mPointHull &O, const mPointHull &A, const mPointHull &B)$/;"	f
+cross	./VisualizePbMap/src/Plane.cpp	/^double cross(const mPointHull &O, const mPointHull &A, const mPointHull &B)$/;"	f
+crossProduct3D	./PoseEstimation/src/PoseRelated.cpp	/^void crossProduct3D(Eigen::Matrix<double,3,1> v0, Eigen::Matrix<double,3,1> v1, Eigen::Matrix<double,3,1> &vOut)$/;"	f
+curr_best_result_	./mixture/MixGraph.h	/^    MatchingResult curr_best_result_;$/;"	m	class:CMixGraph
+dataChanged	./octowrapper/viewer/ViewerSettingsPanelCamera.cpp	/^void ViewerSettingsPanelCamera::dataChanged(){$/;"	f	class:ViewerSettingsPanelCamera
+deleteCameraPath	./octowrapper/viewer/ViewerWidget.cpp	/^void ViewerWidget::deleteCameraPath(int id) {$/;"	f	class:octomap::ViewerWidget
+depth_cb	./octowrapper/bag_listener.h	/^    void depth_cb(const sensor_msgs::ImageConstPtr& depth_img)$/;"	f	class:CBagListener
+depth_mono8_img_	./pairwise/RecePub.h	/^    cv::Mat depth_mono8_img_;$/;"	m	class:CRecePub
+depth_sub	./octowrapper/bag_listener.h	/^    ros::Subscriber depth_sub;$/;"	m	class:CBagListener
+depth_sub_	./pairwise/RecePub.h	/^    message_filters::Subscriber<sensor_msgs::Image> *depth_sub_;$/;"	m	class:CRecePub
+des_idx	./slam/mainMapBuilderROS.cpp	/^int des_idx=0;$/;"	v
+descriptions	./slam/paramSrvMi.h	/^    std::map<std::string, std::string> descriptions;$/;"	m	class:ParamSrvMi
+detectPlanesCloud	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^void PbMapMaker::detectPlanesCloud( pcl::PointCloud<PointT>::Ptr &pointCloudPtr_arg,$/;"	f	class:PbMapMaker
+detect_loopClosure	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^  bool detect_loopClosure;             \/\/ Run PbMapLocaliser in a different threads to detect loop closures or preloaded PbMaps$/;"	m	struct:config_pbmap	file:
+diffPoints	./PoseEstimation/include/Miscellaneous.h	/^  inline Eigen::Vector3f diffPoints(const POINT &P1, const POINT &P2)$/;"	f
+diffPoints	./VisualizePbMap/include/Miscellaneous.h	/^  inline Eigen::Vector3f diffPoints(const POINT &P1, const POINT &P2)$/;"	f
+dist3D_Segment_to_Segment2	./PoseEstimation/src/Miscellaneous.cpp	/^float dist3D_Segment_to_Segment2( Segment S1, Segment S2)$/;"	f
+dist3D_Segment_to_Segment2	./VisualizePbMap/src/Miscellaneous.cpp	/^float dist3D_Segment_to_Segment2( Segment S1, Segment S2)$/;"	f
+dist_threshold	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^  float dist_threshold; \/\/ Maximum distance to the plane between neighbor 3D-points$/;"	m	struct:config_pbmap	file:
+draw	./octowrapper/viewer/ViewerWidget.cpp	/^void ViewerWidget::draw(){$/;"	f	class:octomap::ViewerWidget
+drawWithNames	./octowrapper/viewer/ViewerWidget.cpp	/^void ViewerWidget::drawWithNames(){$/;"	f	class:octomap::ViewerWidget
+dump2File	./slam/Submap.hpp	/^void CSubmap<NODE>::dump2File(string fname)$/;"	f	class:CSubmap
+dump2File	./slam/SubmapNode.cpp	/^void CSubmapNode::dump2File(string fname)$/;"	f	class:CSubmapNode
+dumpFiles	./pairwise/ReadFiles.cpp	/^void CReadFiles::dumpFiles(string f, Record& r)$/;"	f	class:CReadFiles
+edgeCloudPtr	./PoseEstimation/include/PbMap.h	/^    pcl::PointCloud<pcl::PointXYZRGBA>::Ptr edgeCloudPtr;$/;"	m	class:PbMap
+edgeCloudPtr	./VisualizePbMap/include/PbMap.h	/^    pcl::PointCloud<pcl::PointXYZRGBA>::Ptr edgeCloudPtr;$/;"	m	class:PbMap
+elongation	./PoseEstimation/include/Plane.h	/^ float elongation; \/\/ This is the reatio between the lengths of the plane in the two principal directions$/;"	m	class:Plane
+elongation	./VisualizePbMap/include/Plane.h	/^ float elongation; \/\/ This is the reatio between the lengths of the plane in the two principal directions$/;"	m	class:Plane
+enableHeightColorMode	./octowrapper/viewer/ViewerWidget.cpp	/^void ViewerWidget::enableHeightColorMode (bool enabled) {$/;"	f	class:octomap::ViewerWidget
+enablePrintoutMode	./octowrapper/viewer/ViewerWidget.cpp	/^void ViewerWidget::enablePrintoutMode(bool enabled) {$/;"	f	class:octomap::ViewerWidget
+enableSelectionBox	./octowrapper/viewer/ViewerWidget.cpp	/^void ViewerWidget::enableSelectionBox(bool enabled) {$/;"	f	class:octomap::ViewerWidget
+enableSemanticColoring	./octowrapper/viewer/ViewerWidget.cpp	/^void ViewerWidget::enableSemanticColoring (bool enabled) {$/;"	f	class:octomap::ViewerWidget
+end	./slam/GraphWrapper.h	/^    giter end(){return graph_.end();}$/;"	f	class:CGraphWrapper
+exp_HomogeneousMatrix	./PoseEstimation/src/PoseRelated.cpp	/^void exp_HomogeneousMatrix(const Eigen::Matrix<double,6,1>& mu, Eigen::Matrix4f &ResultMatrix, bool pseudo_exponential)$/;"	f
+featureDesCallback	./slam/mainMapBuilderROS.cpp	/^void featureDesCallback(const std_msgs::Float32MultiArray::ConstPtr& array_msg)$/;"	f
+featureLocCallback	./slam/mainMapBuilderROS.cpp	/^void featureLocCallback(const std_msgs::Float32MultiArray::ConstPtr& array_msg)$/;"	f
+feature_des	./slam/mainMapBuilderROS.cpp	/^cv::Mat feature_des;$/;"	v
+feature_des	./slam/mainMapBuilderSocket.cpp	/^cv::Mat feature_des;$/;"	v
+feature_loc	./slam/mainMapBuilderSocket.cpp	/^std_vector_of_eigen_vector4f feature_loc;$/;"	v
+filter_PC	./mixture/MixGraph.h	/^        void filter_PC(boost::shared_ptr< pcl::PointCloud<PointT> >& inPC)$/;"	f	namespace:function
+filter_PC	./mixture/MixGraph.h	/^        void filter_PC(boost::shared_ptr< pcl::PointCloud<PointT> >& inPC, boost::shared_ptr< pcl::PointCloud<PointT> >& outPC)$/;"	f	namespace:function
+findMatchedPlanes	./PoseEstimation/src/planeMatching.cpp	/^void  PlaneMatching::findMatchedPlanes(vector<Plane>& planes_src, vector<Plane>& planes_target, std::map<unsigned, unsigned> &match_res)$/;"	f	class:PlaneMatching
+findMaxIndex	./PoseEstimation/src/planeMatching.cpp	/^void  PlaneMatching::findMaxIndex(int* vote, int num, int* max_index, int* max_num, int& max_size)$/;"	f	class:PlaneMatching
+firstNode	./mixture/MixGraph.cpp	/^void CMixGraph::firstNode(CSubmapNode* new_node)$/;"	f	class:CMixGraph
+float_value	./octowrapper/bag_listener.h	/^        float float_value;$/;"	m	union:CBagListener::__anon1
+followCameraPath	./octowrapper/viewer/CameraFollowMode.cpp	/^void CameraFollowMode::followCameraPath() {$/;"	f	class:CameraFollowMode
+followRobotPath	./octowrapper/viewer/CameraFollowMode.cpp	/^void CameraFollowMode::followRobotPath() {$/;"	f	class:CameraFollowMode
+followRobotTrajectory	./octowrapper/viewer/ViewerSettingsPanelCamera.cpp	/^bool ViewerSettingsPanelCamera::followRobotTrajectory(){$/;"	f	class:ViewerSettingsPanelCamera
+forcePtsLayOnPlane	./PoseEstimation/src/Plane.cpp	/^void Plane::forcePtsLayOnPlane()$/;"	f	class:Plane
+forcePtsLayOnPlane	./VisualizePbMap/src/Plane.cpp	/^void Plane::forcePtsLayOnPlane()$/;"	f	class:Plane
+foreground	./PoseEstimation/include/PbMap.h	/^    unsigned background, foreground, groundplane;$/;"	m	class:PbMap
+foreground	./VisualizePbMap/include/PbMap.h	/^    unsigned background, foreground, groundplane;$/;"	m	class:PbMap
+frameQueue	./PoseEstimation/include/PbmapmakerPerFrame.h	/^    std::vector<frameRGBDandPose> frameQueue;$/;"	m	class:PbMapMaker
+frameRGBDandPose	./PoseEstimation/include/PbmapmakerPerFrame.h	/^struct frameRGBDandPose$/;"	s
+fromColorPCL2OctoPC	./octowrapper/octo_globaldef.cpp	/^void fromColorPCL2OctoPC(color_point_cloud& pcl_pc, octomap::Pointcloud& oct_pc, octomap::point3d& ori_pose, vector<gl_color>& color)$/;"	f
+fromColorPCL2OctoPC	./octowrapper/octo_globaldef.h	/^void fromColorPCL2OctoPC(pcl::PointCloud<PointT>& pcl_pc, octomap::Pointcloud& oct_pc, octomap::point3d& ori_pose, vector<gl_color>& color)$/;"	f
+fromEigen2Pose6d	./octowrapper/octo_globaldef.cpp	/^void fromEigen2Pose6d(Eigen::Matrix4f& transformation, octomap::pose6d& pose)$/;"	f
+fromPCL2OctoPC	./octowrapper/octo_globaldef.cpp	/^void fromPCL2OctoPC(point_cloud& pcl_pc, octomap::Pointcloud& oct_pc, octomap::point3d& ori_pose)$/;"	f
+fromPose6d2Eigen	./octowrapper/octo_globaldef.cpp	/^void fromPose6d2Eigen(Eigen::Matrix4f& transformation, octomap::pose6d& pose)$/;"	f
+fromRot2RPY	./misc/globaldef.cpp	/^void fromRot2RPY(double& roll, double& pitch, double& yaw, Eigen::Matrix3f& m_ROT )$/;"	f
+function	./mixture/MixGraph.h	/^namespace function$/;"	n
+future_	./slam/DuoGraph.h	/^    QFuture<void> future_;$/;"	m	class:CDuoGraph
+g	./PoseEstimation/include/Plane.h	/^ std::vector<float> g;$/;"	m	class:Plane
+g	./VisualizePbMap/include/Plane.h	/^ std::vector<float> g;$/;"	m	class:Plane
+g_	./misc/colortable.h	/^    unsigned char g_;$/;"	m	struct:gl_color
+g_MutexSendData	./minet/ClientNet.cpp	/^pthread_mutex_t g_MutexSendData;$/;"	v
+g_nTestSock	./minet/ServerMain.cpp	/^int g_nTestSock=-1;$/;"	v
+g_nTestSock	./slam/mainMapBuilderSocket.cpp	/^int g_nTestSock=-1;$/;"	v
+generateOctree	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::generateOctree() {$/;"	f	class:octomap::ViewerGui
+generatePbMap	./PoseEstimation/src/main.cpp	/^void generatePbMap(const string cloudFile, const string PbMapFile, const string &config_file)$/;"	f
+generateTotalPbMap	./PoseEstimation/src/main.cpp	/^void generateTotalPbMap(const string &config_file)$/;"	f
+get	./slam/paramSrvMi.h	/^       T get(const std::string param) {$/;"	f	class:ParamSrvMi
+getAllPC	./mixture/MixGraph.cpp	/^void CMixGraph::getAllPC(pcl::PointCloud<pcl::PointXYZRGB>::Ptr& outPC)$/;"	f	class:CMixGraph
+getBackGraph	./slam/DuoGraph.h	/^    CGraphWrapper* getBackGraph(){return m_mgr_bk.get();}$/;"	f	class:CDuoGraph
+getBlue	./misc/colortable.cpp	/^gl_color& getBlue()$/;"	f
+getCloseValue	./pairwise/ReadFiles.cpp	/^bool CReadFiles::getCloseValue(CReadFiles::r_iter& it, CReadFiles::r_iter last, Key key, Value& v)$/;"	f	class:CReadFiles
+getCurrentTime	./misc/timestamp.cpp	/^TTimeStamp  getCurrentTime( )$/;"	f
+getDescription	./slam/paramSrvMi.cpp	/^std::string ParamSrvMi::getDescription(std::string param_name) {$/;"	f	class:ParamSrvMi
+getFeatureLength	./slam/GraphWrapper.h	/^    unsigned int getFeatureLength()$/;"	f	class:CGraphWrapper
+getFeaturePC	./mixture/MixGraph.cpp	/^void CMixGraph::getFeaturePC(pcl::PointCloud<pcl::PointXYZRGB>::Ptr& feat_PC)$/;"	f	class:CMixGraph
+getFromParameterServer	./slam/paramSrvMi.h	/^    T getFromParameterServer(const std::string param, T def) {$/;"	f	class:ParamSrvMi
+getFrontGraph	./slam/DuoGraph.h	/^    CGraphWrapper* getFrontGraph(){return m_mgr_fr.get();}$/;"	f	class:CDuoGraph
+getGreen	./misc/colortable.cpp	/^gl_color& getGreen()$/;"	f
+getHistogramMeanShift	./PoseEstimation/include/Miscellaneous.h	/^  dataType getHistogramMeanShift(std::vector<dataType> &data, double range, dataType &stdDevHist_out)$/;"	f
+getHistogramMeanShift	./VisualizePbMap/include/Miscellaneous.h	/^  dataType getHistogramMeanShift(std::vector<dataType> &data, double range, dataType &stdDevHist_out)$/;"	f
+getLandmarksNum	./slam/GraphWrapper.h	/^    size_t getLandmarksNum(){ return landmarks.size();}$/;"	f	class:CGraphWrapper
+getLaserType	./octowrapper/viewer/ViewerSettings.h	/^    unsigned int getLaserType(){return ui.laserType->currentIndex(); };$/;"	f	class:ViewerSettings
+getLastNodePose	./slam/GraphWrapper.cpp	/^tf::Transform CGraphWrapper::getLastNodePose()$/;"	f	class:CGraphWrapper
+getMaxRange	./octowrapper/viewer/ViewerSettings.h	/^    double getMaxRange(){return ui.maxRange->value(); };$/;"	f	class:ViewerSettings
+getMode	./PoseEstimation/include/Miscellaneous.h	/^  dataType getMode(std::vector<dataType> data, dataType range)$/;"	f
+getMode	./VisualizePbMap/include/Miscellaneous.h	/^  dataType getMode(std::vector<dataType> data, dataType range)$/;"	f
+getNode	./pairwise/NodeHolder.cpp	/^CNodeWrapper* CNodeHolder::getNode(){return m_pNode;}$/;"	f	class:CNodeHolder
+getOctreeRecord	./octowrapper/viewer/ViewerGui.cpp	/^bool ViewerGui::getOctreeRecord(int id, OcTreeRecord*& otr) {$/;"	f	class:octomap::ViewerGui
+getOptimizer	./mixture/MixGraph.h	/^    g2o::SparseOptimizer* getOptimizer(){return optimizer_;}$/;"	f	class:CMixGraph
+getOptimizer	./slam/GraphWrapper.h	/^    g2o::SparseOptimizer* getOptimizer(){return optimizer_;}$/;"	f	class:CGraphWrapper
+getPbMap	./PoseEstimation/include/PbmapmakerPerFrame.h	/^    PbMap getPbMap(){return mPbMap;};$/;"	f	class:PbMapMaker
+getPcdFile	./octowrapper/FileReader.cpp	/^void CFileReader::getPcdFile(int i, string& f)$/;"	f	class:CFileReader
+getPlaneNrgb	./PoseEstimation/src/Plane.cpp	/^void Plane::getPlaneNrgb()$/;"	f	class:Plane
+getPlaneNrgb	./VisualizePbMap/src/Plane.cpp	/^void Plane::getPlaneNrgb()$/;"	f	class:Plane
+getPoseFile	./octowrapper/FileReader.cpp	/^void CFileReader::getPoseFile(int i, string& f)$/;"	f	class:CFileReader
+getRTwithModel	./PoseEstimation/src/ConsistencyTest.cpp	/^Eigen::Matrix4f ConsistencyTest::getRTwithModel( std::map<unsigned, unsigned> &matched_planes )$/;"	f	class:ConsistencyTest
+getRTwithModelLY	./PoseEstimation/src/ConsistencyTest.cpp	/^Eigen::Matrix4f ConsistencyTest::getRTwithModelLY( std::map<unsigned, unsigned> &matched_planes )$/;"	f	class:ConsistencyTest
+getRed	./misc/colortable.cpp	/^gl_color& getRed()$/;"	f
+getResolution	./octowrapper/viewer/ViewerSettings.h	/^    double getResolution(){return ui.resolution->value(); };$/;"	f	class:ViewerSettings
+getSeq	./slam/GraphWrapper.h	/^    int getSeq(){return next_seq_id;}$/;"	f	class:CGraphWrapper
+getValues	./slam/paramSrvMi.cpp	/^void ParamSrvMi::getValues() {$/;"	f	class:ParamSrvMi
+getVector3fromPointXYZ	./PoseEstimation/include/Miscellaneous.h	/^  Eigen::Vector3f getVector3fromPointXYZ(pointPCL &pt)$/;"	f
+getVector3fromPointXYZ	./VisualizePbMap/include/Miscellaneous.h	/^  Eigen::Vector3f getVector3fromPointXYZ(pointPCL &pt)$/;"	f
+gicp_mutex	./slam/NodeWrapper.cpp	/^QMutex Node::gicp_mutex;$/;"	m	class:Node	file:
+giter	./slam/GraphWrapper.h	/^    typedef map<int, Node*>::iterator giter;$/;"	t	class:CGraphWrapper
+gl_bag_camera_info	./misc/globaldef.cpp	/^const char* gl_bag_camera_info = "\/camera\/depth\/camera_info";$/;"	v
+gl_bag_color_name	./misc/globaldef.cpp	/^const char* gl_bag_color_name = "\/camera\/rgb\/image_color";$/;"	v
+gl_bag_depth_name	./misc/globaldef.cpp	/^const char* gl_bag_depth_name = "\/camera\/depth\/image";$/;"	v
+gl_bag_tf_msg	./misc/globaldef.cpp	/^const char* gl_bag_tf_msg = "\/tf";$/;"	v
+gl_color	./misc/colortable.h	/^    gl_color(const gl_color& rhs)$/;"	f	struct:gl_color
+gl_color	./misc/colortable.h	/^    gl_color(unsigned char r, unsigned char g, unsigned char b)$/;"	f	struct:gl_color
+gl_color	./misc/colortable.h	/^struct gl_color{$/;"	s
+gl_time_count_start	./misc/globaldef.cpp	/^static TTimeStamp gl_time_count_start;$/;"	v	file:
+gl_time_count_stop	./misc/globaldef.cpp	/^static TTimeStamp gl_time_count_stop;$/;"	v	file:
+globalMapPtr	./PoseEstimation/include/PbMap.h	/^    pcl::PointCloud<PointT>::Ptr globalMapPtr;$/;"	m	class:PbMap
+globalMapPtr	./VisualizePbMap/include/PbMap.h	/^    pcl::PointCloud<PointT>::Ptr globalMapPtr;$/;"	m	class:PbMap
+gotoFirstScan	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::gotoFirstScan(){$/;"	f	class:octomap::ViewerGui
+gotoFrame	./octowrapper/viewer/ViewerSettingsPanelCamera.cpp	/^void ViewerSettingsPanelCamera::gotoFrame(unsigned int frame) {$/;"	f	class:ViewerSettingsPanelCamera
+graphRepresentation	./VisualizePbMap/src/PbMapVisualizer.cpp	/^bool graphRepresentation;$/;"	v
+graph_	./mixture/MixGraph.h	/^    map<int, CSubmapNode*> graph_;$/;"	m	class:CMixGraph
+graph_mode	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^  int   graph_mode;  \/\/ This var selects the condition to create edges in the graph, either proximity of planar patches or co-visibility in a single frame$/;"	m	struct:config_pbmap	file:
+grn	./VisualizePbMap/src/PbMapVisualizer.cpp	/^unsigned char grn [10] = {  0, 255,   0, 255,   0, 255, 160,  51, 128, 222};$/;"	v
+ground_truth_transform_	./slam/Submap.h	/^    tf::StampedTransform ground_truth_transform_; $/;"	m	class:CSubmap
+groundplane	./PoseEstimation/include/PbMap.h	/^    unsigned background, foreground, groundplane;$/;"	m	class:PbMap
+groundplane	./VisualizePbMap/include/PbMap.h	/^    unsigned background, foreground, groundplane;$/;"	m	class:PbMap
+gui_connections	./slam/mainDuoSlam.cpp	/^void gui_connections(Graphical_UI* gui, GraphManager* graph_mgr, OpenNIListener* listener)$/;"	f
+gui_connections	./slam/mainOriRgbdslam.cpp	/^void gui_connections(Graphical_UI* gui, GraphManager* graph_mgr, OpenNIListener* listener)$/;"	f
+handle	./slam/paramSrvMi.h	/^    ros::NodeHandle handle;$/;"	m	class:ParamSrvMi
+helpString	./octowrapper/viewer/ViewerWidget.cpp	/^QString ViewerWidget::helpString() const{$/;"	f	class:octomap::ViewerWidget
+id	./PoseEstimation/include/Plane.h	/^ unsigned id;$/;"	m	class:Plane
+id	./PoseEstimation/src/Plane.cpp	/^    size_t id;$/;"	m	struct:mPointHull	file:
+id	./VisualizePbMap/include/Plane.h	/^ unsigned id;$/;"	m	class:Plane
+id	./VisualizePbMap/src/Plane.cpp	/^    size_t id;$/;"	m	struct:mPointHull	file:
+id	./slam/SubmapStore.h	/^    unsigned int id; \/\/ id for this submap$/;"	m	struct:submap::_SubmapHeader
+id_	./slam/Submap.h	/^    unsigned int id_;$/;"	m	class:CSubmap
+image_sub_type	./pairwise/RecePub.cpp	/^typedef message_filters::Subscriber<sensor_msgs::Image> image_sub_type;$/;"	t	file:
+image_sub_type	./slam/OpenniWrapper.cpp	/^typedef message_filters::Subscriber<sensor_msgs::Image> image_sub_type;      $/;"	t	file:
+inferStructure	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^  bool inferStructure;    \/\/ Infer if the planes correspond to the floor, ceiling or walls$/;"	m	struct:config_pbmap	file:
+info_arch	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_arch	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_arch	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_arch	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_compiler	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_compiler	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_compiler	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_compiler	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_platform	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_platform	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_platform	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_platform	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+init	./octowrapper/viewer/ViewerWidget.cpp	/^void ViewerWidget::init() {$/;"	f	class:octomap::ViewerWidget
+init	./slam/SubmapNode.cpp	/^void CSubmapNode::init(CSubmap<CNodeWrapper>* pSubmap)$/;"	f	class:CSubmapNode
+initDir	./pairwise/ReadFiles.cpp	/^void CReadFiles::initDir(string dir)$/;"	f	class:CReadFiles
+initPose	./PoseEstimation/src/ConsistencyTest.cpp	/^Eigen::Matrix4f ConsistencyTest::initPose( std::map<unsigned, unsigned> &matched_planes )$/;"	f	class:ConsistencyTest
+initPose2D	./PoseEstimation/src/ConsistencyTest.cpp	/^Eigen::Matrix4f ConsistencyTest::initPose2D( std::map<unsigned, unsigned> &matched_planes )$/;"	f	class:ConsistencyTest
+initPoseLY	./PoseEstimation/src/ConsistencyTest.cpp	/^Eigen::Matrix4f ConsistencyTest::initPoseLY( std::map<unsigned, unsigned> &matched_planes )$/;"	f	class:ConsistencyTest
+input_from_rawlog	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^  bool input_from_rawlog;$/;"	m	struct:config_pbmap	file:
+insertColorPointCloud	./octowrapper/ColorOctreeImpl.cpp	/^void ColorOctreeImpl::insertColorPointCloud(const Pointcloud& oct_pc, const octomap::point3d& sensor_origin,$/;"	f	class:ColorOctreeImpl
+insertColorPointCloud	./octowrapper/ColorOctreeImpl.cpp	/^void ColorOctreeImpl::insertColorPointCloud(const octomap::Pointcloud& oct_pc, const octomap::point3d& ori_pose, vector<gl_color>& colors, const octomap::pose6d& frame_origin, double maxrange, bool lazy_eval)$/;"	f	class:ColorOctreeImpl
+insertPointCloud	./octowrapper/ColorOctreeImpl.cpp	/^void ColorOctreeImpl::insertPointCloud(const Pointcloud& oct_pc, const octomap::point3d& sensor_origin,$/;"	f	class:ColorOctreeImpl
+insertPointCloud	./octowrapper/ColorOctreeImpl.cpp	/^void ColorOctreeImpl::insertPointCloud(const octomap::Pointcloud& oct_pc, const octomap::point3d& ori_pose, const octomap::pose6d& frame_origin, double maxrange, bool lazy_eval)$/;"	f	class:ColorOctreeImpl
+insertPointCloud	./octowrapper/ColorOctreeImpl.cpp	/^void ColorOctreeImpl::insertPointCloud(point_cloud& pc, double maxrange, bool lazy_eval)$/;"	f	class:ColorOctreeImpl
+insertPointCloud	./octowrapper/ColorOctreeImpl.cpp	/^void ColorOctreeImpl::insertPointCloud(point_cloud& pc, octomap::pose6d& frame_ori, double maxrange, bool lazy_eval)$/;"	f	class:ColorOctreeImpl
+insertPointCloud	./octowrapper/ColorOctreeImpl.hpp	/^void ColorOctreeImpl::insertPointCloud(pcl::PointCloud<PointT>& pc, double maxrange , bool lazy_eval)$/;"	f	class:ColorOctreeImpl
+insertPointCloud	./octowrapper/ColorOctreeImpl.hpp	/^void ColorOctreeImpl::insertPointCloud(pcl::PointCloud<PointT>& pc, float p[7], double maxrange , bool lazy_eval)$/;"	f	class:ColorOctreeImpl
+insertPointCloud	./octowrapper/ColorOctreeImpl.hpp	/^void ColorOctreeImpl::insertPointCloud(pcl::PointCloud<PointT>& pc, octomap::pose6d& frame_ori, double maxrange , bool lazy_eval)$/;"	f	class:ColorOctreeImpl
+instanceMi	./slam/paramSrvMi.cpp	/^ParamSrvMi* ParamSrvMi::instanceMi()$/;"	f	class:ParamSrvMi
+inverse	./PoseEstimation/include/Miscellaneous.h	/^  Eigen::Matrix<dataType,4,4> inverse(Eigen::Matrix<dataType,4,4> &pose)$/;"	f
+inverse	./VisualizePbMap/include/Miscellaneous.h	/^  Eigen::Matrix<dataType,4,4> inverse(Eigen::Matrix<dataType,4,4> &pose)$/;"	f
+isInHull	./PoseEstimation/src/Miscellaneous.cpp	/^bool isInHull(PointT &point3D, pcl::PointCloud<PointT>::Ptr hull3D)$/;"	f
+isInHull	./VisualizePbMap/src/Miscellaneous.cpp	/^bool isInHull(PointT &point3D, pcl::PointCloud<PointT>::Ptr hull3D)$/;"	f
+isPlaneNearby	./PoseEstimation/src/Plane.cpp	/^bool Plane::isPlaneNearby(Plane &plane_nearby, const float distThreshold)$/;"	f	class:Plane
+isPlaneNearby	./VisualizePbMap/src/Plane.cpp	/^bool Plane::isPlaneNearby(Plane &plane_nearby, const float distThreshold)$/;"	f	class:Plane
+isSamePlane	./PoseEstimation/src/Plane.cpp	/^bool Plane::isSamePlane(Plane &plane_nearby, const float &cosAngleThreshold, const float &distThreshold, const float &proxThreshold)$/;"	f	class:Plane
+isSamePlane	./VisualizePbMap/src/Plane.cpp	/^bool Plane::isSamePlane(Plane &plane_nearby, const float &cosAngleThreshold, const float &distThreshold, const float &proxThreshold)$/;"	f	class:Plane
+isShown	./octowrapper/viewer/ViewerGui.cpp	/^bool ViewerGui::isShown() {$/;"	f	class:octomap::ViewerGui
+jumpToCamFrame	./octowrapper/viewer/ViewerWidget.cpp	/^void ViewerWidget::jumpToCamFrame(int id, int frame) {$/;"	f	class:octomap::ViewerWidget
+jumpToFrame	./octowrapper/viewer/CameraFollowMode.cpp	/^void CameraFollowMode::jumpToFrame(unsigned int frame) {$/;"	f	class:CameraFollowMode
+keyboardEventOccurred	./VisualizePbMap/src/PbMapVisualizer.cpp	/^void keyboardEventOccurred (const pcl::visualization::KeyboardEvent &event, void* viewer_void)$/;"	f
+label	./PoseEstimation/include/Plane.h	/^ std::string label;$/;"	m	class:Plane
+label	./VisualizePbMap/include/Plane.h	/^ std::string label;$/;"	m	class:Plane
+lbegin	./slam/GraphWrapper.h	/^    liter lbegin(){return landmarks.begin();}$/;"	f	class:CGraphWrapper
+leafSizeChanged	./octowrapper/viewer/ViewerSettingsPanel.cpp	/^void ViewerSettingsPanel::leafSizeChanged(){$/;"	f	class:ViewerSettingsPanel
+lend	./slam/GraphWrapper.h	/^    liter lend(){return landmarks.end();}$/;"	f	class:CGraphWrapper
+liter	./slam/GraphWrapper.h	/^    typedef vector<Landmark>::iterator liter;$/;"	t	class:CGraphWrapper
+loadCameraPosition	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::loadCameraPosition(const char* filename) {$/;"	f	class:octomap::ViewerGui
+loadGraph	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::loadGraph(bool completeGraph) {$/;"	f	class:octomap::ViewerGui
+loc_idx	./slam/mainMapBuilderROS.cpp	/^int loc_idx=0;$/;"	v
+long_value	./octowrapper/bag_listener.h	/^        uint32_t long_value;$/;"	m	union:CBagListener::__anon1
+mPbMap	./PoseEstimation/include/PbmapmakerPerFrame.h	/^    PbMap mPbMap;$/;"	m	class:PbMapMaker
+mPointHull	./PoseEstimation/src/Plane.cpp	/^struct mPointHull {$/;"	s	file:
+mPointHull	./VisualizePbMap/src/Plane.cpp	/^struct mPointHull {$/;"	s	file:
+m_ClientAddr	./minet/ClientNet.h	/^	struct sockaddr_in m_ClientAddr;$/;"	m	class:ClientNet	typeref:struct:ClientNet::sockaddr_in
+m_HostAddr	./minet/ClientNet.h	/^	struct sockaddr_in m_HostAddr;$/;"	m	class:ClientNet	typeref:struct:ClientNet::sockaddr_in
+m_MutexDataReady	./slam/mainMapBuilderSocket.cpp	/^pthread_mutex_t m_MutexDataReady;$/;"	v
+m_MutexSendData	./minet/ExternalCom.cpp	/^pthread_mutex_t ExternalCom::m_MutexSendData;$/;"	m	class:ExternalCom	file:
+m_MutexSendData	./minet/ExternalCom.h	/^	static pthread_mutex_t m_MutexSendData;$/;"	m	class:ExternalCom
+m_bFirstPC	./octowrapper/OctoVizWrapper.h	/^    bool m_bFirstPC;$/;"	m	class:COctVizWrapper
+m_bHasOptimized	./slam/GraphWrapper.h	/^    bool m_bHasOptimized;$/;"	m	class:CGraphWrapper
+m_bHasReduced	./slam/Submap.h	/^    bool m_bHasReduced;$/;"	m	class:CSubmap
+m_bReady	./pairwise/ReadFiles.h	/^    bool m_bReady;$/;"	m	class:CReadFiles
+m_bStopListen	./minet/ClientNet.h	/^	bool m_bStopListen;$/;"	m	class:ClientNet
+m_bStopListen	./minet/Com.h	/^	bool m_bStopListen;$/;"	m	class:Com
+m_bStopThreadClientProcess	./minet/ExternalCom.cpp	/^bool ExternalCom::m_bStopThreadClientProcess;$/;"	m	class:ExternalCom	file:
+m_bStopThreadClientProcess	./minet/ExternalCom.h	/^	static bool m_bStopThreadClientProcess;$/;"	m	class:ExternalCom
+m_bStopThreadHeartBitMonitor	./minet/Com.cpp	/^bool Com::m_bStopThreadHeartBitMonitor;$/;"	m	class:Com	file:
+m_bStopThreadHeartBitMonitor	./minet/Com.h	/^	static bool m_bStopThreadHeartBitMonitor;$/;"	m	class:Com
+m_bSyn	./octowrapper/bag_listener.h	/^    std::bitset<n_signals> m_bSyn;$/;"	m	class:CBagListener
+m_bUseOctomap	./slam/Submap.h	/^    bool m_bUseOctomap;$/;"	m	class:CSubmap
+m_back_end	./mixture/MixGraph.h	/^    string m_back_end;$/;"	m	class:CMixGraph
+m_bhas_switched	./slam/DuoGraph.h	/^    bool m_bhas_switched;$/;"	m	class:CDuoGraph
+m_camInfo	./pairwise/GraphHolder.h	/^    sensor_msgs::CameraInfoPtr m_camInfo;$/;"	m	class:CGraphHolder
+m_cameraFollowMode	./octowrapper/viewer/ViewerGui.h	/^    CameraFollowMode* m_cameraFollowMode;$/;"	m	class:octomap::ViewerGui
+m_cameraStored	./octowrapper/viewer/ViewerGui.h	/^    bool m_cameraStored;$/;"	m	class:octomap::ViewerGui
+m_cbRecvData	./minet/ExternalCom.cpp	/^CallBack_RecvData ExternalCom::m_cbRecvData;$/;"	m	class:ExternalCom	file:
+m_cbRecvData	./minet/ExternalCom.h	/^	static CallBack_RecvData m_cbRecvData;$/;"	m	class:ExternalCom
+m_cbRecvDataFromServer	./minet/ClientNet.h	/^	CallBack_RecvDataFromServer m_cbRecvDataFromServer;$/;"	m	class:ClientNet
+m_cbRegister	./minet/ExternalCom.cpp	/^CallBack_Register ExternalCom::m_cbRegister;$/;"	m	class:ExternalCom	file:
+m_cbRegister	./minet/ExternalCom.h	/^	static CallBack_Register m_cbRegister;$/;"	m	class:ExternalCom
+m_client	./slam/DuoGraph.h	/^    ClientNet m_client;$/;"	m	class:CDuoGraph
+m_cur_stamp	./pairwise/ReadFiles.h	/^    double m_cur_stamp; $/;"	m	class:CReadFiles
+m_currentFrame	./octowrapper/viewer/ViewerSettingsPanelCamera.h	/^    unsigned int m_currentFrame;$/;"	m	class:ViewerSettingsPanelCamera
+m_currentScan	./octowrapper/viewer/ViewerSettingsPanel.h	/^    unsigned m_currentScan;$/;"	m	class:ViewerSettingsPanel
+m_current_cam_frame	./octowrapper/viewer/CameraFollowMode.h	/^  unsigned int m_current_cam_frame;$/;"	m	class:CameraFollowMode
+m_current_camera_frame	./octowrapper/viewer/ViewerWidget.h	/^  int m_current_camera_frame;$/;"	m	class:octomap::ViewerWidget
+m_current_camera_path	./octowrapper/viewer/ViewerWidget.h	/^  int m_current_camera_path;$/;"	m	class:octomap::ViewerWidget
+m_current_scan	./octowrapper/viewer/CameraFollowMode.h	/^  unsigned int m_current_scan;$/;"	m	class:CameraFollowMode
+m_detector	./pairwise/NodeHolder.h	/^    cv::Ptr<cv::FeatureDetector> m_detector; $/;"	m	class:CNodeHolder
+m_dir	./pairwise/ReadFiles.h	/^    string m_dir;$/;"	m	class:CReadFiles
+m_dptIter	./pairwise/ReadFiles.h	/^    r_iter m_dptIter;$/;"	m	class:CReadFiles
+m_dptRecord	./pairwise/ReadFiles.h	/^    map<double, string> m_dptRecord;$/;"	m	class:CReadFiles
+m_drawAxis	./octowrapper/viewer/ViewerWidget.h	/^  bool m_drawAxis; \/\/ actual state of axis (original overwritten)$/;"	m	class:octomap::ViewerWidget
+m_drawGrid	./octowrapper/viewer/ViewerWidget.h	/^  bool m_drawGrid; \/\/ actual state of grid (original overwritten)$/;"	m	class:octomap::ViewerWidget
+m_drawSelectionBox	./octowrapper/viewer/ViewerWidget.h	/^  bool m_drawSelectionBox;$/;"	m	class:octomap::ViewerWidget
+m_duo_mgr	./slam/OpenniWrapper.h	/^    CDuoGraph * m_duo_mgr;$/;"	m	class:COpenniWrapper
+m_extractor	./pairwise/NodeHolder.h	/^    cv::Ptr<cv::DescriptorExtractor> m_extractor;$/;"	m	class:CNodeHolder
+m_feature_des	./slam/Submap.h	/^    cv::Mat m_feature_des; \/\/ descriptors for the features$/;"	m	class:CSubmap
+m_feature_index	./slam/SubmapNode.h	/^    vector< vector<int> > m_feature_index;$/;"	m	class:CSubmapNode
+m_feature_locs	./slam/Submap.h	/^    std_vector_of_eigen_vector4f m_feature_locs; \/\/ locations for the features$/;"	m	class:CSubmap
+m_feature_records	./slam/Submap.h	/^    vector< vector<int> > m_feature_records; \/\/ the feature indexes for each node$/;"	m	class:CSubmap
+m_filename	./octowrapper/viewer/ViewerGui.h	/^    std::string m_filename;$/;"	m	class:octomap::ViewerGui
+m_first_pose	./slam/GraphWrapper.h	/^    tf::Transform m_first_pose; \/\/ to keep the pose of the first node$/;"	m	class:CGraphWrapper
+m_firstnum	./octowrapper/FileReader.h	/^    int m_firstnum;$/;"	m	class:CFileReader
+m_followRobotTrajectory	./octowrapper/viewer/CameraFollowMode.h	/^  bool m_followRobotTrajectory;$/;"	m	class:CameraFollowMode
+m_glwidget	./octowrapper/viewer/ViewerGui.h	/^    ViewerWidget* m_glwidget;$/;"	m	class:octomap::ViewerGui
+m_gtIter	./pairwise/ReadFiles.h	/^    r_iter m_gtIter; $/;"	m	class:CReadFiles
+m_gtRecord	./pairwise/ReadFiles.h	/^    map<double, string> m_gtRecord;$/;"	m	class:CReadFiles
+m_hThreadClientProcess	./minet/ExternalCom.h	/^	pthread_t m_hThreadClientProcess;$/;"	m	class:ExternalCom
+m_hThreadConnectHealthMonitor	./minet/Com.h	/^	pthread_t m_hThreadConnectHealthMonitor;$/;"	m	class:Com
+m_heightColorMode	./octowrapper/viewer/ViewerWidget.h	/^  bool m_heightColorMode;$/;"	m	class:octomap::ViewerWidget
+m_laserMaxRange	./octowrapper/viewer/ViewerGui.h	/^    double m_laserMaxRange;$/;"	m	class:octomap::ViewerGui
+m_laserType	./octowrapper/viewer/ViewerGui.h	/^    unsigned int m_laserType; \/\/ SICK or Hokuyo \/URG$/;"	m	class:octomap::ViewerGui
+m_lastnum	./octowrapper/FileReader.h	/^    int m_lastnum;$/;"	m	class:CFileReader
+m_mapMemoryStatus	./octowrapper/viewer/ViewerGui.h	/^    QLabel* m_mapMemoryStatus;$/;"	m	class:octomap::ViewerGui
+m_mapSizeStatus	./octowrapper/viewer/ViewerGui.h	/^    QLabel* m_mapSizeStatus;$/;"	m	class:octomap::ViewerGui
+m_max_tree_depth	./octowrapper/viewer/ViewerGui.h	/^    unsigned int m_max_tree_depth;$/;"	m	class:octomap::ViewerGui
+m_mgr_bk	./slam/DuoGraph.h	/^    boost::shared_ptr<CGraphWrapper> m_mgr_bk;$/;"	m	class:CDuoGraph
+m_mgr_fr	./slam/DuoGraph.h	/^    boost::shared_ptr<CGraphWrapper> m_mgr_fr;$/;"	m	class:CDuoGraph
+m_nClientSock	./minet/ClientNet.h	/^	int m_nClientSock;$/;"	m	class:ClientNet
+m_nHeartBitCount	./minet/Com.cpp	/^int Com::m_nHeartBitCount;$/;"	m	class:Com	file:
+m_nHeartBitCount	./minet/Com.h	/^	static int m_nHeartBitCount;$/;"	m	class:Com
+m_nNetStatus	./minet/Com.cpp	/^int Com::m_nNetStatus;$/;"	m	class:Com	file:
+m_nNetStatus	./minet/Com.h	/^	static int m_nNetStatus;$/;"	m	class:Com
+m_nServerSocket	./minet/Com.h	/^	int m_nServerSocket;$/;"	m	class:Com
+m_nextScanToAdd	./octowrapper/viewer/ViewerGui.h	/^    ScanGraph::iterator m_nextScanToAdd;$/;"	m	class:octomap::ViewerGui
+m_node_index	./slam/SubmapNode.h	/^    vector< vector<int> > m_node_index; $/;"	m	class:CSubmapNode
+m_node_records	./slam/Submap.h	/^    vector< vector<int> > m_node_records; \/\/ the node indexes in each feature$/;"	m	class:CSubmap
+m_nodes	./slam/Submap.h	/^    vector< NODE*> m_nodes;$/;"	m	class:CSubmap
+m_numberFrames	./octowrapper/viewer/ViewerSettingsPanelCamera.h	/^    unsigned int m_numberFrames;$/;"	m	class:ViewerSettingsPanelCamera
+m_numberScans	./octowrapper/viewer/ViewerSettingsPanel.h	/^    unsigned m_numberScans;$/;"	m	class:ViewerSettingsPanel
+m_number_cam_frames	./octowrapper/viewer/CameraFollowMode.h	/^  unsigned int m_number_cam_frames;$/;"	m	class:CameraFollowMode
+m_occupancyThresh	./octowrapper/viewer/ViewerGui.h	/^    double m_occupancyThresh; \/\/ FIXME: This is not really used at the moment...$/;"	m	class:octomap::ViewerGui
+m_octreeResolution	./octowrapper/OctoVizWrapper.h	/^    float m_octreeResolution;$/;"	m	class:COctVizWrapper
+m_octreeResolution	./octowrapper/viewer/ViewerGui.h	/^    double m_octreeResolution;$/;"	m	class:octomap::ViewerGui
+m_octrees	./octowrapper/viewer/ViewerGui.h	/^    std::map<int, OcTreeRecord> m_octrees;$/;"	m	class:octomap::ViewerGui
+m_pNode	./pairwise/NodeHolder.h	/^    CNodeWrapper* m_pNode;$/;"	m	class:CNodeHolder
+m_pOctoTree	./slam/Submap.h	/^    ColorOctreeImpl* m_pOctoTree;   $/;"	m	class:CSubmap
+m_pRecords	./pairwise/GraphHolder.h	/^    CReadFiles * m_pRecords;$/;"	m	class:CGraphHolder
+m_pSubmap	./slam/GraphWrapper.h	/^    CSubmap<CNodeWrapper> * m_pSubmap;$/;"	m	class:CGraphWrapper
+m_pThis	./minet/ExternalCom.cpp	/^ExternalCom *ExternalCom::m_pThis;$/;"	m	class:ExternalCom	file:
+m_pThis	./minet/ExternalCom.h	/^	static ExternalCom *m_pThis;$/;"	m	class:ExternalCom
+m_path	./octowrapper/FileReader.h	/^    string m_path;$/;"	m	class:CFileReader
+m_pbmaker_finished	./PoseEstimation/include/PbmapmakerPerFrame.h	/^    bool	m_pbmaker_finished;$/;"	m	class:PbMapMaker
+m_pbmaker_must_stop	./PoseEstimation/include/PbmapmakerPerFrame.h	/^    bool	m_pbmaker_must_stop;$/;"	m	class:PbMapMaker
+m_pc_id	./octowrapper/OctoVizWrapper.h	/^    unsigned int m_pc_id;$/;"	m	class:COctVizWrapper
+m_pc_model	./octowrapper/OctoVizWrapper.h	/^    PcModel m_pc_model;$/;"	m	class:COctVizWrapper
+m_pcdSet	./octowrapper/FileReader.h	/^    map<int, string> m_pcdSet;$/;"	m	class:CFileReader
+m_pointcloudDrawer	./octowrapper/viewer/ViewerGui.h	/^    PointcloudDrawer* m_pointcloudDrawer;$/;"	m	class:octomap::ViewerGui
+m_printoutMode	./octowrapper/viewer/ViewerWidget.h	/^  bool m_printoutMode;$/;"	m	class:octomap::ViewerWidget
+m_resolution	./octowrapper/viewer/ViewerSettingsPanel.h	/^    double m_resolution;$/;"	m	class:ViewerSettingsPanel
+m_robotTrajectoryAvailable	./octowrapper/viewer/ViewerSettingsPanelCamera.h	/^    bool m_robotTrajectoryAvailable;$/;"	m	class:ViewerSettingsPanelCamera
+m_root	./slam/Submap.h	/^    tf::Transform m_root;$/;"	m	class:CSubmap
+m_scanGraph	./octowrapper/viewer/ViewerGui.h	/^    ScanGraph* m_scanGraph;$/;"	m	class:octomap::ViewerGui
+m_scan_graph	./octowrapper/viewer/CameraFollowMode.h	/^  octomap::ScanGraph *m_scan_graph;$/;"	m	class:CameraFollowMode
+m_sceneObjects	./octowrapper/viewer/ViewerWidget.h	/^  std::vector<SceneObject*> m_sceneObjects;$/;"	m	class:octomap::ViewerWidget
+m_selectionBox	./octowrapper/viewer/ViewerWidget.h	/^  SelectionBox m_selectionBox;$/;"	m	class:octomap::ViewerWidget
+m_semantic_coloring	./octowrapper/viewer/ViewerWidget.h	/^  bool m_semantic_coloring;$/;"	m	class:octomap::ViewerWidget
+m_stamp	./slam/Submap.h	/^    ros::Time m_stamp;$/;"	m	class:CSubmap
+m_start_frame	./octowrapper/viewer/CameraFollowMode.h	/^  unsigned int m_start_frame;$/;"	m	class:CameraFollowMode
+m_traj	./slam/Submap.h	/^    vector<tf::Transform> m_traj;$/;"	m	class:CSubmap
+m_traj	./slam/SubmapNode.h	/^    vector<tf::Transform> m_traj;$/;"	m	class:CSubmapNode
+m_trajectoryDrawer	./octowrapper/viewer/ViewerGui.h	/^    TrajectoryDrawer* m_trajectoryDrawer;$/;"	m	class:octomap::ViewerGui
+m_treeDepth	./octowrapper/viewer/ViewerSettingsPanel.h	/^    unsigned m_treeDepth;$/;"	m	class:ViewerSettingsPanel
+m_txtSet	./octowrapper/FileReader.h	/^    map<int, string> m_txtSet;$/;"	m	class:CFileReader
+m_ucIP	./minet/Com.h	/^	unsigned char m_ucIP[4];$/;"	m	class:Com
+m_vCams	./octowrapper/bag_listener.h	/^    vector<sensor_msgs::CameraInfoConstPtr> m_vCams; $/;"	m	class:CBagListener
+m_vDpts	./octowrapper/bag_listener.h	/^    vector<sensor_msgs::ImageConstPtr> m_vDpts;$/;"	m	class:CBagListener
+m_vImgs	./octowrapper/bag_listener.h	/^    vector<sensor_msgs::ImageConstPtr> m_vImgs;$/;"	m	class:CBagListener
+m_visIter	./pairwise/ReadFiles.h	/^    r_iter m_visIter; $/;"	m	class:CReadFiles
+m_visRecord	./pairwise/ReadFiles.h	/^    map<double, string> m_visRecord;$/;"	m	class:CReadFiles
+m_zMax	./octowrapper/viewer/ViewerWidget.h	/^  double m_zMax;$/;"	m	class:octomap::ViewerWidget
+m_zMin	./octowrapper/viewer/ViewerWidget.h	/^  double m_zMin;$/;"	m	class:octomap::ViewerWidget
+main	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	/^int main(int argc, char* argv[])$/;"	f
+main	./PoseEstimation/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f
+main	./PoseEstimation/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	./PoseEstimation/src/main.cpp	/^int main(int argc, char **argv)$/;"	f
+main	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	/^int main(int argc, char* argv[])$/;"	f
+main	./VisualizePbMap/build/CMakeFiles/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f
+main	./VisualizePbMap/build/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	./VisualizePbMap/src/main.cpp	/^int main(int argc, char** argv)$/;"	f
+main	./minet/ClientMain.cpp	/^int main()$/;"	f
+main	./minet/ServerMain.cpp	/^int main()$/;"	f
+main	./mixture/main.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	./pairwise/SendPub.cpp	/^int main( int argc, char** argv )$/;"	f
+main	./pairwise/main.cpp	/^int main ( int argc, char** argv )$/;"	f
+main	./slam/mainDuoSlam.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	./slam/mainMapBuilderOffline.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	./slam/mainMapBuilderROS.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	./slam/mainMapBuilderSocket.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	./slam/mainOriRgbdslam.cpp	/^int main(int argc, char** argv)$/;"	f
+main	./slam/mainSubmapReader.cpp	/^int main(int argc, char* argv[])$/;"	f
+makeClusters	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^  bool makeClusters; \/\/ Should the PbMapMaker cluster the planes according to their co-visibility$/;"	m	struct:config_pbmap	file:
+matchNodePair	./pairwise/NodeHolder.cpp	/^void CNodeHolder::matchNodePair(CNodeHolder* old_node, MatchingResult& mr)$/;"	f	class:CNodeHolder
+matchNodePair	./slam/SubmapNode.cpp	/^MatchingResult CSubmapNode::matchNodePair(CSubmapNode* older_node)$/;"	f	class:CSubmapNode
+matched_planes	./PoseEstimation/include/ConsistencyTest.h	/^    std::map<unsigned, unsigned> matched_planes;$/;"	m	class:ConsistencyTest
+matched_planes	./PoseEstimation/include/planeMatching.h	/^		 std::map<unsigned, unsigned> matched_planes;$/;"	m	class:PlaneMatching
+max_cos_normal	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^  float max_cos_normal;$/;"	m	struct:config_pbmap	file:
+max_dist_center_plane	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^  float max_dist_center_plane; \/\/ Two planar patches that represent the same surface must have their center in the same plane$/;"	m	struct:config_pbmap	file:
+meanAndStd	./PoseEstimation/include/Miscellaneous.h	/^void  meanAndStd($/;"	f
+meanAndStd	./VisualizePbMap/include/Miscellaneous.h	/^void  meanAndStd($/;"	f
+mergePlane	./PoseEstimation/src/Plane.cpp	/^void Plane::mergePlane(Plane &plane_nearby)$/;"	f	class:Plane
+mergePlane	./VisualizePbMap/src/Plane.cpp	/^void Plane::mergePlane(Plane &plane_nearby)$/;"	f	class:Plane
+mergePlanes	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^void PbMapMaker::mergePlanes(Plane &updatePlane, Plane &discardPlane)$/;"	f	class:PbMapMaker
+minInliersRate	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^  float minInliersRate; \/\/ Minimum ratio of inliers\/image points required$/;"	m	struct:config_pbmap	file:
+nFramesAreaIsStable	./PoseEstimation/include/Plane.h	/^ unsigned nFramesAreaIsStable;$/;"	m	class:Plane
+nFramesAreaIsStable	./VisualizePbMap/include/Plane.h	/^ unsigned nFramesAreaIsStable;$/;"	m	class:Plane
+nSock	./minet/ExternalCom.h	/^			int nSock;$/;"	m	struct:ExternalCom::ThreadClientProcessParams
+n_features	./slam/SubmapStore.h	/^    unsigned int n_features; \/\/ number of the features in the submap$/;"	m	struct:submap::_SubmapHeader
+n_nodes	./slam/SubmapStore.h	/^    unsigned int n_nodes; \/\/ number of the nodes in the submap$/;"	m	struct:submap::_SubmapHeader
+n_signals	./octowrapper/bag_listener.h	/^    const static int n_signals = 4;$/;"	m	class:CBagListener
+nearbyPlanes	./PoseEstimation/include/Plane.h	/^ std::set<unsigned> nearbyPlanes;$/;"	m	class:Plane
+nearbyPlanes	./VisualizePbMap/include/Plane.h	/^ std::set<unsigned> nearbyPlanes;$/;"	m	class:Plane
+neighborPlanes	./PoseEstimation/include/Plane.h	/^ std::map<unsigned,unsigned> neighborPlanes;$/;"	m	class:Plane
+neighborPlanes	./VisualizePbMap/include/Plane.h	/^ std::map<unsigned,unsigned> neighborPlanes;$/;"	m	class:Plane
+next_vertex_id	./mixture/MixGraph.h	/^    int next_vertex_id;$/;"	m	class:CMixGraph
+nh_	./octowrapper/bag_listener.h	/^    ros::NodeHandle nh_;$/;"	m	class:CBagListener
+noCloudCallback	./pairwise/RecePub.cpp	/^void CRecePub::noCloudCallback (const sensor_msgs::ImageConstPtr& visual_img_msg,$/;"	f	class:CRecePub
+noCloudCallback	./slam/OpenniWrapper.cpp	/^void COpenniWrapper::noCloudCallback (const sensor_msgs::ImageConstPtr& visual_img_msg,$/;"	f	class:COpenniWrapper
+noCloudCameraCallback	./slam/OpenniWrapper.cpp	/^void COpenniWrapper::noCloudCameraCallback(cv::Mat visual_img, $/;"	f	class:COpenniWrapper
+no_cloud_sync_	./pairwise/RecePub.h	/^    message_filters::Synchronizer<NoCloudSyncPolicy>* no_cloud_sync_;$/;"	m	class:CRecePub
+node_id	./slam/SubmapNode.h	/^    unsigned int node_id;$/;"	m	class:CSubmapNode
+node_root	./slam/SubmapNode.h	/^    tf::Transform node_root;$/;"	m	class:CSubmapNode
+node_time	./slam/SubmapNode.h	/^    double node_time;$/;"	m	class:CSubmapNode
+normal_x	./PoseEstimation/src/planeMatching.cpp	/^	double normal_x;$/;"	m	struct:PLANE	file:
+normal_y	./PoseEstimation/src/planeMatching.cpp	/^	double normal_y;$/;"	m	struct:PLANE	file:
+normal_z	./PoseEstimation/src/planeMatching.cpp	/^	double normal_z;$/;"	m	struct:PLANE	file:
+numObservations	./PoseEstimation/include/Plane.h	/^ unsigned numObservations;$/;"	m	class:Plane
+numObservations	./VisualizePbMap/include/Plane.h	/^ unsigned numObservations;$/;"	m	class:Plane
+observedPlanes	./PoseEstimation/include/PbmapmakerPerFrame.h	/^    std::set<unsigned> observedPlanes;$/;"	m	class:PbMapMaker
+octomap	./octowrapper/OctoVizWrapper.h	/^namespace octomap$/;"	n
+octomap	./octowrapper/octo_globaldef.h	/^namespace octomap$/;"	n
+octomap	./octowrapper/viewer/ViewerGui.cpp	/^namespace octomap{$/;"	n	file:
+octomap	./octowrapper/viewer/ViewerGui.h	/^namespace octomap {$/;"	n
+octomap	./octowrapper/viewer/ViewerWidget.cpp	/^namespace octomap {$/;"	n	file:
+octomap	./octowrapper/viewer/ViewerWidget.h	/^namespace octomap{$/;"	n
+octowrapper	./octowrapper/octo_globaldef.h	/^namespace octowrapper$/;"	n
+odom_transform_	./slam/Submap.h	/^    tf::StampedTransform odom_transform_;        $/;"	m	class:CSubmap
+on_actionAxes_toggled	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionAxes_toggled(bool checked){$/;"	f	class:octomap::ViewerGui
+on_actionClear_nodes_in_selection_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionClear_nodes_in_selection_triggered(){$/;"	f	class:octomap::ViewerGui
+on_actionClear_selection_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionClear_selection_triggered(){$/;"	f	class:octomap::ViewerGui
+on_actionClear_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionClear_triggered() {$/;"	f	class:octomap::ViewerGui
+on_actionClear_unknown_in_selection_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionClear_unknown_in_selection_triggered()$/;"	f	class:octomap::ViewerGui
+on_actionConvert_ml_tree_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionConvert_ml_tree_triggered(){$/;"	f	class:octomap::ViewerGui
+on_actionDelete_nodes_in_selection_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionDelete_nodes_in_selection_triggered(){$/;"	f	class:octomap::ViewerGui
+on_actionDelete_nodes_outside_of_selection_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionDelete_nodes_outside_of_selection_triggered(){$/;"	f	class:octomap::ViewerGui
+on_actionExit_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionExit_triggered(){$/;"	f	class:octomap::ViewerGui
+on_actionExpand_tree_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionExpand_tree_triggered(){$/;"	f	class:octomap::ViewerGui
+on_actionExport_sequence_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionExport_sequence_triggered(bool checked){$/;"	f	class:octomap::ViewerGui
+on_actionExport_view_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionExport_view_triggered(){$/;"	f	class:octomap::ViewerGui
+on_actionFill_nodes_in_selection_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionFill_nodes_in_selection_triggered(){$/;"	f	class:octomap::ViewerGui
+on_actionFill_selection_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionFill_selection_triggered(){$/;"	f	class:octomap::ViewerGui
+on_actionFill_unknown_in_selection_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionFill_unknown_in_selection_triggered()$/;"	f	class:octomap::ViewerGui
+on_actionFree_toggled	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionFree_toggled(bool enabled) {$/;"	f	class:octomap::ViewerGui
+on_actionHeight_map_toggled	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionHeight_map_toggled(bool checked){$/;"	f	class:octomap::ViewerGui
+on_actionHelp_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionHelp_triggered(){$/;"	f	class:octomap::ViewerGui
+on_actionHideBackground_toggled	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionHideBackground_toggled(bool checked) {$/;"	f	class:octomap::ViewerGui
+on_actionOctree_cells_toggled	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionOctree_cells_toggled(bool enabled) {$/;"	f	class:octomap::ViewerGui
+on_actionOctree_structure_toggled	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionOctree_structure_toggled(bool enabled) {$/;"	f	class:octomap::ViewerGui
+on_actionOpen_file_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionOpen_file_triggered(){$/;"	f	class:octomap::ViewerGui
+on_actionOpen_graph_incremental_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionOpen_graph_incremental_triggered(){$/;"	f	class:octomap::ViewerGui
+on_actionPointcloud_toggled	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionPointcloud_toggled(bool checked){$/;"	f	class:octomap::ViewerGui
+on_actionPrintout_mode_toggled	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionPrintout_mode_toggled(bool checked){$/;"	f	class:octomap::ViewerGui
+on_actionPrune_tree_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionPrune_tree_triggered(){$/;"	f	class:octomap::ViewerGui
+on_actionReload_Octree_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionReload_Octree_triggered(){$/;"	f	class:octomap::ViewerGui
+on_actionRestore_camera_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionRestore_camera_triggered(){$/;"	f	class:octomap::ViewerGui
+on_actionSave_file_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionSave_file_triggered(){$/;"	f	class:octomap::ViewerGui
+on_actionSelected_toggled	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionSelected_toggled(bool enabled) {$/;"	f	class:octomap::ViewerGui
+on_actionSelection_box_toggled	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionSelection_box_toggled(bool checked){$/;"	f	class:octomap::ViewerGui
+on_actionSemanticColoring_toggled	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionSemanticColoring_toggled(bool checked) {$/;"	f	class:octomap::ViewerGui
+on_actionSettings_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionSettings_triggered(){$/;"	f	class:octomap::ViewerGui
+on_actionStore_camera_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionStore_camera_triggered(){$/;"	f	class:octomap::ViewerGui
+on_actionTest_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionTest_triggered(){$/;"	f	class:octomap::ViewerGui
+on_actionTrajectory_toggled	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_actionTrajectory_toggled(bool checked){$/;"	f	class:octomap::ViewerGui
+on_action_bg_black_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_action_bg_black_triggered() {$/;"	f	class:octomap::ViewerGui
+on_action_bg_gray_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_action_bg_gray_triggered() {$/;"	f	class:octomap::ViewerGui
+on_action_bg_white_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_action_bg_white_triggered() {$/;"	f	class:octomap::ViewerGui
+on_cameraPathAdd_clicked	./octowrapper/viewer/ViewerSettingsPanelCamera.cpp	/^void ViewerSettingsPanelCamera::on_cameraPathAdd_clicked(){$/;"	f	class:ViewerSettingsPanelCamera
+on_cameraPathClear_clicked	./octowrapper/viewer/ViewerSettingsPanelCamera.cpp	/^void ViewerSettingsPanelCamera::on_cameraPathClear_clicked(){$/;"	f	class:ViewerSettingsPanelCamera
+on_cameraPathRemove_clicked	./octowrapper/viewer/ViewerSettingsPanelCamera.cpp	/^void ViewerSettingsPanelCamera::on_cameraPathRemove_clicked(){$/;"	f	class:ViewerSettingsPanelCamera
+on_cameraPathSave_clicked	./octowrapper/viewer/ViewerSettingsPanelCamera.cpp	/^void ViewerSettingsPanelCamera::on_cameraPathSave_clicked(){$/;"	f	class:ViewerSettingsPanelCamera
+on_fastFwdScanButton_clicked	./octowrapper/viewer/ViewerSettingsPanel.cpp	/^void ViewerSettingsPanel::on_fastFwdScanButton_clicked(){$/;"	f	class:ViewerSettingsPanel
+on_firstScanButton_clicked	./octowrapper/viewer/ViewerSettingsPanel.cpp	/^void ViewerSettingsPanel::on_firstScanButton_clicked(){$/;"	f	class:ViewerSettingsPanel
+on_firstScanButton_clicked	./octowrapper/viewer/ViewerSettingsPanelCamera.cpp	/^void ViewerSettingsPanelCamera::on_firstScanButton_clicked(){$/;"	f	class:ViewerSettingsPanelCamera
+on_followCameraPathButton_clicked	./octowrapper/viewer/ViewerSettingsPanelCamera.cpp	/^void ViewerSettingsPanelCamera::on_followCameraPathButton_clicked(){$/;"	f	class:ViewerSettingsPanelCamera
+on_followTrajectoryButton_clicked	./octowrapper/viewer/ViewerSettingsPanelCamera.cpp	/^void ViewerSettingsPanelCamera::on_followTrajectoryButton_clicked(){$/;"	f	class:ViewerSettingsPanelCamera
+on_lastScanButton_clicked	./octowrapper/viewer/ViewerSettingsPanel.cpp	/^void ViewerSettingsPanel::on_lastScanButton_clicked(){$/;"	f	class:ViewerSettingsPanel
+on_lastScanButton_clicked	./octowrapper/viewer/ViewerSettingsPanelCamera.cpp	/^void ViewerSettingsPanelCamera::on_lastScanButton_clicked(){$/;"	f	class:ViewerSettingsPanelCamera
+on_loadcampose_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_loadcampose_triggered() {$/;"	f	class:octomap::ViewerGui
+on_nextScanButton_clicked	./octowrapper/viewer/ViewerSettingsPanel.cpp	/^void ViewerSettingsPanel::on_nextScanButton_clicked(){$/;"	f	class:ViewerSettingsPanel
+on_nextScanButton_clicked	./octowrapper/viewer/ViewerSettingsPanelCamera.cpp	/^void ViewerSettingsPanelCamera::on_nextScanButton_clicked(){$/;"	f	class:ViewerSettingsPanelCamera
+on_playScanButton_clicked	./octowrapper/viewer/ViewerSettingsPanelCamera.cpp	/^void ViewerSettingsPanelCamera::on_playScanButton_clicked(){$/;"	f	class:ViewerSettingsPanelCamera
+on_previousScanButton_clicked	./octowrapper/viewer/ViewerSettingsPanelCamera.cpp	/^void ViewerSettingsPanelCamera::on_previousScanButton_clicked(){$/;"	f	class:ViewerSettingsPanelCamera
+on_savecampose_triggered	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::on_savecampose_triggered() {$/;"	f	class:octomap::ViewerGui
+on_scanProgressSlider_sliderMoved	./octowrapper/viewer/ViewerSettingsPanelCamera.cpp	/^void ViewerSettingsPanelCamera::on_scanProgressSlider_sliderMoved(int value) {$/;"	f	class:ViewerSettingsPanelCamera
+openFile	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::openFile(){$/;"	f	class:octomap::ViewerGui
+openGraph	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::openGraph(bool completeGraph){$/;"	f	class:octomap::ViewerGui
+openMapCollection	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::openMapCollection() {$/;"	f	class:octomap::ViewerGui
+openOcTree	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::openOcTree(){$/;"	f	class:octomap::ViewerGui
+openPointcloud	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::openPointcloud(){$/;"	f	class:octomap::ViewerGui
+openTree	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::openTree(){$/;"	f	class:octomap::ViewerGui
+operator <	./PoseEstimation/src/Plane.cpp	/^    bool operator <(const mPointHull &p) const {$/;"	f	struct:mPointHull
+operator <	./VisualizePbMap/src/Plane.cpp	/^    bool operator <(const mPointHull &p) const {$/;"	f	struct:mPointHull
+operator <<	./PoseEstimation/include/Miscellaneous.h	/^    std::ostream& operator<<(std::ostream& os, const std::vector<T>& v)$/;"	f
+operator <<	./VisualizePbMap/include/Miscellaneous.h	/^    std::ostream& operator<<(std::ostream& os, const std::vector<T>& v)$/;"	f
+operator <<	./slam/SubmapStore.cpp	/^ostream& operator<<( ostream& out, const submap::Pose6d& p)$/;"	f
+operator <<	./slam/SubmapStore.cpp	/^ostream& operator<<( ostream& out, const submap::SubmapHeader& h)$/;"	f
+operator =	./slam/NodeWrapper.cpp	/^CNodeWrapper& CNodeWrapper::operator=(const CNodeWrapper& rhs)$/;"	f	class:CNodeWrapper
+operator >>	./slam/SubmapStore.cpp	/^istream& operator>>(istream& in, submap::Pose6d& p)$/;"	f
+operator >>	./slam/SubmapStore.cpp	/^istream& operator>>(istream& in, submap::SubmapHeader& h)$/;"	f
+optimizeSubmapGraph	./slam/SubmapGraph.cpp	/^void CSubmapGraph::optimizeSubmapGraph()$/;"	f	class:CSubmapGraph
+optimizer_	./mixture/MixGraph.h	/^    g2o::SparseOptimizer* optimizer_;   $/;"	m	class:CMixGraph
+outEdgeCloudPtr	./PoseEstimation/include/PbMap.h	/^    pcl::PointCloud<pcl::PointXYZRGBA>::Ptr outEdgeCloudPtr;$/;"	m	class:PbMap
+outEdgeCloudPtr	./VisualizePbMap/include/PbMap.h	/^    pcl::PointCloud<pcl::PointXYZRGBA>::Ptr outEdgeCloudPtr;$/;"	m	class:PbMap
+outPut	./slam/SubmapStore.h	/^    void outPut(float p[7]){p[0] = tx; p[1] = ty; p[2] = tz; p[3] = rw; p[4] = rx; p[5] = ry; p[6] = rz;}$/;"	f	struct:submap::_Pose
+outerPolygonPtr	./PoseEstimation/include/Plane.h	/^ pcl::PointCloud<pcl::PointXYZRGBA>::Ptr outerPolygonPtr; \/\/ This is going to be deprecated$/;"	m	class:Plane
+outerPolygonPtr	./VisualizePbMap/include/Plane.h	/^ pcl::PointCloud<pcl::PointXYZRGBA>::Ptr outerPolygonPtr; \/\/ This is going to be deprecated$/;"	m	class:Plane
+pCExternalCom	./minet/ExternalCom.h	/^			ExternalCom *pCExternalCom;$/;"	m	struct:ExternalCom::ThreadClientProcessParams
+pairwise	./pairwise/Pose3D.cpp	/^namespace pairwise$/;"	n	file:
+pairwise	./pairwise/Pose3D.h	/^namespace pairwise$/;"	n
+path_save_pbmap	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^  std::string path_save_pbmap;$/;"	m	struct:config_pbmap	file:
+path_save_registered_cloud	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^  std::string path_save_registered_cloud;$/;"	m	struct:config_pbmap	file:
+pause	./octowrapper/viewer/CameraFollowMode.cpp	/^void CameraFollowMode::pause() {$/;"	f	class:CameraFollowMode
+pbmaker_hd	./PoseEstimation/include/PbmapmakerPerFrame.h	/^    pthread_t pbmaker_hd;$/;"	m	class:PbMapMaker
+pbmap	./VisualizePbMap/include/PbMapVisualizer.h	/^    PbMap pbmap;$/;"	m	class:PbMapVisualizer
+pc_col	./slam/Submap.h	/^    pcl::PointCloud<submap::pt_type>::Ptr pc_col;$/;"	m	class:CSubmap
+pc_sub_type	./slam/OpenniWrapper.cpp	/^typedef message_filters::Subscriber<sensor_msgs::PointCloud2> pc_sub_type;      $/;"	t	file:
+planePointCloudPtr	./PoseEstimation/include/Plane.h	/^ pcl::PointCloud<pcl::PointXYZRGBA>::Ptr planePointCloudPtr; \/\/ This is going to be deprecated$/;"	m	class:Plane
+planePointCloudPtr	./VisualizePbMap/include/Plane.h	/^ pcl::PointCloud<pcl::PointXYZRGBA>::Ptr planePointCloudPtr; \/\/ This is going to be deprecated$/;"	m	class:Plane
+play	./octowrapper/viewer/CameraFollowMode.cpp	/^void CameraFollowMode::play() {$/;"	f	class:CameraFollowMode
+playCameraPath	./octowrapper/viewer/ViewerWidget.cpp	/^void ViewerWidget::playCameraPath(int id, int start_frame) {$/;"	f	class:octomap::ViewerWidget
+point_cloud	./octowrapper/octo_globaldef.h	/^typedef pcl::PointCloud<point_type> point_cloud;$/;"	t	namespace:octowrapper
+point_cloud_cptr	./octowrapper/octo_globaldef.h	/^typedef pcl::PointCloud<point_type>::ConstPtr point_cloud_cptr;$/;"	t	namespace:octowrapper
+point_cloud_ptr	./octowrapper/octo_globaldef.h	/^typedef pcl::PointCloud<point_type>::Ptr point_cloud_ptr;$/;"	t	namespace:octowrapper
+point_type	./octowrapper/octo_globaldef.h	/^typedef pcl::PointXYZ point_type;$/;"	t	namespace:octowrapper
+polygonContourPtr	./PoseEstimation/include/Plane.h	/^ pcl::PointCloud<pcl::PointXYZRGBA>::Ptr polygonContourPtr;$/;"	m	class:Plane
+polygonContourPtr	./VisualizePbMap/include/Plane.h	/^ pcl::PointCloud<pcl::PointXYZRGBA>::Ptr polygonContourPtr;$/;"	m	class:Plane
+pose	./PoseEstimation/include/PbmapmakerPerFrame.h	/^    float pose[4][4];$/;"	m	struct:frameRGBDandPose
+pose2tf	./pairwise/Pose3D.cpp	/^    tf::Transform CPose3D::pose2tf()$/;"	f	class:pairwise::CPose3D
+poseToQGLQuaternion	./octowrapper/viewer/ViewerWidget.cpp	/^qglviewer::Quaternion ViewerWidget::poseToQGLQuaternion(const octomath::Pose6D& pose) {$/;"	f	class:octomap::ViewerWidget
+positionEditDone	./octowrapper/viewer/ViewerSettingsPanelCamera.cpp	/^void ViewerSettingsPanelCamera::positionEditDone(double){$/;"	f	class:ViewerSettingsPanelCamera
+postDraw	./octowrapper/viewer/ViewerWidget.cpp	/^void ViewerWidget::postDraw(){$/;"	f	class:octomap::ViewerWidget
+postSelection	./octowrapper/viewer/ViewerWidget.cpp	/^void ViewerWidget::postSelection(const QPoint&)$/;"	f	class:octomap::ViewerWidget
+pre	./slam/paramSrvMi.h	/^    std::string pre;$/;"	m	class:ParamSrvMi
+prepareGraph	./octowrapper/OctoVizWrapper.cpp	/^void COctVizWrapper::prepareGraph(ScanGraph* graph_, bool comp)$/;"	f	class:COctVizWrapper
+print	./slam/Submap.h	/^    void print(string fname){ ofstream outf(fname.c_str()); if(outf.is_open()) print(outf);}$/;"	f	class:CSubmap
+print	./slam/Submap.hpp	/^void CSubmap<NODE>::print(ostream& out)$/;"	f	class:CSubmap
+print	./slam/SubmapStore.cpp	/^void print(ostream& out, submap::Pose6d& p)$/;"	f
+print	./slam/SubmapStore.cpp	/^void print(ostream& out, submap::SubmapHeader& h)$/;"	f
+printHelp	./PoseEstimation/src/main.cpp	/^void printHelp()$/;"	f
+printHelp	./VisualizePbMap/src/main.cpp	/^void printHelp()$/;"	f
+printPbMap	./PoseEstimation/src/PbMap.cpp	/^void PbMap::printPbMap(string txtFilePbm)$/;"	f	class:PbMap
+printPbMap	./VisualizePbMap/src/PbMap.cpp	/^void PbMap::printPbMap(string txtFilePbm)$/;"	f	class:PbMap
+processNode	./slam/OpenniWrapper.cpp	/^void COpenniWrapper::processNode(Node* new_node)$/;"	f	class:COpenniWrapper
+proximity_neighbor_planes	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^  float proximity_neighbor_planes;  \/\/ Two planar patches are considered neighbors when the closest distance between them is under proximity_neighbor_planes$/;"	m	struct:config_pbmap	file:
+proximity_threshold	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^  float proximity_threshold;  \/\/ Two planar patches that represent the same surface must overlap or be nearby$/;"	m	struct:config_pbmap	file:
+pt_type	./slam/Submap.h	/^    typedef pcl::PointXYZRGB pt_type;$/;"	t	namespace:submap
+publishGraphROS	./slam/GraphWrapper.cpp	/^void CGraphWrapper::publishGraphROS()$/;"	f	class:CGraphWrapper
+publishGraphSocket	./slam/GraphWrapper.cpp	/^void CGraphWrapper::publishGraphSocket(const ClientNet* m_client)$/;"	f	class:CGraphWrapper
+quaternion	./pairwise/Pose3D.h	/^    double quaternion[4]; \/\/ xyzw$/;"	m	class:pairwise::CPose3D
+r	./PoseEstimation/include/Plane.h	/^ std::vector<float> r;$/;"	m	class:Plane
+r	./VisualizePbMap/include/Plane.h	/^ std::vector<float> r;$/;"	m	class:Plane
+r_	./misc/colortable.h	/^    unsigned char r_;$/;"	m	struct:gl_color
+r_iter	./pairwise/ReadFiles.h	/^    typedef Record::iterator r_iter; $/;"	t	class:CReadFiles
+ratioXY	./PoseEstimation/src/planeMatching.cpp	/^	double ratioXY;$/;"	m	struct:PLANE	file:
+rawlog_path	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^  std::string rawlog_path;$/;"	m	struct:config_pbmap	file:
+readConfigFile	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^void readConfigFile(const string &config_file_name)$/;"	f
+readDir	./octowrapper/FileReader.cpp	/^void CFileReader::readDir(string dir)$/;"	f	class:CFileReader
+readFiles	./pairwise/ReadFiles.cpp	/^bool CReadFiles::readFiles(string f, Record& record)$/;"	f	class:CReadFiles
+readFromFile	./slam/Submap.hpp	/^bool CSubmap<NODE>::readFromFile(string fname)$/;"	f	class:CSubmap
+readPcdAndPose	./octowrapper/octo_globaldef.h	/^void readPcdAndPose(const char* fs, std::vector<boost::shared_ptr<pcl::PointCloud<PointT> > >& pcs, std::vector<octomap::pose6d>& poses, int num =-1, int step=5)$/;"	f
+readPose	./octowrapper/octo_globaldef.cpp	/^void readPose(const char* fs, octomap::pose6d& pose)$/;"	f
+readRecord	./pairwise/ReadFiles.cpp	/^bool CReadFiles::readRecord(string & vis_f, string& dth_f, string& gt_v)$/;"	f	class:CReadFiles
+receCameraImgs	./octowrapper/OctoVizWrapper.cpp	/^void COctVizWrapper::receCameraImgs(sensor_msgs::ImageConstPtr pimg, sensor_msgs::ImageConstPtr pdpt, sensor_msgs::CameraInfoConstPtr pcamera)$/;"	f	class:COctVizWrapper
+receColorPointCloud	./octowrapper/OctoVizWrapper.cpp	/^void COctVizWrapper::receColorPointCloud(pcl::PointCloud<pcl::PointXYZRGBA>::Ptr pc)$/;"	f	class:COctVizWrapper
+record_rawlog	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^  bool record_rawlog;$/;"	m	struct:config_pbmap	file:
+red	./VisualizePbMap/src/PbMapVisualizer.cpp	/^unsigned char red [10] = {255,   0,   0, 255, 255,   0, 255, 204,   0, 255};$/;"	v
+reduceGraph	./slam/GraphWrapper.cpp	/^void CGraphWrapper::reduceGraph(const ClientNet* m_client)$/;"	f	class:CGraphWrapper
+reduction	./slam/Submap.hpp	/^void CSubmap<NODE>::reduction()$/;"	f	class:CSubmap
+removeFromCameraPath	./octowrapper/viewer/CameraFollowMode.cpp	/^void CameraFollowMode::removeFromCameraPath() {$/;"	f	class:CameraFollowMode
+removeFromCameraPath	./octowrapper/viewer/ViewerWidget.cpp	/^void ViewerWidget::removeFromCameraPath(int id, int frame) {$/;"	f	class:octomap::ViewerWidget
+removeSceneObject	./octowrapper/viewer/ViewerWidget.cpp	/^void ViewerWidget::removeSceneObject(SceneObject* obj){$/;"	f	class:octomap::ViewerWidget
+resetFirstPose	./slam/GraphWrapper.cpp	/^void CGraphWrapper::resetFirstPose()$/;"	f	class:CGraphWrapper
+resetGraph	./slam/GraphWrapper.cpp	/^void CGraphWrapper::resetGraph()$/;"	f	class:CGraphWrapper
+resetSubmap	./slam/Submap.hpp	/^void CSubmap<NODE>::resetSubmap()$/;"	f	class:CSubmap
+resetView	./octowrapper/viewer/ViewerWidget.cpp	/^void ViewerWidget::resetView(){$/;"	f	class:octomap::ViewerWidget
+resetViewer	./slam/GraphWrapper.h	/^    void resetViewer(){Q_EMIT resetGLViewer();}$/;"	f	class:CGraphWrapper
+robust_kernel_	./mixture/MixGraph.h	/^    g2o::RobustKernelHuber robust_kernel_;$/;"	m	class:CMixGraph
+rodrigues_so3_exp	./PoseEstimation/src/PoseRelated.cpp	/^void rodrigues_so3_exp(Eigen::Matrix<double,3,1> w, double A, double B, Eigen::Matrix<double,3,3> R)$/;"	f
+root_pose	./slam/SubmapStore.h	/^    Pose6d root_pose; \/\/ root_pose of the submap$/;"	m	struct:submap::_SubmapHeader
+run	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^void PbMapMaker::run()$/;"	f	class:PbMapMaker
+runOffline	./pairwise/GraphHolder.cpp	/^void CGraphHolder::runOffline(int step)$/;"	f	class:CGraphHolder
+rw	./slam/SubmapStore.h	/^    float rw;$/;"	m	struct:submap::_Pose
+rx	./slam/SubmapStore.h	/^    float rx; \/\/ Quaternion$/;"	m	struct:submap::_Pose
+ry	./slam/SubmapStore.h	/^    float ry;$/;"	m	struct:submap::_Pose
+rz	./slam/SubmapStore.h	/^    float rz;$/;"	m	struct:submap::_Pose
+sQueueObservedPlanes	./PoseEstimation/include/PbmapmakerPerFrame.h	/^    std::set<unsigned> sQueueObservedPlanes;$/;"	m	class:PbMapMaker
+s_octree_color	./octowrapper/ColorOctreeImpl.h	/^    static gl_color s_octree_color;$/;"	m	class:ColorOctreeImpl
+s_submap_store_id	./slam/Submap.h	/^    static unsigned int s_submap_store_id;$/;"	m	class:CSubmap
+s_submap_store_id	./slam/Submap.hpp	/^unsigned int CSubmap<NODE>::s_submap_store_id = 0;$/;"	m	class:CSubmap
+saveCameraPosition	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::saveCameraPosition(const char* filename) const {$/;"	f	class:octomap::ViewerGui
+saveCloud2File	./slam/SubmapGraph.cpp	/^void CSubmapGraph::saveCloud2File(string fname)$/;"	f	class:CSubmapGraph
+saveCloudByOctomap	./slam/SubmapGraph.cpp	/^void CSubmapGraph::saveCloudByOctomap(string fname)$/;"	f	class:CSubmapGraph
+saveFeature2File	./slam/SubmapGraph.cpp	/^void CSubmapGraph::saveFeature2File(string fname)$/;"	f	class:CSubmapGraph
+saveFeaturePosDes2File	./slam/SubmapGraph.cpp	/^void CSubmapGraph::saveFeaturePosDes2File(string fname)$/;"	f	class:CSubmapGraph
+saveG2O	./mixture/MixGraph.cpp	/^void CMixGraph::saveG2O(const char* fname)$/;"	f	class:CMixGraph
+saveGraph	./slam/Submap.hpp	/^void CSubmap<NODE>::saveGraph(GraphManager* pgraph)$/;"	f	class:CSubmap
+saveRefinedSubmaps	./slam/SubmapGraph.cpp	/^void CSubmapGraph::saveRefinedSubmaps(string path)$/;"	f	class:CSubmapGraph
+saveToCameraPath	./octowrapper/viewer/CameraFollowMode.cpp	/^void CameraFollowMode::saveToCameraPath() {$/;"	f	class:CameraFollowMode
+save_registered_cloud	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^  bool save_registered_cloud;$/;"	m	struct:config_pbmap	file:
+scanProgressChanged	./octowrapper/viewer/ViewerSettingsPanel.cpp	/^void ViewerSettingsPanel::scanProgressChanged(){$/;"	f	class:ViewerSettingsPanel
+selectionBox	./octowrapper/viewer/ViewerWidget.h	/^  const SelectionBox& selectionBox() const { return m_selectionBox;}$/;"	f	class:octomap::ViewerWidget
+semanticGroup	./PoseEstimation/include/Plane.h	/^ unsigned semanticGroup;$/;"	m	class:Plane
+semanticGroup	./VisualizePbMap/include/Plane.h	/^ unsigned semanticGroup;$/;"	m	class:Plane
+set	./slam/paramSrvMi.h	/^       void set(const std::string param, T value) {$/;"	f	class:ParamSrvMi
+setBit	./octowrapper/bag_listener.h	/^    inline void setBit(SYN sig)$/;"	f	class:CBagListener
+setCamPose	./octowrapper/viewer/ViewerWidget.cpp	/^void ViewerWidget::setCamPose(const octomath::Pose6D& pose){$/;"	f	class:octomap::ViewerWidget
+setCamPosition	./octowrapper/viewer/ViewerWidget.cpp	/^void ViewerWidget::setCamPosition(double x, double y, double z, double lookX, double lookY, double lookZ){$/;"	f	class:octomap::ViewerWidget
+setCurrentFrame	./octowrapper/viewer/ViewerSettingsPanelCamera.cpp	/^void ViewerSettingsPanelCamera::setCurrentFrame(unsigned frame){$/;"	f	class:ViewerSettingsPanelCamera
+setCurrentScan	./octowrapper/viewer/ViewerSettingsPanel.cpp	/^void ViewerSettingsPanel::setCurrentScan(unsigned scan){$/;"	f	class:ViewerSettingsPanel
+setDraw	./slam/GraphWrapper.h	/^    void setDraw(bool d) {m_bDrawThisGraph = d;}$/;"	f	class:CGraphWrapper
+setLaserType	./octowrapper/viewer/ViewerSettings.h	/^    void setLaserType(int type){ui.laserType->setCurrentIndex(type); };$/;"	f	class:ViewerSettings
+setMaxRange	./octowrapper/viewer/ViewerSettings.h	/^    void setMaxRange(double range){ui.maxRange->setValue(range); };$/;"	f	class:ViewerSettings
+setNode	./pairwise/NodeHolder.h	/^    void setNode(CNodeWrapper* t){m_pNode = t;}$/;"	f	class:CNodeHolder
+setNodesInBBX	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::setNodesInBBX(const point3d& min, const point3d& max, bool occupied){$/;"	f	class:octomap::ViewerGui
+setNonNodesInBBX	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::setNonNodesInBBX(const point3d& min, const point3d& max, bool occupied) {$/;"	f	class:octomap::ViewerGui
+setNumberOfFrames	./octowrapper/viewer/ViewerSettingsPanelCamera.cpp	/^void ViewerSettingsPanelCamera::setNumberOfFrames(unsigned frames){$/;"	f	class:ViewerSettingsPanelCamera
+setNumberOfScans	./octowrapper/viewer/ViewerSettingsPanel.cpp	/^void ViewerSettingsPanel::setNumberOfScans(unsigned scans){$/;"	f	class:ViewerSettingsPanel
+setOcTreeUISwitches	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::setOcTreeUISwitches() {$/;"	f	class:octomap::ViewerGui
+setOctreeColor	./octowrapper/ColorOctreeImpl.cpp	/^void ColorOctreeImpl::setOctreeColor(gl_color& new_color){ColorOctreeImpl::s_octree_color = new_color;}$/;"	f	class:ColorOctreeImpl
+setOnParameterServer	./slam/paramSrvMi.h	/^    void setOnParameterServer(const std::string param, T new_val) {$/;"	f	class:ParamSrvMi
+setPCIncrementalModel	./octowrapper/OctoVizWrapper.cpp	/^void COctVizWrapper::setPCIncrementalModel(){m_pc_model = PC_Incremental;}$/;"	f	class:COctVizWrapper
+setPCOnlyOneModel	./octowrapper/OctoVizWrapper.cpp	/^void COctVizWrapper::setPCOnlyOneModel(){m_pc_model = PC_OnlyOne;}$/;"	f	class:COctVizWrapper
+setResolution	./octowrapper/OctoVizWrapper.h	/^    void setResolution(float res){m_octreeResolution = res;}$/;"	f	class:COctVizWrapper
+setResolution	./octowrapper/viewer/ViewerSettings.h	/^    void setResolution(double resolution){ui.resolution->setValue(resolution);};$/;"	f	class:ViewerSettings
+setResolution	./octowrapper/viewer/ViewerSettingsPanel.cpp	/^void ViewerSettingsPanel::setResolution(double resolution){$/;"	f	class:ViewerSettingsPanel
+setRobotTrajectoryAvailable	./octowrapper/viewer/ViewerSettingsPanelCamera.cpp	/^void ViewerSettingsPanelCamera::setRobotTrajectoryAvailable(bool available) {$/;"	f	class:ViewerSettingsPanelCamera
+setScanGraph	./octowrapper/viewer/CameraFollowMode.cpp	/^void CameraFollowMode::setScanGraph(octomap::ScanGraph *graph) {$/;"	f	class:CameraFollowMode
+setSceneBoundingBox	./octowrapper/viewer/ViewerWidget.cpp	/^void ViewerWidget::setSceneBoundingBox(const qglviewer::Vec& min, const qglviewer::Vec& max){$/;"	f	class:octomap::ViewerWidget
+setSeq	./slam/GraphWrapper.h	/^    void setSeq(int seq) {next_seq_id=seq;}$/;"	f	class:CGraphWrapper
+setStopped	./octowrapper/viewer/ViewerSettingsPanelCamera.cpp	/^void ViewerSettingsPanelCamera::setStopped(){$/;"	f	class:ViewerSettingsPanelCamera
+setSubmapStoreId	./slam/Submap.hpp	/^void CSubmap<NODE>::setSubmapStoreId(unsigned int id)$/;"	f	class:CSubmap
+setTreeDepth	./octowrapper/viewer/ViewerSettingsPanel.cpp	/^void ViewerSettingsPanel::setTreeDepth(int depth){$/;"	f	class:ViewerSettingsPanel
+setVerbose	./slam/GraphWrapper.h	/^    void setVerbose(bool b) {optimizer_->setVerbose(b);} $/;"	f	class:CGraphWrapper
+showInfo	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::showInfo(QString string, bool newline) {$/;"	f	class:octomap::ViewerGui
+showOcTree	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::showOcTree() {$/;"	f	class:octomap::ViewerGui
+showPC	./pairwise/NodeHolder.cpp	/^void CNodeHolder::showPC(pcl::visualization::CloudViewer& viewer)$/;"	f	class:CNodeHolder
+showPbMap	./VisualizePbMap/src/PbMapVisualizer.cpp	/^bool showPbMap;$/;"	v
+showPointCloud	./VisualizePbMap/src/PbMapVisualizer.cpp	/^bool showPointCloud;$/;"	v
+siftgpu_mutex	./slam/NodeWrapper.cpp	/^QMutex Node::siftgpu_mutex;$/;"	m	class:Node	file:
+size	./slam/GraphWrapper.h	/^    unsigned int size(){return graph_.size();}$/;"	f	class:CGraphWrapper
+sizeHint	./octowrapper/viewer/ViewerSettingsPanelCamera.cpp	/^QSize ViewerSettingsPanelCamera::sizeHint() const {$/;"	f	class:ViewerSettingsPanelCamera
+slamLostCallback	./pairwise/SendPub.cpp	/^void slamLostCallback(const std_msgs::String::ConstPtr& msg)$/;"	f
+slamLost_pub	./slam/OpenniWrapper.h	/^    ros::Publisher slamLost_pub;$/;"	m	class:COpenniWrapper
+std_vector_of_eigen_vector4f	./slam/Submap.h	/^typedef std::vector<Eigen::Vector4f, Eigen::aligned_allocator<Eigen::Vector4f> > std_vector_of_eigen_vector4f;$/;"	t
+stddev	./PoseEstimation/include/Miscellaneous.h	/^double  stddev(const std::vector<dataType> &v, bool unbiased = true)$/;"	f
+stddev	./VisualizePbMap/include/Miscellaneous.h	/^double  stddev(const std::vector<dataType> &v, bool unbiased = true)$/;"	f
+stopCameraPath	./octowrapper/viewer/ViewerWidget.cpp	/^void ViewerWidget::stopCameraPath(int id) {$/;"	f	class:octomap::ViewerWidget
+stop_pbMapMaker	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^bool PbMapMaker::stop_pbMapMaker()$/;"	f	class:PbMapMaker
+submap	./slam/Submap.h	/^namespace submap$/;"	n
+submap	./slam/SubmapStore.h	/^namespace submap$/;"	n
+submapSwap	./slam/GraphWrapper.cpp	/^void CGraphWrapper::submapSwap()$/;"	f	class:CGraphWrapper
+submap_br_	./slam/GraphWrapper.h	/^    tf::TransformBroadcaster submap_br_;$/;"	m	class:CGraphWrapper
+submap_cloud_pub_	./slam/GraphWrapper.h	/^    ros::Publisher submap_cloud_pub_;$/;"	m	class:CGraphWrapper
+submap_feature_des_pub_	./slam/GraphWrapper.h	/^    ros::Publisher submap_feature_des_pub_;$/;"	m	class:CGraphWrapper
+submap_feature_loc_pub_	./slam/GraphWrapper.h	/^    ros::Publisher submap_feature_loc_pub_;$/;"	m	class:CGraphWrapper
+submap_idx	./slam/mainMapBuilderSocket.cpp	/^int submap_idx=0;$/;"	v
+submap_pcd	./slam/mainMapBuilderROS.cpp	/^pointcloud_type::Ptr submap_pcd;$/;"	v
+submap_pcd	./slam/mainMapBuilderSocket.cpp	/^pointcloud_type::Ptr submap_pcd;$/;"	v
+submap_type	./slam/GraphWrapper.h	/^typedef CSubmap<CNodeWrapper> submap_type;$/;"	t
+swap	./pairwise/NodeHolder.cpp	/^void CNodeHolder::swap(CNodeHolder* old_node)$/;"	f	class:CNodeHolder
+test	./pairwise/ReadFiles.cpp	/^void CReadFiles::test()$/;"	f	class:CReadFiles
+test1	./mixture/main.cpp	/^void test1()$/;"	f
+test2	./mixture/main.cpp	/^void test2()$/;"	f
+test3	./mixture/main.cpp	/^void test3()$/;"	f
+test4	./mixture/main.cpp	/^void test4()$/;"	f
+tf2pose	./pairwise/Pose3D.cpp	/^    void CPose3D::tf2pose(tf::Transform& tf)$/;"	f	class:pairwise::CPose3D
+timeDifference	./misc/timestamp.cpp	/^double timeDifference( const TTimeStamp &t1, const TTimeStamp &t2 )$/;"	f
+time_tToTimestamp	./misc/timestamp.cpp	/^TTimeStamp  time_tToTimestamp(const time_t &t )$/;"	f
+timestamp	./slam/SubmapStore.h	/^    double timestamp; \/\/ timestamp (sec) for this root node $/;"	m	struct:submap::_SubmapHeader
+tmBlue	./misc/colortable.h	/^typedef tm_color<0,0,255> tmBlue;$/;"	t
+tmGreen	./misc/colortable.h	/^typedef tm_color<0,255,0> tmGreen;$/;"	t
+tmRed	./misc/colortable.h	/^typedef tm_color<255,0,0> tmRed;$/;"	t
+tm_color	./misc/colortable.h	/^struct tm_color{$/;"	s
+toTf	./slam/SubmapStore.h	/^    void toTf(tf::Transform& tf_tr)$/;"	f	struct:submap::_Pose
+translation	./pairwise/Pose3D.h	/^    double translation[3]; \/\/ xyz$/;"	m	class:pairwise::CPose3D
+tx	./slam/SubmapStore.h	/^    float tx; \/\/ Translation$/;"	m	struct:submap::_Pose
+ty	./slam/SubmapStore.h	/^    float ty; $/;"	m	struct:submap::_Pose
+tz	./slam/SubmapStore.h	/^    float tz;$/;"	m	struct:submap::_Pose
+ui	./octowrapper/viewer/ViewerGui.h	/^    Ui::ViewerGuiClass ui;$/;"	m	class:octomap::ViewerGui
+ui	./octowrapper/viewer/ViewerSettings.h	/^    Ui::ViewerSettingsClass ui;$/;"	m	class:ViewerSettings
+ui	./octowrapper/viewer/ViewerSettingsPanel.h	/^    Ui::ViewerSettingsPanelClass ui;$/;"	m	class:ViewerSettingsPanel
+ui	./octowrapper/viewer/ViewerSettingsPanelCamera.h	/^    Ui::ViewerSettingsPanelCameraClass ui;$/;"	m	class:ViewerSettingsPanelCamera
+ui_connections	./slam/mainDuoSlam.cpp	/^void ui_connections(QObject* ui, GraphManager* graph_mgr, OpenNIListener* listener)$/;"	f
+ui_connections	./slam/mainOriRgbdslam.cpp	/^void ui_connections(QObject* ui, GraphManager* graph_mgr, OpenNIListener* listener)$/;"	f
+updateCameraPath	./octowrapper/viewer/ViewerWidget.cpp	/^void ViewerWidget::updateCameraPath(int id, int frame) {$/;"	f	class:octomap::ViewerWidget
+updateGraph	./mixture/MixGraph.cpp	/^void CMixGraph::updateGraph()$/;"	f	class:CMixGraph
+updateNodesInBBX	./octowrapper/viewer/ViewerGui.cpp	/^void ViewerGui::updateNodesInBBX(const point3d& min, const point3d& max, bool occupied){$/;"	f	class:octomap::ViewerGui
+updateposeFUN	./PoseEstimation/src/ConsistencyTest.cpp	/^void ConsistencyTest::updateposeFUN(Eigen::Matrix<float,6,1> updatedSE3, Eigen::Matrix4f &updatePose)$/;"	f	class:ConsistencyTest
+use_color	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^  bool use_color;                   \/\/ Add color information to the planes$/;"	m	struct:config_pbmap	file:
+v3PpalDir	./PoseEstimation/include/Plane.h	/^ Eigen::Vector3f v3PpalDir;$/;"	m	class:Plane
+v3PpalDir	./VisualizePbMap/include/Plane.h	/^ Eigen::Vector3f v3PpalDir;$/;"	m	class:Plane
+v3center	./PoseEstimation/include/Plane.h	/^ Eigen::Vector3f v3center;$/;"	m	class:Plane
+v3center	./VisualizePbMap/include/Plane.h	/^ Eigen::Vector3f v3center;$/;"	m	class:Plane
+v3colorNrgb	./PoseEstimation/include/Plane.h	/^ Eigen::Vector3f v3colorNrgb;$/;"	m	class:Plane
+v3colorNrgb	./VisualizePbMap/include/Plane.h	/^ Eigen::Vector3f v3colorNrgb;$/;"	m	class:Plane
+v3colorNrgbDev	./PoseEstimation/include/Plane.h	/^ Eigen::Vector3f v3colorNrgbDev;$/;"	m	class:Plane
+v3colorNrgbDev	./VisualizePbMap/include/Plane.h	/^ Eigen::Vector3f v3colorNrgbDev;$/;"	m	class:Plane
+v3normal	./PoseEstimation/include/Plane.h	/^ Eigen::Vector3f v3normal;$/;"	m	class:Plane
+v3normal	./VisualizePbMap/include/Plane.h	/^ Eigen::Vector3f v3normal;$/;"	m	class:Plane
+vPlanes	./PoseEstimation/include/PbMap.h	/^    std::vector<Plane> vPlanes;$/;"	m	class:PbMap
+vPlanes	./VisualizePbMap/include/PbMap.h	/^    std::vector<Plane> vPlanes;$/;"	m	class:PbMap
+visua_sub_	./pairwise/RecePub.h	/^    message_filters::Subscriber<sensor_msgs::Image> *visua_sub_;$/;"	m	class:CRecePub
+visual_cb	./octowrapper/bag_listener.h	/^    void visual_cb(const sensor_msgs::ImageConstPtr& visual_img)$/;"	f	class:CBagListener
+visual_sub	./octowrapper/bag_listener.h	/^    ros::Subscriber visual_sub;$/;"	m	class:CBagListener
+visualization_depth_mono8_img_	./pairwise/RecePub.h	/^    cv::Mat visualization_depth_mono8_img_;$/;"	m	class:CRecePub
+visualization_img_	./pairwise/RecePub.h	/^    cv::Mat visualization_img_;$/;"	m	class:CRecePub
+viz_cb	./VisualizePbMap/src/PbMapVisualizer.cpp	/^void PbMapVisualizer::viz_cb (pcl::visualization::PCLVisualizer& viz)$/;"	f	class:PbMapVisualizer
+x	./PoseEstimation/src/Plane.cpp	/^    double x, y;$/;"	m	struct:mPointHull	file:
+x	./VisualizePbMap/src/Plane.cpp	/^    double x, y;$/;"	m	struct:mPointHull	file:
+y	./PoseEstimation/src/Plane.cpp	/^    double x, y;$/;"	m	struct:mPointHull	file:
+y	./VisualizePbMap/src/Plane.cpp	/^    double x, y;$/;"	m	struct:mPointHull	file:
+~CDuoGraph	./slam/DuoGraph.cpp	/^CDuoGraph::~CDuoGraph(){}$/;"	f	class:CDuoGraph
+~CFileReader	./octowrapper/FileReader.cpp	/^CFileReader::~CFileReader()$/;"	f	class:CFileReader
+~CGraphHolder	./pairwise/GraphHolder.cpp	/^CGraphHolder::~CGraphHolder()$/;"	f	class:CGraphHolder
+~CGraphWrapper	./slam/GraphWrapper.cpp	/^CGraphWrapper::~CGraphWrapper()$/;"	f	class:CGraphWrapper
+~CMixGraph	./mixture/MixGraph.cpp	/^CMixGraph::~CMixGraph()$/;"	f	class:CMixGraph
+~CNodeHolder	./pairwise/NodeHolder.cpp	/^CNodeHolder::~CNodeHolder()$/;"	f	class:CNodeHolder
+~CNodeWrapper	./slam/NodeWrapper.cpp	/^CNodeWrapper::~CNodeWrapper()$/;"	f	class:CNodeWrapper
+~COctVizWrapper	./octowrapper/OctoVizWrapper.cpp	/^COctVizWrapper::~COctVizWrapper()$/;"	f	class:COctVizWrapper
+~COpenniWrapper	./slam/OpenniWrapper.cpp	/^COpenniWrapper::~COpenniWrapper(){}$/;"	f	class:COpenniWrapper
+~CPose3D	./pairwise/Pose3D.cpp	/^    CPose3D::~CPose3D(){}$/;"	f	class:pairwise::CPose3D
+~CReadFiles	./pairwise/ReadFiles.cpp	/^CReadFiles::~CReadFiles(){}$/;"	f	class:CReadFiles
+~CRecePub	./pairwise/RecePub.cpp	/^CRecePub::~CRecePub()$/;"	f	class:CRecePub
+~CSubmap	./slam/Submap.hpp	/^CSubmap<NODE>::~CSubmap()$/;"	f	class:CSubmap
+~CSubmapGraph	./slam/SubmapGraph.cpp	/^CSubmapGraph::~CSubmapGraph(){}$/;"	f	class:CSubmapGraph
+~CSubmapNode	./slam/SubmapNode.cpp	/^CSubmapNode::~CSubmapNode(){}$/;"	f	class:CSubmapNode
+~CameraFollowMode	./octowrapper/viewer/CameraFollowMode.cpp	/^CameraFollowMode::~CameraFollowMode() {$/;"	f	class:CameraFollowMode
+~ClientNet	./minet/ClientNet.cpp	/^ClientNet::~ClientNet(void)$/;"	f	class:ClientNet
+~ColorOctreeImpl	./octowrapper/ColorOctreeImpl.cpp	/^ColorOctreeImpl::~ColorOctreeImpl(){}$/;"	f	class:ColorOctreeImpl
+~Com	./minet/Com.cpp	/^Com::~Com()$/;"	f	class:Com
+~ExternalCom	./minet/ExternalCom.cpp	/^ExternalCom::~ExternalCom()$/;"	f	class:ExternalCom
+~ParamSrvMi	./slam/paramSrvMi.cpp	/^ParamSrvMi::~ParamSrvMi(){$/;"	f	class:ParamSrvMi
+~PbMap	./PoseEstimation/src/PbMap.cpp	/^PbMap::~PbMap()$/;"	f	class:PbMap
+~PbMap	./VisualizePbMap/src/PbMap.cpp	/^PbMap::~PbMap()$/;"	f	class:PbMap
+~PbMapMaker	./PoseEstimation/src/PbmapmakerPerFrame.cpp	/^PbMapMaker::~PbMapMaker()$/;"	f	class:PbMapMaker
+~PbMapVisualizer	./VisualizePbMap/src/PbMapVisualizer.cpp	/^PbMapVisualizer::~PbMapVisualizer() {$/;"	f	class:PbMapVisualizer
+~ViewerGui	./octowrapper/viewer/ViewerGui.cpp	/^ViewerGui::~ViewerGui() {$/;"	f	class:octomap::ViewerGui
+~ViewerSettings	./octowrapper/viewer/ViewerSettings.cpp	/^ViewerSettings::~ViewerSettings()$/;"	f	class:ViewerSettings
+~ViewerSettingsPanel	./octowrapper/viewer/ViewerSettingsPanel.cpp	/^ViewerSettingsPanel::~ViewerSettingsPanel()$/;"	f	class:ViewerSettingsPanel
+~ViewerSettingsPanelCamera	./octowrapper/viewer/ViewerSettingsPanelCamera.cpp	/^ViewerSettingsPanelCamera::~ViewerSettingsPanelCamera()$/;"	f	class:ViewerSettingsPanelCamera

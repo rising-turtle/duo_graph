@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/launch
+END
+mapBuilderSocket_local_openni.launch
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/launch/mapBuilderSocket_local_openni.launch
+END
+kinect+rgbdslam.launch
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/launch/kinect+rgbdslam.launch
+END
+submap_socket_openni.launch
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/launch/submap_socket_openni.launch
+END
+bagrgbd.launch
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/launch/bagrgbd.launch
+END
+mapBuilderSocket_local_offline.launch
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/launch/mapBuilderSocket_local_offline.launch
+END
+submap_local_openni.launch
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/launch/submap_local_openni.launch
+END
+mapBuilderROS_local_openni.launch
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/launch/mapBuilderROS_local_openni.launch
+END

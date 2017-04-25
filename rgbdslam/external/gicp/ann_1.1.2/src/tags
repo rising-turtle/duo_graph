@@ -1,0 +1,213 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ANN_AR_TOOBIG	./kd_tree.cpp	/^const double ANN_AR_TOOBIG = 1000;				\/\/ too big an aspect ratio$/;"	v
+ANN_KD_SPLIT_H	./kd_split.h	26;"	d
+ANN_bd_tree_H	./bd_tree.h	28;"	d
+ANN_kd_fix_rad_search_H	./kd_fix_rad_search.h	26;"	d
+ANN_kd_pr_search_H	./kd_pr_search.h	26;"	d
+ANN_kd_search_H	./kd_search.h	26;"	d
+ANN_kd_tree_H	./kd_tree.h	28;"	d
+ANN_kd_util_H	./kd_util.h	26;"	d
+ANNbd_shrink	./bd_tree.h	/^	ANNbd_shrink(						\/\/ constructor$/;"	f	class:ANNbd_shrink
+ANNbd_shrink	./bd_tree.h	/^class ANNbd_shrink : public ANNkd_node	\/\/ splitting node of a kd-tree$/;"	c
+ANNbd_tree	./bd_tree.cpp	/^ANNbd_tree::ANNbd_tree(					\/\/ construct from point array$/;"	f	class:ANNbd_tree
+ANNbd_tree	./kd_dump.cpp	/^ANNbd_tree::ANNbd_tree(					\/\/ build bd-tree from dump file$/;"	f	class:ANNbd_tree
+ANNbruteForce	./brute.cpp	/^ANNbruteForce::ANNbruteForce(			\/\/ constructor from point array$/;"	f	class:ANNbruteForce
+ANNdecomp	./bd_tree.cpp	/^enum ANNdecomp {SPLIT, SHRINK};			\/\/ decomposition methods$/;"	g	file:
+ANNkdDim	./kd_search.cpp	/^int				ANNkdDim;				\/\/ dimension of space$/;"	v
+ANNkdFRDim	./kd_fix_rad_search.cpp	/^int				ANNkdFRDim;				\/\/ dimension of space$/;"	v
+ANNkdFRMaxErr	./kd_fix_rad_search.cpp	/^double			ANNkdFRMaxErr;			\/\/ max tolerable squared error$/;"	v
+ANNkdFRPointMK	./kd_fix_rad_search.cpp	/^ANNmin_k*		ANNkdFRPointMK;			\/\/ set of k closest points$/;"	v
+ANNkdFRPts	./kd_fix_rad_search.cpp	/^ANNpointArray	ANNkdFRPts;				\/\/ the points$/;"	v
+ANNkdFRPtsInRange	./kd_fix_rad_search.cpp	/^int				ANNkdFRPtsInRange;		\/\/ number of points in the range$/;"	v
+ANNkdFRPtsVisited	./kd_fix_rad_search.cpp	/^int				ANNkdFRPtsVisited;		\/\/ total points visited$/;"	v
+ANNkdFRQ	./kd_fix_rad_search.cpp	/^ANNpoint		ANNkdFRQ;				\/\/ query point$/;"	v
+ANNkdFRSqRad	./kd_fix_rad_search.cpp	/^ANNdist			ANNkdFRSqRad;			\/\/ squared radius search bound$/;"	v
+ANNkdMaxErr	./kd_search.cpp	/^double			ANNkdMaxErr;			\/\/ max tolerable squared error$/;"	v
+ANNkdPointMK	./kd_search.cpp	/^ANNmin_k		*ANNkdPointMK;			\/\/ set of k closest points$/;"	v
+ANNkdPts	./kd_search.cpp	/^ANNpointArray	ANNkdPts;				\/\/ the points$/;"	v
+ANNkdQ	./kd_search.cpp	/^ANNpoint		ANNkdQ;					\/\/ query point$/;"	v
+ANNkd_leaf	./kd_tree.h	/^	ANNkd_leaf(							\/\/ constructor$/;"	f	class:ANNkd_leaf
+ANNkd_leaf	./kd_tree.h	/^class ANNkd_leaf: public ANNkd_node		\/\/ leaf node for kd-tree$/;"	c
+ANNkd_node	./kd_tree.h	/^class ANNkd_node{						\/\/ generic kd-tree node (empty shell)$/;"	c
+ANNkd_split	./kd_tree.h	/^	ANNkd_split(						\/\/ constructor$/;"	f	class:ANNkd_split
+ANNkd_split	./kd_tree.h	/^class ANNkd_split : public ANNkd_node	\/\/ splitting node of a kd-tree$/;"	c
+ANNkd_splitter	./kd_tree.h	/^typedef void (*ANNkd_splitter)(			\/\/ splitting routine for kd-trees$/;"	t
+ANNkd_tree	./kd_dump.cpp	/^ANNkd_tree::ANNkd_tree(					\/\/ build from dump file$/;"	f	class:ANNkd_tree
+ANNkd_tree	./kd_tree.cpp	/^ANNkd_tree::ANNkd_tree(					\/\/ basic constructor$/;"	f	class:ANNkd_tree
+ANNkd_tree	./kd_tree.cpp	/^ANNkd_tree::ANNkd_tree(					\/\/ construct from point array$/;"	f	class:ANNkd_tree
+ANNmaxPtsVisited	./ANN.cpp	/^int	ANNmaxPtsVisited = 0;	\/\/ maximum number of pts visited$/;"	v
+ANNmin_k	./pr_queue_k.h	/^	ANNmin_k(int max)					\/\/ constructor (given max size)$/;"	f	class:ANNmin_k
+ANNmin_k	./pr_queue_k.h	/^class ANNmin_k {$/;"	c
+ANNmin_key	./pr_queue_k.h	/^	PQKkey ANNmin_key()					\/\/ return minimum key$/;"	f	class:ANNmin_k
+ANNprBoxPQ	./kd_pr_search.cpp	/^ANNpr_queue		*ANNprBoxPQ;			\/\/ priority queue for boxes$/;"	v
+ANNprDim	./kd_pr_search.cpp	/^int				ANNprDim;				\/\/ dimension of space$/;"	v
+ANNprEps	./kd_pr_search.cpp	/^double			ANNprEps;				\/\/ the error bound$/;"	v
+ANNprMaxErr	./kd_pr_search.cpp	/^double			ANNprMaxErr;			\/\/ max tolerable squared error$/;"	v
+ANNprPointMK	./kd_pr_search.cpp	/^ANNmin_k		*ANNprPointMK;			\/\/ set of k closest points$/;"	v
+ANNprPts	./kd_pr_search.cpp	/^ANNpointArray	ANNprPts;				\/\/ the points$/;"	v
+ANNprQ	./kd_pr_search.cpp	/^ANNpoint		ANNprQ;					\/\/ query point$/;"	v
+ANNpr_queue	./pr_queue.h	/^	ANNpr_queue(int max)				\/\/ constructor (given max size)$/;"	f	class:ANNpr_queue
+ANNpr_queue	./pr_queue.h	/^class ANNpr_queue {$/;"	c
+ANNptsVisited	./ANN.cpp	/^int	ANNptsVisited;			\/\/ number of pts visited in search$/;"	v
+ANNtreeType	./kd_dump.cpp	/^enum ANNtreeType {KD_TREE, BD_TREE};	\/\/ tree types (used in loading)$/;"	g	file:
+BASEDIR	./Makefile	/^BASEDIR	= ..$/;"	m
+BD_CT_THRESH	./bd_tree.cpp	/^const int   BD_CT_THRESH  = 2;			\/\/ min number of shrink sides$/;"	v
+BD_FRACTION	./bd_tree.cpp	/^const float	BD_FRACTION = 0.5;			\/\/ ...to reduce points by this fraction$/;"	v
+BD_GAP_THRESH	./bd_tree.cpp	/^const float BD_GAP_THRESH = 0.5;		\/\/ gap threshold (must be < 1)$/;"	v
+BD_MAX_SPLIT_FAC	./bd_tree.cpp	/^const float	BD_MAX_SPLIT_FAC = 0.5;		\/\/ maximum number of splits allowed$/;"	v
+BD_TREE	./kd_dump.cpp	/^enum ANNtreeType {KD_TREE, BD_TREE};	\/\/ tree types (used in loading)$/;"	e	enum:ANNtreeType	file:
+Dump	./kd_dump.cpp	/^void ANNkd_tree::Dump(					\/\/ dump entire tree$/;"	f	class:ANNkd_tree
+EPSILON	./kd_dump.cpp	/^const double	EPSILON			= 1E-5; \/\/ small number for float comparison$/;"	v
+ERR	./kd_split.cpp	/^const double ERR = 0.001;				\/\/ a small value$/;"	v
+FS_ASPECT_RATIO	./kd_split.cpp	/^const double FS_ASPECT_RATIO = 3.0;		\/\/ maximum allowed aspect ratio$/;"	v
+HEADERS	./Makefile	/^HEADERS = kd_tree.h kd_split.h kd_util.h kd_search.h \\$/;"	m
+IDX_TRIVIAL	./kd_tree.cpp	/^static int				IDX_TRIVIAL[] = {0};	\/\/ trivial point index$/;"	v	file:
+INCDIR	./Makefile	/^INCDIR	= $(BASEDIR)\/include$/;"	m
+KD_TREE	./kd_dump.cpp	/^enum ANNtreeType {KD_TREE, BD_TREE};	\/\/ tree types (used in loading)$/;"	e	enum:ANNtreeType	file:
+KD_TRIVIAL	./kd_tree.cpp	/^ANNkd_leaf				*KD_TRIVIAL = NULL;		\/\/ trivial leaf node$/;"	v
+LIBDIR	./Makefile	/^LIBDIR	= $(BASEDIR)\/lib$/;"	m
+MAX	./kd_tree.cpp	131;"	d	file:
+OBJECTS	./Makefile	/^OBJECTS = $(SOURCES:.cpp=.o)$/;"	m
+PA	./kd_util.cpp	42;"	d	file:
+PASWAP	./kd_util.cpp	228;"	d	file:
+PP	./kd_util.cpp	44;"	d	file:
+PQKinfo	./pr_queue_k.h	/^typedef int				PQKinfo;		\/\/ info field is int$/;"	t
+PQKkey	./pr_queue_k.h	/^typedef ANNdist			PQKkey;			\/\/ key field is distance$/;"	t
+PQ_NULL_INFO	./pr_queue_k.h	/^const PQKinfo	PQ_NULL_INFO =  ANN_NULL_IDX;	\/\/ nonexistent info value$/;"	v
+PQ_NULL_KEY	./pr_queue_k.h	/^const PQKkey	PQ_NULL_KEY  =  ANN_DIST_INF;	\/\/ nonexistent key value$/;"	v
+PQinfo	./pr_queue.h	/^typedef void			*PQinfo;		\/\/ info field is generic pointer$/;"	t
+PQkey	./pr_queue.h	/^typedef ANNdist			PQkey;			\/\/ key field is distance$/;"	t
+PR_QUEUE_H	./pr_queue.h	27;"	d
+PR_QUEUE_K_H	./pr_queue_k.h	26;"	d
+Print	./kd_tree.cpp	/^void ANNkd_tree::Print(					\/\/ print entire tree$/;"	f	class:ANNkd_tree
+SHRINK	./bd_tree.cpp	/^enum ANNdecomp {SPLIT, SHRINK};			\/\/ decomposition methods$/;"	e	enum:ANNdecomp	file:
+SOURCES	./Makefile	/^SOURCES = ANN.cpp brute.cpp kd_tree.cpp kd_util.cpp kd_split.cpp \\$/;"	m
+SPLIT	./bd_tree.cpp	/^enum ANNdecomp {SPLIT, SHRINK};			\/\/ decomposition methods$/;"	e	enum:ANNdecomp	file:
+STRING_LEN	./kd_dump.cpp	/^const int		STRING_LEN		= 500;	\/\/ maximum string length$/;"	v
+SkeletonTree	./kd_tree.cpp	/^void ANNkd_tree::SkeletonTree(			\/\/ construct skeleton tree$/;"	f	class:ANNkd_tree
+annAllocPt	./ANN.cpp	/^ANNpoint annAllocPt(int dim, ANNcoord c)		\/\/ allocate 1 point$/;"	f
+annAllocPts	./ANN.cpp	/^ANNpointArray annAllocPts(int n, int dim)		\/\/ allocate n pts in dim$/;"	f
+annAspectRatio	./kd_util.cpp	/^double annAspectRatio($/;"	f
+annAssignRect	./ANN.cpp	/^void annAssignRect(int dim, ANNorthRect &dest, const ANNorthRect &source)$/;"	f
+annBnds2Box	./kd_util.cpp	/^void annBnds2Box($/;"	f
+annBox2Bnds	./kd_util.cpp	/^void annBox2Bnds(						\/\/ convert inner box to bounds$/;"	f
+annBoxDistance	./kd_util.cpp	/^ANNdist annBoxDistance(			\/\/ compute distance from point to box$/;"	f
+annBoxSplit	./kd_util.cpp	/^void annBoxSplit(				\/\/ split points by a box$/;"	f
+annClose	./kd_tree.cpp	/^void annClose()				\/\/ close use of ANN$/;"	f
+annCopyPt	./ANN.cpp	/^ANNpoint annCopyPt(int dim, ANNpoint source)	\/\/ copy point$/;"	f
+annDeallocPt	./ANN.cpp	/^void annDeallocPt(ANNpoint &p)					\/\/ deallocate 1 point$/;"	f
+annDeallocPts	./ANN.cpp	/^void annDeallocPts(ANNpointArray &pa)			\/\/ deallocate points$/;"	f
+annDist	./ANN.cpp	/^ANNdist annDist(						\/\/ interpoint squared distance$/;"	f
+annEnclCube	./kd_util.cpp	/^void annEnclCube(						\/\/ compute smallest enclosing cube$/;"	f
+annEnclRect	./kd_util.cpp	/^void annEnclRect($/;"	f
+annError	./ANN.cpp	/^void annError(const char* msg, ANNerr level)$/;"	f
+annMaxPtsVisit	./ANN.cpp	/^void annMaxPtsVisit(			\/\/ set limit on max. pts to visit in search$/;"	f
+annMaxSpread	./kd_util.cpp	/^int annMaxSpread(						\/\/ compute dimension of max spread$/;"	f
+annMedianSplit	./kd_util.cpp	/^void annMedianSplit($/;"	f
+annMinMax	./kd_util.cpp	/^void annMinMax(					\/\/ compute min and max coordinates along dim$/;"	f
+annPlaneSplit	./kd_util.cpp	/^void annPlaneSplit(				\/\/ split points by a plane$/;"	f
+annPrintPt	./ANN.cpp	/^void annPrintPt(						\/\/ print a point$/;"	f
+annPrintStats	./perf.cpp	/^DLL_API void annPrintStats(				\/\/ print statistics for a run$/;"	f
+annReadDump	./kd_dump.cpp	/^static ANNkd_ptr annReadDump($/;"	f	file:
+annReadTree	./kd_dump.cpp	/^static ANNkd_ptr annReadTree($/;"	f	file:
+annResetCounts	./perf.cpp	/^DLL_API void annResetCounts()				\/\/ reset counts for one query$/;"	f
+annResetStats	./perf.cpp	/^DLL_API void annResetStats(int data_size) \/\/ reset stats for a set of queries$/;"	f
+annSplitBalance	./kd_util.cpp	/^int annSplitBalance(			\/\/ determine balance factor of a split$/;"	f
+annSpread	./kd_util.cpp	/^ANNcoord annSpread(				\/\/ compute point spread along dimension$/;"	f
+annUpdateStats	./perf.cpp	/^DLL_API void annUpdateStats()				\/\/ update stats with current counts$/;"	f
+ann_FR_search	./bd_fix_rad_search.cpp	/^void ANNbd_shrink::ann_FR_search(ANNdist box_dist)$/;"	f	class:ANNbd_shrink
+ann_FR_search	./kd_fix_rad_search.cpp	/^void ANNkd_leaf::ann_FR_search(ANNdist box_dist)$/;"	f	class:ANNkd_leaf
+ann_FR_search	./kd_fix_rad_search.cpp	/^void ANNkd_split::ann_FR_search(ANNdist box_dist)$/;"	f	class:ANNkd_split
+ann_Ncoord_hts	./perf.cpp	/^int				ann_Ncoord_hts = 0;		\/\/ coordinate hits for one query$/;"	v
+ann_Ndata_pts	./perf.cpp	/^int				ann_Ndata_pts  = 0;		\/\/ number of data points$/;"	v
+ann_Nfloat_ops	./perf.cpp	/^int				ann_Nfloat_ops = 0;		\/\/ floating ops for one query$/;"	v
+ann_Nvisit_lfs	./perf.cpp	/^int				ann_Nvisit_lfs = 0;		\/\/ number of leaf nodes visited$/;"	v
+ann_Nvisit_pts	./perf.cpp	/^int				ann_Nvisit_pts = 0;		\/\/ visited points for one query$/;"	v
+ann_Nvisit_shr	./perf.cpp	/^int				ann_Nvisit_shr = 0;		\/\/ number of shrinking nodes visited$/;"	v
+ann_Nvisit_spl	./perf.cpp	/^int				ann_Nvisit_spl = 0;		\/\/ number of splitting nodes visited$/;"	v
+ann_average_err	./perf.cpp	/^ANNsampStat		ann_average_err;		\/\/ average error$/;"	v
+ann_coord_hts	./perf.cpp	/^ANNsampStat		ann_coord_hts;			\/\/ stats on coordinate hits$/;"	v
+ann_float_ops	./perf.cpp	/^ANNsampStat		ann_float_ops;			\/\/ stats on floating ops$/;"	v
+ann_pri_search	./bd_pr_search.cpp	/^void ANNbd_shrink::ann_pri_search(ANNdist box_dist)$/;"	f	class:ANNbd_shrink
+ann_pri_search	./kd_pr_search.cpp	/^void ANNkd_leaf::ann_pri_search(ANNdist box_dist)$/;"	f	class:ANNkd_leaf
+ann_pri_search	./kd_pr_search.cpp	/^void ANNkd_split::ann_pri_search(ANNdist box_dist)$/;"	f	class:ANNkd_split
+ann_rank_err	./perf.cpp	/^ANNsampStat		ann_rank_err;			\/\/ rank error$/;"	v
+ann_search	./bd_search.cpp	/^void ANNbd_shrink::ann_search(ANNdist box_dist)$/;"	f	class:ANNbd_shrink
+ann_search	./kd_search.cpp	/^void ANNkd_leaf::ann_search(ANNdist box_dist)$/;"	f	class:ANNkd_leaf
+ann_search	./kd_search.cpp	/^void ANNkd_split::ann_search(ANNdist box_dist)$/;"	f	class:ANNkd_split
+ann_visit_lfs	./perf.cpp	/^ANNsampStat		ann_visit_lfs;			\/\/ stats on leaf nodes visits$/;"	v
+ann_visit_nds	./perf.cpp	/^ANNsampStat		ann_visit_nds;			\/\/ stats on total nodes visits$/;"	v
+ann_visit_pts	./perf.cpp	/^ANNsampStat		ann_visit_pts;			\/\/ stats on points visited$/;"	v
+ann_visit_shr	./perf.cpp	/^ANNsampStat		ann_visit_shr;			\/\/ stats on shrinking nodes visits$/;"	v
+ann_visit_spl	./perf.cpp	/^ANNsampStat		ann_visit_spl;			\/\/ stats on splitting nodes visits$/;"	v
+annkFRSearch	./brute.cpp	/^int ANNbruteForce::annkFRSearch(		\/\/ approx fixed-radius kNN search$/;"	f	class:ANNbruteForce
+annkFRSearch	./kd_fix_rad_search.cpp	/^int ANNkd_tree::annkFRSearch($/;"	f	class:ANNkd_tree
+annkPriSearch	./kd_pr_search.cpp	/^void ANNkd_tree::annkPriSearch($/;"	f	class:ANNkd_tree
+annkSearch	./brute.cpp	/^void ANNbruteForce::annkSearch(			\/\/ approx k near neighbor search$/;"	f	class:ANNbruteForce
+annkSearch	./kd_search.cpp	/^void ANNkd_tree::annkSearch($/;"	f	class:ANNkd_tree
+bkt	./kd_tree.h	/^	ANNidxArray			bkt;			\/\/ bucket of points$/;"	m	class:ANNkd_leaf
+bnds	./bd_tree.h	/^	ANNorthHSArray		bnds;			\/\/ list of bounding halfspaces$/;"	m	class:ANNbd_shrink
+cd_bnds	./kd_tree.h	/^	ANNcoord			cd_bnds[2];		\/\/ lower and upper bounds of$/;"	m	class:ANNkd_split
+child	./bd_tree.h	/^	ANNkd_ptr			child[2];		\/\/ in and out children$/;"	m	class:ANNbd_shrink
+child	./kd_tree.h	/^	ANNkd_ptr			child[2];		\/\/ left and right children$/;"	m	class:ANNkd_split
+cut_dim	./kd_tree.h	/^	int					cut_dim;		\/\/ dim orthogonal to cutting plane$/;"	m	class:ANNkd_split
+cut_val	./kd_tree.h	/^	ANNcoord			cut_val;		\/\/ location of cutting plane$/;"	m	class:ANNkd_split
+dump	./kd_dump.cpp	/^void ANNbd_shrink::dump(				\/\/ dump a shrinking node$/;"	f	class:ANNbd_shrink
+dump	./kd_dump.cpp	/^void ANNkd_leaf::dump(					\/\/ dump a leaf node$/;"	f	class:ANNkd_leaf
+dump	./kd_dump.cpp	/^void ANNkd_split::dump(					\/\/ dump a splitting node$/;"	f	class:ANNkd_split
+empty	./pr_queue.h	/^	ANNbool empty()						\/\/ is queue empty?$/;"	f	class:ANNpr_queue
+extr_min	./pr_queue.h	/^	inline void extr_min(				\/\/ extract minimum (inlined for speed)$/;"	f	class:ANNpr_queue
+fair_split	./kd_split.cpp	/^void fair_split($/;"	f
+getStats	./bd_tree.cpp	/^void ANNbd_shrink::getStats(					\/\/ get subtree statistics$/;"	f	class:ANNbd_shrink
+getStats	./kd_tree.cpp	/^void ANNkd_leaf::getStats(						\/\/ get subtree statistics$/;"	f	class:ANNkd_leaf
+getStats	./kd_tree.cpp	/^void ANNkd_split::getStats(						\/\/ get subtree statistics$/;"	f	class:ANNkd_split
+getStats	./kd_tree.cpp	/^void ANNkd_tree::getStats(						\/\/ get tree statistics$/;"	f	class:ANNkd_tree
+info	./pr_queue.h	/^		PQinfo			info;			\/\/ info field$/;"	m	struct:ANNpr_queue::pq_node
+info	./pr_queue_k.h	/^		PQKinfo			info;			\/\/ info field (user defined)$/;"	m	struct:ANNmin_k::mk_node
+insert	./pr_queue.h	/^	inline void insert(					\/\/ insert item (inlined for speed)$/;"	f	class:ANNpr_queue
+insert	./pr_queue_k.h	/^	inline void insert(					\/\/ insert item (inlined for speed)$/;"	f	class:ANNmin_k
+inside	./ANN.cpp	/^ANNbool ANNorthRect::inside(int dim, ANNpoint p)$/;"	f	class:ANNorthRect
+ith_smallest_info	./pr_queue_k.h	/^	PQKinfo ith_smallest_info(int i)	\/\/ info for ith smallest (i in [0..n-1])$/;"	f	class:ANNmin_k
+ith_smallest_key	./pr_queue_k.h	/^	PQKkey ith_smallest_key(int i)		\/\/ ith smallest key (i in [0..n-1])$/;"	f	class:ANNmin_k
+k	./pr_queue_k.h	/^	int			k;						\/\/ max number of keys to store$/;"	m	class:ANNmin_k
+kd_split	./kd_split.cpp	/^void kd_split($/;"	f
+key	./pr_queue.h	/^		PQkey			key;			\/\/ key value$/;"	m	struct:ANNpr_queue::pq_node
+key	./pr_queue_k.h	/^		PQKkey			key;			\/\/ key value$/;"	m	struct:ANNmin_k::mk_node
+max_key	./pr_queue_k.h	/^	PQKkey max_key()					\/\/ return maximum key$/;"	f	class:ANNmin_k
+max_size	./pr_queue.h	/^	int			max_size;				\/\/ maximum queue size$/;"	m	class:ANNpr_queue
+merge	./kd_tree.cpp	/^void ANNkdStats::merge(const ANNkdStats &st)	\/\/ merge stats from child $/;"	f	class:ANNkdStats
+midpt_split	./kd_split.cpp	/^void midpt_split($/;"	f
+mk	./pr_queue_k.h	/^	mk_node		*mk;					\/\/ the list itself$/;"	m	class:ANNmin_k
+mk_node	./pr_queue_k.h	/^	struct mk_node {					\/\/ node in min_k structure$/;"	s	class:ANNmin_k
+n	./pr_queue.h	/^	int			n;						\/\/ number of items in queue$/;"	m	class:ANNpr_queue
+n	./pr_queue_k.h	/^	int			n;						\/\/ number of keys currently active$/;"	m	class:ANNmin_k
+n_bnds	./bd_tree.h	/^	int					n_bnds;			\/\/ number of bounding halfspaces$/;"	m	class:ANNbd_shrink
+n_pts	./kd_tree.h	/^	int					n_pts;			\/\/ no. points in bucket$/;"	m	class:ANNkd_leaf
+non_empty	./pr_queue.h	/^	ANNbool non_empty()					\/\/ is queue nonempty?$/;"	f	class:ANNpr_queue
+pq	./pr_queue.h	/^	pq_node		*pq;					\/\/ the priority queue (array of nodes)$/;"	m	class:ANNpr_queue
+pq_node	./pr_queue.h	/^	struct pq_node {					\/\/ node in priority queue$/;"	s	class:ANNpr_queue
+print	./bd_tree.cpp	/^void ANNbd_shrink::print(				\/\/ print shrinking node$/;"	f	class:ANNbd_shrink
+print	./kd_tree.cpp	/^void ANNkd_leaf::print(					\/\/ print leaf node$/;"	f	class:ANNkd_leaf
+print	./kd_tree.cpp	/^void ANNkd_split::print(				\/\/ print splitting node$/;"	f	class:ANNkd_split
+print_one_stat	./perf.cpp	/^void print_one_stat(const char* title, ANNsampStat s, double div)$/;"	f
+rbd_tree	./bd_tree.cpp	/^ANNkd_ptr rbd_tree(				\/\/ recursive construction of bd-tree$/;"	f
+reset	./pr_queue.h	/^	void reset()						\/\/ make existing queue empty$/;"	f	class:ANNpr_queue
+rkd_tree	./kd_tree.cpp	/^ANNkd_ptr rkd_tree(				\/\/ recursive construction of kd-tree$/;"	f
+selectDecomp	./bd_tree.cpp	/^ANNdecomp selectDecomp(			\/\/ select decomposition method$/;"	f
+sl_fair_split	./kd_split.cpp	/^void sl_fair_split($/;"	f
+sl_midpt_split	./kd_split.cpp	/^void sl_midpt_split($/;"	f
+tryCentroidShrink	./bd_tree.cpp	/^ANNdecomp tryCentroidShrink(			\/\/ try a centroid shrink$/;"	f
+trySimpleShrink	./bd_tree.cpp	/^ANNdecomp trySimpleShrink(				\/\/ try a simple shrink$/;"	f
+~ANNbd_shrink	./bd_tree.h	/^	~ANNbd_shrink()						\/\/ destructor$/;"	f	class:ANNbd_shrink
+~ANNbruteForce	./brute.cpp	/^ANNbruteForce::~ANNbruteForce() { }		\/\/ destructor (empty)$/;"	f	class:ANNbruteForce
+~ANNkd_leaf	./kd_tree.h	/^	~ANNkd_leaf() { }					\/\/ destructor (none)$/;"	f	class:ANNkd_leaf
+~ANNkd_node	./kd_tree.h	/^	virtual ~ANNkd_node() {}					\/\/ virtual distroyer$/;"	f	class:ANNkd_node
+~ANNkd_split	./kd_tree.h	/^	~ANNkd_split()						\/\/ destructor$/;"	f	class:ANNkd_split
+~ANNkd_tree	./kd_tree.cpp	/^ANNkd_tree::~ANNkd_tree()				\/\/ tree destructor$/;"	f	class:ANNkd_tree
+~ANNmin_k	./pr_queue_k.h	/^	~ANNmin_k()							\/\/ destructor$/;"	f	class:ANNmin_k
+~ANNpr_queue	./pr_queue.h	/^	~ANNpr_queue()						\/\/ destructor$/;"	f	class:ANNpr_queue

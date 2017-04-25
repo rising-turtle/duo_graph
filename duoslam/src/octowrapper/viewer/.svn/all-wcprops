@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/viewer
+END
+CameraFollowMode.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/viewer/CameraFollowMode.h
+END
+ViewerSettings.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/viewer/ViewerSettings.h
+END
+ViewerSettingsPanel.ui
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/viewer/ViewerSettingsPanel.ui
+END
+ViewerGui.ui
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/viewer/ViewerGui.ui
+END
+ViewerSettingsPanel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/viewer/ViewerSettingsPanel.cpp
+END
+ViewerWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/viewer/ViewerWidget.cpp
+END
+ViewerSettingsPanelCamera.ui
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/viewer/ViewerSettingsPanelCamera.ui
+END
+ViewerGui.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/viewer/ViewerGui.cpp
+END
+ViewerSettingsPanel.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/viewer/ViewerSettingsPanel.h
+END
+ViewerWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/viewer/ViewerWidget.h
+END
+ViewerSettingsPanelCamera.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/viewer/ViewerSettingsPanelCamera.cpp
+END
+ViewerGui.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/viewer/ViewerGui.h
+END
+ViewerSettings.ui
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/viewer/ViewerSettings.ui
+END
+icons.qrc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/viewer/icons.qrc
+END
+ViewerSettingsPanelCamera.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/viewer/ViewerSettingsPanelCamera.h
+END
+CameraFollowMode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/viewer/CameraFollowMode.cpp
+END
+ViewerSettings.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/octowrapper/viewer/ViewerSettings.cpp
+END

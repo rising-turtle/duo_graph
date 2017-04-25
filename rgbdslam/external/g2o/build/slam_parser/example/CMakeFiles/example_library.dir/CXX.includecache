@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../slam_parser/interface/abstract_slam_interface.h
+vector
+-
+string
+-
+
+/home/davidz/work/ros/groovy/catkin_ws/src/rgbdslam/external/g2o/slam_parser/example/example_slam_interface.cpp
+example_slam_interface.h
+/home/davidz/work/ros/groovy/catkin_ws/src/rgbdslam/external/g2o/slam_parser/example/example_slam_interface.h
+iostream
+-
+
+/home/davidz/work/ros/groovy/catkin_ws/src/rgbdslam/external/g2o/slam_parser/example/example_slam_interface.h
+slam_parser/interface/abstract_slam_interface.h
+/home/davidz/work/ros/groovy/catkin_ws/src/rgbdslam/external/g2o/slam_parser/example/slam_parser/interface/abstract_slam_interface.h
+map
+-
+vector
+-
+

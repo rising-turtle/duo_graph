@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/davidz/work/ros/groovy/catkin_ws/src/rgbdslam/external/g2o/g2o/stuff/os_specific.c
+os_specific.h
+/home/davidz/work/ros/groovy/catkin_ws/src/rgbdslam/external/g2o/g2o/stuff/os_specific.h
+
+/home/davidz/work/ros/groovy/catkin_ws/src/rgbdslam/external/g2o/g2o/stuff/os_specific.h
+stdio.h
+-
+stdlib.h
+-
+stdarg.h
+-
+sys/time.h
+-
+sys/time.h
+-
+

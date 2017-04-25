@@ -1,0 +1,1 @@
+/usr/bin/c++     -Wall -W -O3 -DNDEBUG -O3 -msse4 -march=native    CMakeFiles/test_slam_parser.dir/test_slam_parser.cpp.o  -o ../../../bin/test_slam_parser -rdynamic ../../../lib/libg2o_parser.so -Wl,-rpath,/home/davidz/work/ros/groovy/catkin_ws/src/rgbdslam/external/g2o/lib 

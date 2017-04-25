@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/slam
+END
+mainMapBuilderROS.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/slam/mainMapBuilderROS.cpp
+END
+SubmapGraph.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/slam/SubmapGraph.h
+END
+DuoGraph.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/slam/DuoGraph.h
+END
+mainSubmapReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/slam/mainSubmapReader.cpp
+END
+paramSrvMi.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/slam/paramSrvMi.cpp
+END
+NodeWrapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/slam/NodeWrapper.cpp
+END
+paramSrvMi.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/slam/paramSrvMi.h
+END
+Submap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/slam/Submap.cpp
+END
+OpenniWrapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/slam/OpenniWrapper.cpp
+END
+NodeWrapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/slam/NodeWrapper.h
+END
+Submap.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/slam/Submap.hpp
+END
+Submap.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/slam/Submap.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/slam/CMakeLists.txt
+END
+mainMapBuilderOffline.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/slam/mainMapBuilderOffline.cpp
+END
+SubmapNode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/slam/SubmapNode.cpp
+END
+OpenniWrapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/slam/OpenniWrapper.h
+END
+SubmapNode.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/slam/SubmapNode.h
+END
+GraphWrapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/slam/GraphWrapper.cpp
+END
+mainMapBuilderSocket.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/slam/mainMapBuilderSocket.cpp
+END
+SubmapStore.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/slam/SubmapStore.cpp
+END
+GraphWrapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/slam/GraphWrapper.h
+END
+SubmapGraph.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/slam/SubmapGraph.cpp
+END
+DuoGraph.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/slam/DuoGraph.cpp
+END
+SubmapStore.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/slam/SubmapStore.h
+END
+mainDuoSlam.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/slam/mainDuoSlam.cpp
+END
+mainOriRgbdslam.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Archimedes/!svn/ver/87/Code/Team2/trunk/duoslam/src/slam/mainOriRgbdslam.cpp
+END

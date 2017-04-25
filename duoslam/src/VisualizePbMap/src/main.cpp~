@@ -1,0 +1,21 @@
+#include "stdafx.h"
+#include <iostream>     // std::cout
+#include <fstream>      // std::ifstream
+#include <string>
+#include <vector>
+#include <cmath>
+#include <EDPbmap.h>
+#include <Plane.h>
+#include <PbMap.h>
+
+using namespace std;
+
+int main(int argc, char** argv)
+{
+	char txt_file[1024];
+	sprintf(txt_file, "../data/Pbmap.txt");
+	
+	return 0;
+}
+
+

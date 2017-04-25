@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/data/svn/maxmixture/!svn/ver/1/trunk/datasets/unimodal/sphere
+END
+MaxMix-n100_grp10_seed1801473052w_0.01s_1e-11_sphere2500.g2o
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/data/svn/maxmixture/!svn/ver/1/trunk/datasets/unimodal/sphere/MaxMix-n100_grp10_seed1801473052w_0.01s_1e-11_sphere2500.g2o
+END
+MaxMix-n1000_randm_seed985361137w_0.01s_1e-11_sphere2500.g2o
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/data/svn/maxmixture/!svn/ver/1/trunk/datasets/unimodal/sphere/MaxMix-n1000_randm_seed985361137w_0.01s_1e-11_sphere2500.g2o
+END
+MaxMix-n1000_local_seed571332197w_0.01s_1e-11_sphere2500.g2o
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/data/svn/maxmixture/!svn/ver/1/trunk/datasets/unimodal/sphere/MaxMix-n1000_local_seed571332197w_0.01s_1e-11_sphere2500.g2o
+END
+MaxMix-n100_lgr10_seed1331227084w_0.01s_1e-11_sphere2500.g2o
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/data/svn/maxmixture/!svn/ver/1/trunk/datasets/unimodal/sphere/MaxMix-n100_lgr10_seed1331227084w_0.01s_1e-11_sphere2500.g2o
+END

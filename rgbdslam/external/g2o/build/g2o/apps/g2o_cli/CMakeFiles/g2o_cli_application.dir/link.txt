@@ -1,0 +1,1 @@
+/usr/bin/c++     -Wall -W -O3 -DNDEBUG -O3 -msse4 -march=native    CMakeFiles/g2o_cli_application.dir/g2o.cpp.o  -o ../../../../bin/g2o -rdynamic ../../../../lib/libg2o_cli.so ../../../../lib/libg2o_core.so ../../../../lib/libg2o_stuff.so -ldl -Wl,-rpath,/home/davidz/work/ros/groovy/catkin_ws/src/rgbdslam/external/g2o/lib: 
